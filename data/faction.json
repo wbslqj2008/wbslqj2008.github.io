@@ -1,0 +1,167 @@
+{
+    "기사 동맹": {
+        "icon_image": "images/position/기사 동맹.png",
+        "char_images": [
+            "images/head/auguste.png",
+            "images/head/gloria.png",
+            "images/head/simona.png",
+            "images/head/taidon.png",
+            "images/head/tristan.png"
+        ]
+    },
+    "철벽의 산": {
+        "icon_image": "images/position/철벽의 산.png",
+        "char_images": [
+            "images/head/cocoa.png",
+            "images/head/dantalion.png",
+            "images/head/garcia.png",
+            "images/head/gloria.png",
+            "images/head/kvare.png",
+            "images/head/magnus.png",
+            "images/head/momo.png",
+            "images/head/pamina.png",
+            "images/head/taidon.png",
+            "images/head/teammeteor.png",
+            "images/head/xavier.png"
+        ]
+    },
+    "베르더": {
+        "icon_image": "images/position/베르더.png",
+        "char_images": [
+            "images/head/cocoa.png",
+            "images/head/iggy.png",
+            "images/head/kiya.png",
+            "images/head/lilywill.png",
+            "images/head/momo.png",
+            "images/head/nonowill.png",
+            "images/head/schacklulu.png"
+        ]
+    },
+    "찰나의 바람": {
+        "icon_image": "images/position/찰나의 바람.png",
+        "char_images": [
+            "images/head/agatha.png",
+            "images/head/col.png",
+            "images/head/estra.png",
+            "images/head/faycal.png",
+            "images/head/hasna.png",
+            "images/head/iggy.png",
+            "images/head/kiya.png",
+            "images/head/lilywill.png",
+            "images/head/nergal.png",
+            "images/head/nungal.png",
+            "images/head/rawiyah.png",
+            "images/head/schacklulu.png"
+        ]
+    },
+    "교황령": {
+        "icon_image": "images/position/교황령.png",
+        "char_images": [
+            "images/head/beryl.png",
+            "images/head/caris.png",
+            "images/head/col.png",
+            "images/head/garcia.png",
+            "images/head/leonide.png",
+            "images/head/luvata.png",
+            "images/head/miguel.png",
+            "images/head/samanda.png",
+            "images/head/taair.png",
+            "images/head/teammeteor.png"
+        ]
+    },
+    "표류자": {
+        "icon_image": "images/position/표류자.png",
+        "char_images": [
+            "images/head/acambe.png",
+            "images/head/agatha.png",
+            "images/head/alexei.png",
+            "images/head/col.png",
+            "images/head/edda.png",
+            "images/head/estra.png",
+            "images/head/flavia.png",
+            "images/head/guzman.png",
+            "images/head/hasna.png",
+            "images/head/homa.png",
+            "images/head/miguel.png"
+        ]
+    },
+    "일리아": {
+        "icon_image": "images/position/일리아.png",
+        "char_images": [
+            "images/head/dantalion.png",
+            "images/head/edda.png",
+            "images/head/faycal.png",
+            "images/head/flavia.png",
+            "images/head/inanna.png",
+            "images/head/kvare.png",
+            "images/head/layla.png",
+            "images/head/magnus.png",
+            "images/head/mytha.png",
+            "images/head/nergal.png",
+            "images/head/nungal.png",
+            "images/head/pamina.png",
+            "images/head/rawiyah_alter.png",
+            "images/head/rawiyah.png",
+            "images/head/saffiyah_alter.png",
+            "images/head/saffiyah.png",
+            "images/head/xavier.png"
+        ]
+    },
+    "침략의 불": {
+        "icon_image": "images/position/침략의 불.png",
+        "char_images": [
+            "images/head/alexei.png",
+            "images/head/auguste.png",
+            "images/head/beryl.png",
+            "images/head/caris.png",
+            "images/head/guzman.png",
+            "images/head/homa.png",
+            "images/head/luvata.png",
+            "images/head/nonowill.png",
+            "images/head/rawiyah_alter.png",
+            "images/head/samanda.png",
+            "images/head/tristan.png"
+
+        ]
+    },
+    "콘발라리아의 검": {
+        "icon_image": "images/position/콘발라리아의 검.png",
+        "char_images": [
+            "images/head/beryl.png",
+            "images/head/faycal.png",
+            "images/head/inanna.png",
+            "images/head/momo.png",
+            "images/head/mytha.png",
+            "images/head/nonowill.png",
+            "images/head/rawiyah.png"
+        ]
+    },
+    "고요의 숲": {
+        "icon_image": "images/position/고요의 숲.png",
+        "char_images": [
+            "images/head/acambe.png",
+            "images/head/edda.png",
+            "images/head/flavia.png",
+            "images/head/inanna.png",
+            "images/head/layla.png",
+            "images/head/leonide.png",
+            "images/head/miguel.png",
+            "images/head/saffiyah_alter.png",
+            "images/head/saffiyah.png",
+            "images/head/simona.png",
+            "images/head/taair.png"
+        ]
+    },
+    "진홍의 밤": {
+        "icon_image": "images/position/진홍의 밤.png",
+        "char_images": [
+            "images/head/kiya.png",
+            "images/head/kvare.png",
+            "images/head/layla.png",
+            "images/head/pamina.png",
+            "images/head/rawiyah_alter.png",
+            "images/head/saffiyah_alter.png",
+            "images/head/tristan.png"
+        ]
+    }
+}

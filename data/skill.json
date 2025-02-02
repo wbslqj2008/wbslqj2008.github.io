@@ -1,0 +1,4222 @@
+{
+    "마이타는": {
+        "image": "images/skill/개그/icon_3.png",
+        "rangeImage": "images/skill/개그/icon_1.png",
+        "description": "그냥 코코아로 천장친다."
+    },
+    "집지키는": {
+        "image": "images/skill/개그/icon_2.png",
+        "rangeImage": "images/skill/개그/icon_2.png",
+        "description": "도찐개찐"
+    },
+    "단원이야": {
+        "image": "images/skill/개그/icon_1.png",
+        "rangeImage": "images/skill/개그/icon_3.png",
+        "description": "미구엘이 더 간지긴함"
+    },
+    "코코아에": {
+        "image": "images/skill/개그/icon_4.png",
+        "rangeImage": "images/skill/개그/icon_4.png",
+        "description": "이정도면 SR 아니냐"
+    },
+    "투자하자": {
+        "image": "images/skill/개그/icon_5.png",
+        "rangeImage": "images/skill/개그/icon_5.png",
+        "description": "바로 그거야"
+    },
+    
+    
+    
+    "슬래시": {
+        "image": "images/skill/common/common_sword.png",
+        "rangeImage": "images/skill/common/common_sword_range.png",
+        "description": "(일반공격) 100%의 물리 대미지를 입힌다.",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "쌍칼 공격": {
+        "image": "images/skill/common/common_sword.png",
+        "rangeImage": "images/skill/common/common_sword_range.png",
+        "description": "(일반공격) 2번 공격하여 매 공격마다 50%의 물리 대미지를 입힌다.",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "에너지파": {
+        "image": "images/skill/common/common_staff.png",
+        "rangeImage": "images/skill/common/common_staff_range.png",
+        "description": "(일반공격) 80%의 마법 대미지를 입힌다.",
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "직선 사격": {
+        "image": "images/skill/common/common_bow.png",
+        "rangeImage": "images/skill/common/common_bow_range.png",
+        "description": "(일반공격) 100%의 물리 대미지를 입힌다.",
+        "minRange": 2,
+        "maxRange": 3,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "곡선 사격": {
+        "image": "images/skill/common/common_bow.png",
+        "rangeImage": "images/skill/common/common_bow_range.png",
+        "description": "(일반공격) 85%의 물리 대미지를 입힌다. 공격 방식은 [곡선 사격]이다.",
+        "minRange": 2,
+        "maxRange": 3,
+        "lowRange": 8,
+        "highRange": 6
+    },
+    "침묵의 일격 (검)": {
+        "image": "images/skill/agatha/agatha_active11.png",
+        "rangeImage": "images/skill/agatha/agatha_active11_range.png",
+        "description": "(일반 공격) 단일 유닛을 공격하여 100%의 물리 대미지를 입히고 [부상] 상태의 적군에게는 공격 전 [액티브 스킬 금지]를 부여한다.(2턴 지속)",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "침묵의 일격 (지)": {
+        "image": "images/skill/kvare/kvare_active11.png",
+        "rangeImage": "images/skill/kvare/kvare_active11_range.png",
+        "description": "(일반 공격) 80%의 마법 대미지를 입히고 [부상] 상태의 적을 공격 전 [액티브 스킬 금지]를 부여한다. (2턴 지속)",
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 3,
+        "highRange": 5
+    },
+    "축적의 일격 (검)": {
+        "image": "images/skill/auguste/auguste_active10.png",
+        "rangeImage": "images/skill/auguste/auguste_active10_range.png",
+        "description": "(일반 공격) 단일 유닛을 공격하여 100%의 물리 대미지를 입히고 다음 스킬 대미지가 15% 증가한다.",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "축적의 일격 (지)": {
+        "image": "images/skill/acambe/acambe_active11.png",
+        "rangeImage": "images/skill/acambe/acambe_active11_range.png",
+        "description": "(일반 공격) 단일 유닛을 공격하여 80%의 마법 대미지를 입히고 다음 스킬 대미지가 15% 증가한다.",
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "제거의 일격 (검)": {
+        "image": "images/skill/nonowill/nonowill_active10.png",
+        "rangeImage": "images/skill/nonowill/nonowill_active10_range.png",
+        "description": "(일반 공격) 2번 공격하여 매 공격마다 50%의 물리 대미지를 입히고 타깃의 [버프] 2개를 제거한다.",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "제거의 일격 (도)": {
+        "image": "images/skill/rawiyah/rawiyah_active11.png",
+        "rangeImage": "images/skill/rawiyah/rawiyah_active11_range.png",
+        "description": "(일반 공격) 100%의 물리 대미지를 입히고 타깃의 [버프] 2개를 제거한다.",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "제거의 일격 (지)": {
+        "image": "images/skill/taair/taair_active11.png",
+        "rangeImage": "images/skill/taair/taair_active11_range.png",
+        "description": "(일반 공격) 80%의 마법 대미지를 입히고 타깃의 [버프] 2개를 제거한다.",
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "제거의 일격 (활)": {
+        "image": "images/skill/edda/edda_active11.png",
+        "rangeImage": "images/skill/edda/edda_active11_range.png",
+        "description": "(일반 공격) 100%의 물리 대미지를 입히고 타깃의 [버프] 2개를 제거한다.",
+        "minRange": 2,
+        "maxRange": 3,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "보호막 파괴의 일격 (검)": {
+        "image": "images/skill/dantalion/dantalion_active11.png",
+        "rangeImage": "images/skill/dantalion/dantalion_active11_range.png",
+        "description": "(일반 공격) 100%의 물리 대미지를 입히고 공격 전 [보호막 파괴 Lv.1]을 얻는다.",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "보호막 파괴의 일격 (활)": {
+        "image": "images/skill/edda/edda_active10.png",
+        "rangeImage": "images/skill/edda/eddaactive10_range.png",
+        "description": "(일반 공격) 100%의 물리 대미지를 입히고 공격 전 [보호막 파괴 Lv.1]을 얻는다.",
+        "minRange": 2,
+        "maxRange": 3,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "격파의 일격 (검)": {
+        "image": "images/skill/cocoa/cocoa_active11.png",
+        "rangeImage": "images/skill/cocoa/cocoa_active11_range.png",
+        "description": "(일반 공격) 100%의 물리 대미지를 입히고 타깃에게 2턴 간 [물리 방어 감소 Lv.1], [마법 방어 감소 Lv.1]을 부여한다.",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "격파의 일격 (지)": {
+        "image": "images/skill/inanna/inanna_active10.png",
+        "rangeImage": "images/skill/inanna/inanna_active10_range.png",
+        "description": "(일반 공격) 80%의 마법 대미지를 입히고 타깃에게 2턴 간 [물리 방어 감소 Lv.1], [마법 방어 감소 Lv.1]을 부여한다.",
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "에너지 회복의 일격 (검)": {
+        "image": "images/skill/iggy/iggy_active11.png",
+        "rangeImage": "images/skill/iggy/iggy_active11_range.png",
+        "description": "(일반 공격) 100%의 물리 대미지를 입히고 에너지 1포인트를 추가로 회복한다.",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "에너지 회복의 일격 (지)": {
+        "image": "images/skill/momo/momo_active10.png",
+        "rangeImage": "images/skill/momo/momo_active11_range.png",
+        "description": "(일반 공격) 80%의 마법 대미지를 입히고 에너지 1포인트를 추가로 회복한다.",
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "한빙격 (검)": {
+        "image": "images/skill/taidon/taidon_active11.png",
+        "rangeImage": "images/skill/taidon/taidon_active11_range.png",
+        "description": "(일반 공격) 100%의 물리 대미지를 입히고 [건강] 상태의 적군에게 1턴 간 [이동 감소 Lv.1]을 부여한다.",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "한빙격 (활)": {
+        "image": "images/skill/homa/homa_active11.png",
+        "rangeImage": "images/skill/homa/homa_active11_range.png",
+        "description": "(일반 공격) 100%의 물리 대미지를 입히고 [건강] 상태의 적군에게 1턴 간 [이동 감소 Lv.1]을 부여한다."
+    },
+    "한빙격 (지)": {
+        "image": "images/skill/simona/simona_active11.png",
+        "rangeImage": "images/skill/simona/simona_active11_range.png",
+        "description": "(일반 공격) 80%의 마법 대미지를 입히고 [건강] 상태의 적에게 1턴 간 [이동 감소 Lv.1]을 부여한다.",
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "치명의 일격 (검)": {
+        "image": "images/skill/nergal/nergal_active11.png",
+        "rangeImage": "images/skill/nungal/nergal_active11_range.png",
+        "description": "(일반 공격) 100%의 물리 대미지를 입히고 이번 공격의 크리티컬 대미지가 15% 증가한다.",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "치명의 일격 (석)": {
+        "image": "images/skill/nungal/nungal_active10.png",
+        "rangeImage": "images/skill/nungal/nungal_active10_range.png",
+        "description": "(일반 공격) 100%의 물리 대미지를 입히고 이번 공격의 크리티컬 대미지가 15% 증가한다.",
+        "minRange": 2,
+        "maxRange": 3,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "치명의 일격 (활)": {
+        "image": "images/skill/nungal/nungal_active11.png",
+        "rangeImage": "images/skill/nergal/nungal_active11_range.png",
+        "description": "(일반 공격) 85%의 물리 대미지를 입히고 이번 공격의 크리티컬 대미지가 15% 증가한다. 공격 방식은 [곡선 사격] 이다.",
+        "minRange": 2,
+        "maxRange": 3,
+        "lowRange": 8,
+        "highRange": 6
+    },
+    "감염의 일격 (활)": {
+        "image": "images/skill/lilywill/lilywill_active10.png",
+        "rangeImage": "images/skill/lilywill/lilywill_active10_range.png",
+        "description": "(일반 공격) 85%의 물리 대미지를 입히고 타깃에게 [감염] 1스택을 부여한다. 공격 방식은 [곡선 사격]이다.",
+        "minRange": 2,
+        "maxRange": 3,
+        "lowRange": 8,
+        "highRange": 6
+    },
+    "감염의 일격 (지)": {
+        "image": "images/skill/kvare/kvare_active10.png",
+        "rangeImage": "images/skill/kvare/kvare_active10_range.png",
+        "description": "(일반 공격) 80%의 마법 대미지를 입히고 타깃에게 [감염] 1스택 부여한다.",
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 3,
+        "highRange": 5
+    },
+    "어둠의 암살자": {
+        "image": "images/skill/acambe/acambe_active1.png",
+        "rangeImage": "images/skill/acambe/acambe_active1_range.png",
+        "description": "(지원) [즉시 발동] 목표 지점에 [어둠의 암살자] 1명을 소환한다. 자신의 공격력 85%, HP및 방어력 20%를 계승한다. 어둠의 암살자가 1명 처치당할 때마다, 해당 스킬의 쿨타임이 1턴 증가한다. 1회 행동 시 최대 2회 시전 가능하다.",
+        "energy": 2,
+        "minRange": 2,
+        "maxRange": 4,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "잠재력 자극": {
+        "image": "images/skill/acambe/acambe_active2.png",
+        "rangeImage": "images/skill/acambe/acambe_active2_range.png",
+        "description": "(지원) 타깃에게 [공격력 증가 Lv.2], [물리 방어 증가 Lv.2] 및 [마법 방어 증가 Lv.2]를 부여하고 모든 [능력치 디버프]를 제거 및 면역한다. (2턴 지속)",
+        "energy": 2,
+        "cooltime": 3,
+        "minRange": 0,
+        "maxRange": 3,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "축적 방사선": {
+        "image": "images/skill/acambe/acambe_active3.png",
+        "rangeImage": "images/skill/acambe/acambe_active3_range.png",
+        "description": "(마법 대미지) 단일 유닛을 공격하여 140%의 대미지를 입힌다. 자신은 공격 전 [보호막 파괴 Lv.1]을 얻는다.",
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "일척천금": {
+        "image": "images/skill/acambe/acambe_active4.png",
+        "rangeImage": "images/skill/acambe/acambe_active4_range.png",
+        "description": "(선택) [돈을 좇는 자], [후한 포상]를 선택해 사용한다.<br><br>[돈을 좇는 자]: (지원) (즉시 발동) 타깃 지면 타일에서 골드를 뿌려 3칸 내의 모든 적군 및 [어둠의 암살자]를 한데 모은 뒤 적군을 향해 2턴간 [이동 감소 Lv.2], [마법 방어 감소 Lv.2] 및 [지원 금지] 상태를 부여한다.<br><br>[후한 포상]: (지원) 3칸 안의 자신을 제외한 아군의 에너지를 1 회복시키며, 액티브 스킬 쿨타임 1턴 감소. 또한 [공격력 증가 Lv.2], [물리 방어 증가 Lv.2], [마법 방어 증가 Lv.2]를 획득한다. 타깃이 소환물일 경우 추가로 [공격력 증가 Lv.4]를 얻으며, 모든 효과는 2턴 지속된다.",
+        "minRange": 0,
+        "maxRange": 0,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "최면": {
+        "image": "images/skill/acambe/acambe_active5.png",
+        "rangeImage": "images/skill/acambe/acambe_active5_range.png",
+        "description": "(마법 대미지) 단일 유닛을 공격하여 35%의 대미지를 입히고 [슬립]을 부여한다. (2턴 지속)",
+        "energy": 2,
+        "cooltime": 4,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "특수 조항": {
+        "image": "images/skill/acambe/acambe_active6.png",
+        "rangeImage": "images/skill/acambe/acambe_active6_range.png",
+        "description": "(리액션) 공격 받을 경우, 자신 주변 3칸 내 소환물이 있으면 소환물이 대신 공격을 감당한다. (라운드당 최대 2회 발동)"
+    },
+    "노기": {
+        "image": "images/skill/acambe/acambe_active7.png",
+        "rangeImage": "images/skill/acambe/acambe_active7_range.png",
+        "description": "(리액션) 액티브 공격을 받을 경우, 받는 대미지가 8% 감소한다. 공격 받은 후, 자신은 [대미지 증가 Lv.2]를 획득한다. (3턴 지속)"
+    },
+    "명확한 상벌": {
+        "image": "images/skill/acambe/acambe_active8.png",
+        "rangeImage": "images/skill/acambe/acambe_active8_range.png",
+        "description": "(리더오라) 필드 내 진영이 〈고요의 숲〉인 모든 아군의 공격력이 10%, 방어력이 20% 증가한다. 그리고 쿨타임 4턴 이상인 스킬의 쿨타임이 1턴 감소한다. 또한 아군 소환물이 입히는 대미지가 추가로 20% 증가한다."
+    },
+    "천금 탕진": {
+        "image": "images/skill/acambe/acambe_active9.png",
+        "rangeImage": "images/skill/acambe/acambe_active9_range.png",
+        "description": "(마법 대미지) 목표 방향 5*3 구역 내 각 열의 첫번째 적에게 90%의 대미지를 입히고 2칸 넉백시킨다. 그리고 전방 3*1 구역에 [어둠의 암살자]를 소환한다. 공격 후 자신은 [에너지 회복 금지]를 받는다. (2턴 지속)",
+        "energy": 3,
+        "cooltime": 5,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 4,
+        "highRange": 4
+    },
+    "투항의 일격": {
+        "image": "images/skill/acambe/acambe_active10.png",
+        "rangeImage": "images/skill/acambe/acambe_active10_range.png",
+        "description": "(일반 공격) 80% 마법 대미지를 입히고 타깃에게 [공격력 감소 Lv.1]을 부여한다. (2턴 지속)",
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "어둠의 파동": {
+        "image": "images/skill/acambe/acambe_active12.png",
+        "rangeImage": "images/skill/acambe/acambe_active12_range.png",
+        "description": "(마법 대미지) 타깃 주변 2칸 내의 모든 적군에게 70%의 [범위 대미지]를 입히고 [패시브 스킬 금지], [리액션 스킬 금지]를 부여한다. (2턴 지속)",
+        "energy": 3,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "어둠의 소멸": {
+        "image": "images/skill/acambe/acambe_active13.png",
+        "rangeImage": "images/skill/acambe/acambe_active13_range.png",
+        "description": "(마법 대미지) 단일 유닛을 공격하여 180%의 대미지를 입힌다. 공격 전 자신이 [갑옷 관통]을 얻는다. (1턴 지속)",
+        "energy": 4,
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "더블 클로": {
+        "image": "images/skill/agatha/agatha_active0.png",
+        "rangeImage": "images/skill/agatha/agatha_active0_range.png",
+        "description": "(일반 공격) 단일 유닛을 2번 공격하여 매 공격마다 50%의 물리 대미지를 입힌다.",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "영원한 서리의 땅": {
+        "image": "images/skill/agatha/agatha_active1.png",
+        "rangeImage": "images/skill/agatha/agatha_active1_range.png",
+        "description": "(관통 대미지) 타깃 방향 3*4 구역 범위 내 모든 적군에게 HP의 35%에 해당하는 [얼음 속성] [범위 대미지]를 입히고 자신은 [빙판 작전]을 얻는다. (2턴 지속)",
+        "energy": 3,
+        "cooltime": 2,
+        "minRange": 0,
+        "maxRange": 4,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "넉백 추격": {
+        "image": "images/skill/agatha/agatha_active2.png",
+        "rangeImage": "images/skill/agatha/agatha_active2_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 70%의 대미지를 입힌다. 공격 후, [추격]으로 70%의 대미지를 입히고 2칸 넉백시킨다.",
+        "energy": 3,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "은빛 섬광": {
+        "image": "images/skill/agatha/agatha_active4.png",
+        "rangeImage": "images/skill/agatha/agatha_active4_range.png",
+        "description": "(관통 대미지) [즉시 발동]. 해당 지점으로 질주하여 타깃 방향 1*3 구역 내의 모든 적군에게 30%의 대미지를 입힌다. [버프] 2개를 제거하고, [상처]를 2스택 부여한다. 자신은 [회피]를 획득한다. (1턴 지속)",
+        "cooltime": 3,
+        "minRange": 2,
+        "maxRange": 2,
+        "lowRange": 1,
+        "highRange": 1
+    },
+    "여왕의 선고": {
+        "image": "images/skill/agatha/agatha_active5.png",
+        "rangeImage": "images/skill/agatha/agatha_active5_range.png",
+        "description": "(물리 대미지) 타깃 방향 3*3 구역 내의 모든 적군에게 80%의 대미지를 입히고 [받는 대미지 증가 Lv.2], [속도 감소 Lv.2]를 부여한다.(2턴 지속)",
+        "energy": 2,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "여왕의 품위": {
+        "image": "images/skill/agatha/agatha_active6.png",
+        "rangeImage": "images/skill/agatha/agatha_active6_range.png",
+        "description": "(리액션) [건강] 상태일 경우, 턴당 근접 공격을 1회 [회피]한다. [회피] 발동 시 [반격]하고 50%의 대미지를 입힌다."
+    },
+    "활성화": {
+        "image": "images/skill/agatha/agatha_active7.png",
+        "rangeImage": "images/skill/agatha/agatha_active7_range.png",
+        "description": "(리액션) 최대 HP가 12% 증가하고 받는 치료 효과가 30% 증가한다."
+    },
+    "사냥감의 냄새": {
+        "image": "images/skill/agatha/agatha_active8.png",
+        "rangeImage": "images/skill/agatha/agatha_active8_range.png",
+        "description": "(패시브) 행동 시작 시, 자신 범위 6칸 이내에 적이 존재하면 자신이 [사냥감의 냄새]를 획득한다.(2턴 지속) (쿨타임 2턴)",
+        "cooltime": 2
+    },
+    "끓어오르는 야성": {
+        "image": "images/skill/agatha/agatha_active9.png",
+        "rangeImage": "images/skill/agatha/agatha_active9_range.png",
+        "description": "(치료) [즉시 발동]. HP를 15% 회복하고, [공격력 증가 Lv.2], [재생 Lv.2], [받는 치료 효과 증가 Lv.2]를 획득한다. (3턴 지속)",
+        "cooltime": 3,
+        "minRange": 0,
+        "maxRange": 0,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "강력한 일격": {
+        "image": "images/skill/agatha/agatha_active10.png",
+        "rangeImage": "images/skill/agatha/agatha_active10_range.png",
+        "description": "(일반 공격) 단일 유닛을 2번 공격하여 매 공격마다 55%의 물리 대미지를 입힌다.",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "공정 결투": {
+        "image": "images/skill/agatha/agatha_active12.png",
+        "rangeImage": "images/skill/agatha/agatha_active12_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 180%의 대미지를 입힌다. 공격 전 자신의 모든 [디버프]와 타깃의 모든 [버프]를 제거한다.",
+        "energy": 4,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "연회": {
+        "image": "images/skill/agatha/agatha_active13.png",
+        "rangeImage": "images/skill/agatha/agatha_active13_range.png",
+        "description": "(물리 대미지) 단일 유닛을 4번 공격하여 매 공격마다 40%의 대미지를 입히고 자신의 HP 40%를 회복한다. [건강] 상태일 경우, 자신 주변 3칸 범위 내 모든 아군을 시전자 HP의 25%만큼 치료한다.",
+        "energy": 3,
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "회오리 도끼": {
+        "image": "images/skill/alexei/alexei_active1.png",
+        "rangeImage": "images/skill/alexei/alexei_active1_range.png",
+        "description": "(물리 대미지) 자신 주변 2칸 내 모든 적군에게 90%의 대미지를 입히고, 적군을 1명 처치할 때 마다 [특성] 효과 쿨타임이 1턴 감소한다.",
+        "energy": 3,
+        "cooltime": 2,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "결사항전": {
+        "image": "images/skill/alexei/alexei_active2.png",
+        "rangeImage": "images/skill/alexei/alexei_active2_range.png",
+        "description": "(패시브) [빈사] 상태일 경우, 공격/방어 능력치가 20% 증가한다.",
+        "energy": 3
+    },
+    "다리를 향한 일격": {
+        "image": "images/skill/alexei/alexei_active3.png",
+        "rangeImage": "images/skill/alexei/alexei_active3_range.png",
+        "description": "(물리 대미지) 120%의 대미지를 입히고 2칸 넉백시키며, 타깃에게 1턴 간 [이동 감소 Lv.1]을 부여한다.",
+        "energy": 2,
+        "cooltime": 2,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "야성의 포효": {
+        "image": "images/skill/alexei/alexei_active4.png",
+        "description": "(관통 대미지) 자신 주변 3칸 내의 모든 적군에게 마법 공격 40%에 해당하는 대미지를 입히고 [이동 감소 Lv.2], [공격력 감소 Lv.3]을 부여한다. (2턴 지속)",
+        "energy": 1,
+        "cooltime": 5,
+        "minRange": 0,
+        "maxRange": 0,
+        "lowRange": 2,
+        "highRange": 2,
+        "rangeImage": "images/skill/alexei/alexei_active4_range.png"
+    },
+    "배수의 진": {
+        "image": "images/skill/alexei/alexei_active5.png",
+        "rangeImage": "images/skill/alexei/alexei_active5_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 150%의 대미지를 입힌다. 공격 전, [공격 태세]를 획득한다. (2턴 지속)",
+        "energy": 3,
+        "cooltime": 2,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "가스라이팅": {
+        "image": "images/skill/alexei/alexei_active6.png",
+        "rangeImage": "images/skill/alexei/alexei_active6_range.png",
+        "description": "(리액션) 액티브 공격을 받을 경우, 받는 대미지가 8% 감소한다. 액티브 공격을 받은 후, 상대에게 [받는 대미지 증가 Lv.2]를 부여한다. (2턴 지속)"
+    },
+    "와일드베어의 반격": {
+        "image": "images/skill/alexei/alexei_active7.png",
+        "description": "(리액션) [정 - 측면]의 적군으로부터 액티브 공격을 당할 경우 [반격]을 가하여 70%의 물리 대미지를 입힌다. 턴당 최대 2회 발동한다.",
+        "rangeImage": "images/skill/alexei/alexei_active7_range.png"
+    },
+    "블러드 엑스": {
+        "image": "images/skill/alexei/alexei_active8.png",
+        "rangeImage": "images/skill/alexei/alexei_active8_range.png",
+        "description": "(패시브) 공격 받은 후, [블러드 엑스]를 획득한다. (2턴 지속)"
+    },
+    "툰드라의 분노": {
+        "image": "images/skill/alexei/alexei_active9.png",
+        "rangeImage": "images/skill/alexei/alexei_active9_range.png",
+        "description": "(물리 대미지) 자신 주변 십자형 범위 내의 적군 1명을 선택한 후 그 곁으로 질주하여 50%의 대미지를 입히고 [기절] 상태를 부여한다. (1턴 지속) 타깃 주변 2칸 내의 모든 적군에게 50%의 [얼음 속성] [범위 대미지]를 입힌다. 공격 후 자신은 [빙판 작전]을 얻는다. (2턴 지속)",
+        "energy": 2,
+        "cooltime": 4,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 1,
+        "highRange": 1
+    },
+    "프렌지 슬래시": {
+        "image": "images/skill/alexei/alexei_active11.png",
+        "description": "(일반 공격) 110%의 물리 대미지를 입힌다. 타깃 처치 시, 에너지를 1포인트 회복한다.",
+        "rangeImage": "images/skill/alexei/alexei_active11_range.png",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "보호": {
+        "image": "images/skill/alexei/alexei_active12.png",
+        "description": "(패시브) 자신 주변 2칸 내의 모든 아군을 대신해 [물리 공격]을 감당한다. 발동 시, 방어력이 20% 증가한다. 턴당 최대 1회 발동한다.",
+        "rangeImage": "images/skill/alexei/alexei_active12_range.png"
+    },
+    "폭풍의 반격": {
+        "image": "images/skill/alexei/alexei_active13.png",
+        "description": "(지원) 반격 사거리가 2칸 증가한다. 반격 시, 물리 대미지가 85% 증가하고 반격 횟수가 1회 증가하며, [맞공격]을 얻는다.",
+        "energy": 2,
+        "cooltime": 5,
+        "rangeImage": "images/skill/alexei/alexei_active13_range.png"
+    },
+    "신의 분노 - 순간": {
+        "image": "images/skill/auguste/auguste_active1.png",
+        "description": "(물리 대미지) [즉시 발동]. 자신 주변 십자형 범위 내의 적군 1명을 선택한 후 그 곁으로 질주하여 40%의 대미지를 입히고 1칸 넉백시킨다. 스킬은 [신의 분노 - 절단]으로 변경되며 스킬이 2턴간 보유한다.<br><br>[신의 분노 - 절단]: (물리 대미지) 타깃 방향 3*2 구역의 모든 적군에게 88%에 해당하는 대미지를 입히고 2턴 간 [물리 방어 감소 Lv.2] 상태를 부여한다. 스킬은 [신의 분노 - 플레임 슬래시] 상태로 변경되고 스킬은 2턴 보류된다.<br><br>[신의 분노 - 플레임 슬래시]: (물리 대미지) 단일 유닛을 공격하여 160%에 해당하는 대미지를 입힌다. 타깃 주변 1칸 내의 다른 적군에게 80%에 해당하는 대미지를 입히고 1칸 넉백시킨다. 스킬은 [신의 분노 - 순간] 상태로 변경된다.",
+        "energy": 2,
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 1,
+        "highRange": 1,
+        "rangeImage": "images/skill/auguste/auguste_active1_range.png"
+    },
+    "기사도": {
+        "image": "images/skill/auguste/auguste_active2.png",
+        "description": "(패시브) 적군을 [정면]에서 공격 전 공격력이 20% 증가한다. [정면]으로부터 공격을 받을 시 방어력이 40% 증가한다.",
+        "rangeImage": "images/skill/auguste/auguste_active2_range.png"
+    },
+    "갑옷 분쇄의 일격": {
+        "image": "images/skill/auguste/auguste_active3.png",
+        "description": "(물리 대미지) 단일 공격으로 150%의 피해를 주며, 공격 전에 [보호막 파괴 Lv.2]를 획득한다.",
+        "energy": 3,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2,
+        "rangeImage": "images/skill/auguste/auguste_active3_range.png"
+    },
+    "악의": {
+        "image": "images/skill/auguste/auguste_active4.png",
+        "description": "(지원) [분노] 2스택을 얻고, 물리 공격력과 마법 공격력의 60% 만큼 [물리 보호막]과 [면역 Lv.2]를 얻습니다. [빈사] 시 [신의 분노]를 1스택 추가로 얻으며, [대미지 증가 Lv.2]를 얻습니다. (2턴 지속)",
+        "cooltime": 4,
+        "rangeImage": "images/skill/auguste/auguste_active4_range.png"
+    },
+    "따뜻한 촉감": {
+        "image": "images/skill/auguste/auguste_active5.png",
+        "description": "(패시브) 액티브 공격 전, 타깃의 현재 HP의 15%에 해당하는 [관통 대미지]를 추가 부여하고 자신은 HP 10%를 회복한다. 턴당 최대 1회 발동한다. 여러 캐릭터를 명중하면 동시에 발동할 수 있다.",
+        "cooltime": 1,
+        "rangeImage": "images/skill/auguste/auguste_active5_range.png"
+    },
+    "멸시": {
+        "image": "images/skill/auguste/auguste_active6.png",
+        "description": "(리액션) 받는 대미지가 15% 감소한다. 공격을 받을 경우, [신의 분노] 1스택을 획득한다. 턴 당 최대 2회 발동한다.",
+        "rangeImage": "images/skill/auguste/auguste_active6_range.png"
+    },
+    "힘 활성화": {
+        "image": "images/skill/auguste/auguste_active7.png",
+        "description": "(리액션) 받는 치료 효과가 10% 증가한다. 치료를 받을 때 1턴 간 지속되는 [대미지 증가 Lv.2]를 획득한다.",
+        "rangeImage": "images/skill/auguste/auguste_active7_range.png"
+    },
+    "공격 명령": {
+        "image": "images/skill/auguste/auguste_active8.png",
+        "description": "(오라) 자신 주변 2칸 이내의 아군의 공격력을 12% 증가시킨다.",
+        "rangeImage": "images/skill/auguste/auguste_active8_range.png"
+    },
+    "토네이도": {
+        "image": "images/skill/auguste/auguste_active9.png",
+        "description": "(물리 대미지) 플레이어의 범위 내 모든 적에게 90% [범위 대미지]를 주며, [치료 불가] 상태를 부여한다. 이 효과는 2라운드 동안 지속된다.",
+        "energy": 2,
+        "cooltime": 3,
+        "lowRange": 2,
+        "highRange": 2,
+        "rangeImage": "images/skill/auguste/auguste_active9_range.png"
+    },
+    "괴멸": {
+        "image": "images/skill/auguste/auguste_active11.png",
+        "description": "(일반 공격) 단일 유닛을 공격하여 100%의 대미지를 입히고 타깃의 에너지를 1포인트 제거한다.",
+        "rangeImage": "images/skill/auguste/auguste_active11_range.png",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "포효의 격파": {
+        "image": "images/skill/auguste/auguste_active12.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 170%의 대미지를 입힌다. 공격 전 타깃의 [버프] 3개를 제거하고 [고립]을 부여한다. (2턴 지속)",
+        "energy": 4,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2,
+        "rangeImage": "images/skill/auguste/auguste_active12_range.png"
+    },
+    "신의 분노 - 종말": {
+        "image": "images/skill/auguste/auguste_active13.png",
+        "description": "(물리 대미지) 타깃 방향 3*4 구역 내 모든 적군에게 90%의 대미지를 입힌다. 공격 전 타깃의 [버프] 2개를 제거하며 [분노 폭발] 상태일 경우, 50%의 확률로 타깃에게 [기절]을 부여한다.",
+        "energy": 4,
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2,
+        "rangeImage": "images/skill/auguste/auguste_active13_range.png"
+    },
+    "침식 비술": {
+        "image": "images/skill/caris/caris_active1.png",
+        "description": "(마법 대미지) 단일 유닛을 공격하여 100%의 대미지를 입히고, 공격 전 타깃에게 임의의 [2레벨 능력치 디버프] 3개를 부여한다. (2턴 지속)",
+        "energy": 1,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 8,
+        "highRange": 8,
+        "rangeImage": "images/skill/caris/caris_active1_range.png"
+    },
+    "수호의 빛": {
+        "image": "images/skill/caris/caris_active2.png",
+        "description": "(지원) [즉시 발동]. 단일 유닛을 타깃의 HP의 25%만큼 치료한다. 타깃이 [풀HP] 상태일 경우, 타깃에게 [대미지 증가 Lv.2], [마법 방어 증가 Lv.2]를 2턴간 부여하는 효과로 변경된다.",
+        "cooltime": 3,
+        "minRange": 0,
+        "maxRange": 3,
+        "lowRange": 8,
+        "highRange": 6,
+        "rangeImage": "images/skill/caris/caris_active2_range.png"
+    },
+    "HP 갈취": {
+        "image": "images/skill/caris/caris_active3.png",
+        "description": "단일 유닛을 공격하여 150%의 대미지를 입힌다. 공격 후, 45%의 [HP 흡수]를 발생시킨다.",
+        "energy": 3,
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 3,
+        "highRange": 5,
+        "rangeImage": "images/skill/caris/caris_active3_range.png"
+    },
+    "빛의 구원": {
+        "image": "images/skill/caris/caris_active4.png",
+        "description": "(지원) 타깃 주변 2칸 범위의 모든 아군은 카리스 마법 공격력의 60%에 해당하는 [빛의 보호막] (제거 불가)을 획득한다. (2턴 지속) 해당 보호막 보유 시 [고정 면역]을 얻는다. [가르침] 보유 시 스킬은 [가르침 - 빛의 구원]으로 변경된다.<br><br>[가르침 - 빛의 구원]: (지원) 타깃 주변 3칸 안의 모든 아군에게 2턴 간 카리스 마법 공격력의 90%에 해당하는 [빛의 보호막] (제거 불가)과 [재생 Lv.3]을 부여한다. 모든 효과는 2턴간 지속되며, 해당 보호막 보유 시 [고정 면역]을 얻는다. [가르침]이 없을 시 스킬은 [빛의 구원]으로 변경된다.",
+        "cooltime": 4,
+        "minRange": 0,
+        "maxRange": 2,
+        "lowRange": 8,
+        "highRange": 8,
+        "rangeImage": "images/skill/caris/caris_active4_range.png"
+    },
+    "죄와 벌": {
+        "image": "images/skill/caris/caris_active5.png",
+        "rangeImage": "images/skill/caris/caris_active5_range.png",
+        "description": "(관통 대미지) 타깃 방향 3*4 구역 범위 내 모든 적군에게 마법 공격력의 50% + 타깃 HP의 20%에 해당하는 대미지를 입힌다. [가르침] 보유 시 스킬은 [가르침 - 죄와 벌]로 변경된다.<br><br>[가르침 - 죄와 벌]: (관통 대미지) 타깃 방향 3*5구역 내의 모든 적군에게 마법 공격 75%에 타깃 HP 30%만큼을 더한 대미지를 입힌다. [가르침]이 없을 경우, 스킬이 [죄와 벌]로 변경된다.",
+        "energy": 2,
+        "cooltime": 2,
+        "minRange": 1,
+        "maxRange": 4,
+        "lowRange": 5,
+        "highRange": 5
+    },
+    "암흑의 수호": {
+        "image": "images/skill/caris/caris_active6.png",
+        "description": "(리액션) 액티브 공격을 받을 경우, 받는 대미지가 8% 감소하고 상대가 보유한 [디버프] 1개당 대미지가 10%씩 추가 감소하며, 최대 추가로 30% 감소한다.",
+        "rangeImage": "images/skill/caris/caris_active6_range.png"
+    },
+    "에너지 회복": {
+        "image": "images/skill/caris/caris_active7.png",
+        "description": "(리액션) 액티브 공격을 받을 경우, 입는 대미지가 8% 감소한다. 액티브 공격을 받은 후, 에너지 1포인트를 추가로 회복한다.",
+        "rangeImage": "images/skill/caris/caris_active7_range.png"
+    },
+    "심판자의 인도": {
+        "image": "images/skill/caris/caris_active8.png",
+        "description": "(리더 오라) 필드 내 〈교황령〉 진영인 모든 아군의 공격력이 10% 증가하고 방어력이 20% 증가한다. 해당 아군이 4개 및 그 이상의 [버프] 보유 시 입히는 [관통 대미지]가 12% 증가하고 입히는 대미지가 12% 증가하며, 받는 대미지가 12% 감소한다.",
+        "rangeImage": "images/skill/caris/caris_active8_range.png"
+    },
+    "악의 숙청": {
+        "image": "images/skill/caris/caris_active9.png",
+        "description": "(마법 대미지) 1턴간 준비한 후 타깃 주변 2칸 내의 모든 적군에게 130%의 [불속성] [범위 대미지]를 입히며 [기절]을 부여한다. (1턴 지속) [대형 캐릭터] 공격 시 대미지는 추가로 100% 증가하며 스킬 시전 후 [턴을 스킵]한다. [가르침] 보유 시 스킬은 [가르침 - 악의 숙청]으로 변경된다.<br><br>[가르침 - 악의 숙청]: (마법 대미지) 1턴 동안 준비한 뒤 타깃 주변 2칸 안의 모든 적군에게 130% [불속성] 대미지를 입히고 1턴간 [기절] 상태를 부여한다. 계속해서 타깃 주변 5칸 안의 모든 적군을 공격하여, 80%의 대미지를 입히고 2턴 간 [받는 치료 효과 감소]와 [이동 감소 Lv.2]를 부여한다. [대형 캐릭터] 공격 시, 대미지가 추가로 100% 증가한다. 스킬 시전 후 턴을 스킵한다. [가르침]이 없을 경우, 스킬이 [악의 숙청]으로 변경된다.",
+        "energy": 2,
+        "cooltime": 4,
+        "minRange": 3,
+        "maxRange": 4,
+        "lowRange": 8,
+        "highRange": 8,
+        "rangeImage": "images/skill/caris/caris_active9_range.png"
+    },
+    "악의 처단": {
+        "image": "images/skill/caris/caris_active11.png",
+        "description": "(일반 공격) 자신의 십자형 범위 내의 적군 1명을 선택해 2번 공격하여 매 공격마다 마법 공격력의 30%에 해당하는 [관통 대미지]를 입힌다. 공격 후 [계시]를 2스택 획득한다. [가르침] 보유 시 스킬은 [가르침 - 악의 처단] 으로 변경된다.<br><br>[가르침 - 악의 처단]: (일반 공격) 주변 십자형 범위 내의 적군 1명을 선택해 마법 공격의 40%에 해당하는 [관통 대미지]를 2회 입힌다. 공격 후 [계시]를 4스택 얻는다. [가르침]이 없을 경우, 스킬이 [악의 처단]으로 변경된다.",
+        "rangeImage": "images/skill/caris/caris_active11_range.png",
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "수호를 받은 자": {
+        "image": "images/skill/caris/caris_active12.png",
+        "description": "(패시브) 자신에게 [디버프]가 없고 [버프]가 3개 이상일 경우, 공격력이 15% 증가하고, 방어력이 30% 증가한다.",
+        "rangeImage": "images/skill/caris/caris_active12_range.png"
+    },
+    "결정 에너지 파동포": {
+        "image": "images/skill/caris/caris_active13.png",
+        "description": "(마법 대미지) 타깃 주변 3칸 내의 모든 적군에게 60%의 [범위 대미지]를 입히고 [마법 방어 감소 Lv.3]을 부여한다. (2턴 지속)",
+        "energy": 1,
+        "cooltime": 4,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 8,
+        "highRange": 8,
+        "rangeImage": "images/skill/caris/caris_active13_range.png"
+    },
+    "슈슈슉!": {
+        "image": "images/skill/beryl/beryl_active1.png",
+        "description": "(마법 대미지) 공격 전 [갑옷 관통]을 획득하고, 타깃에게 50%의 대미지를 3회 입힌다.",
+        "energy": 3,
+        "minRange": 2,
+        "maxRange": 3,
+        "lowRange": 5,
+        "highRange": 3,
+        "rangeImage": "images/skill/beryl/beryl_active1_range.png"
+    },
+    "화염벽": {
+        "image": "images/skill/beryl/beryl_active2.png",
+        "description": "(마법 대미지) 자신 십자형 범위 내 1개 지점을 선택해, 가로 5칸의 모든 적군에게 70%의 [범위 대미지]를 입히고 지면 타일을 [점화]로 변경한다. (2턴 지속)",
+        "energy": 3,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 8,
+        "highRange": 6,
+        "rangeImage": "images/skill/beryl/beryl_active2_range.png"
+    },
+    "뭐가 나올까!": {
+        "image": "images/skill/beryl/beryl_active3.png",
+        "description": "(지원) [즉시 발동]. 임의로 [결정석 스킬] 1개를 획득하고, 해당 스킬을 2턴간 보유한다.<br><br>[폭발 직전!]: (마법 대미지) 자신 주변 2칸 내의 모든 캐릭터에게 130%의 [불속성] [범위 대미지]를 입히고 자신은 해당 대미지의 50%를 받는다.<br><br>[고화력 불 결정석]: (마법 대미지) 타깃 주변 1칸 내의 모든 적군에게 80%의 [불속성] [범위 대미지]를 입히고 2칸 넉백시킨다.<br><br>[급랭 얼음 결정석]: (마법 대미지) 단일 유닛을 공격하여 80%의 대미지를 입히고 [동결] 상태를 부여한다. (1턴 지속)<br><br>[치유의 빛 결정석]: (치료) 자신 주변 3칸 내의 모든 아군을 마법 공격력의 70%만큼 치료한다.",
+        "cooltime": 3,
+        "minRange": 0,
+        "maxRange": 0,
+        "lowRange": 0,
+        "highRange": 0,
+        "rangeImage": "images/skill/beryl/beryl_active3_range.png"
+    },
+    "공격 증폭": {
+        "image": "images/skill/beryl/beryl_active4.png",
+        "description": "(지원) 타깃 범위 내의 모든 아군이 [공격력 증가 Lv.2]를 획득하고, [공격 능력치 디버프]에 대한 면역을 얻는다. (2턴 지속)",
+        "energy": 1,
+        "cooltime": 3,
+        "minRange": 0,
+        "maxRange": 2,
+        "lowRange": 8,
+        "highRange": 8,
+        "rangeImage": "images/skill/beryl/beryl_active4_range.png"
+    },
+    "온화한 결정 에너지": {
+        "image": "images/skill/beryl/beryl_active5.png",
+        "description": "(패시브) 행동 종료 시 추가로 에너지를 1포인트 회복한다. 에너지가 1포인트 이하일 시 추가로 1포인트 회복한다.",
+        "rangeImage": "images/skill/beryl/beryl_active5_range.png"
+    },
+    "불길": {
+        "image": "images/skill/beryl/beryl_active6.png",
+        "description": "(리액션) [화상] 및 [점화] 지형에 대한 면역을 얻는다. [점화] 지면 타일에 위치할 경우, 받는 대미지가 10% 감소하며, 행동 종료 시 HP가 20% 회복된다.",
+        "rangeImage": "images/skill/beryl/beryl_active6_range.png"
+    },
+    "귀염둥이": {
+        "image": "images/skill/beryl/beryl_active7.png",
+        "description": "(리액션) 받는 [원거리 대미지]가 25% 감소하고, 받는 [범위 대미지]가 40% 감소한다.",
+        "rangeImage": "images/skill/beryl/beryl_active7_range.png"
+    },
+    "불꽃 별똥별": {
+        "image": "images/skill/beryl/beryl_active8.png",
+        "description": "(마법 대미지) 1턴간 준비하여 스킬 시전 후, 타깃 주변 3칸 내의 모든 적군을 공격해 140%의 [불속성] [범위 대미지]를 입힌다. 스킬 시전 후 [턴을 스킵] 한다.",
+        "energy": 4,
+        "minRange": 2,
+        "maxRange": 3,
+        "lowRange": 8,
+        "highRange": 8,
+        "rangeImage": "images/skill/beryl/beryl_active8_range.png"
+    },
+    "이건 어때!": {
+        "image": "images/skill/beryl/beryl_active9.png",
+        "description": "(치료) 자신 주변 3칸 내의 자신을 제외한 아군을 치료해 HP 10%, 에너지 2포인트 회복한다.",
+        "energy": 2,
+        "cooltime": 4,
+        "minRange": 0,
+        "maxRange": 0,
+        "lowRange": 8,
+        "highRange": 8,
+        "rangeImage": "images/skill/beryl/beryl_active9_range.png"
+    },
+    "작열의 일격": {
+        "image": "images/skill/beryl/beryl_active10.png",
+        "description": "(일반 공격) 80%의 마법 대미지를 입히고 타깃에게 [화상]을 부여한다. (2턴 지속)",
+        "rangeImage": "images/skill/beryl/beryl_active10_range.png",
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "콰앙!": {
+        "image": "images/skill/beryl/beryl_active11.png",
+        "description": "(일반 공격) 단일 유닛을 공격하여 마법 공격력의 80%에 해당하는 물리 대미지를 입히고 30% 확률로 [기절] 상태를 부여한다. (1턴 지속)",
+        "rangeImage": "images/skill/beryl/beryl_active11_range.png",
+        "minRange": 2,
+        "maxRange": 3,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "팡팡팡팡팡!": {
+        "image": "images/skill/beryl/beryl_active12.png",
+        "description": "(마법 대미지) 스킬 사용 전에 이동할 수 없으며 타깃 주변 2칸 내의 임의의 적군을 5번 공격하여 공격마다 타깃 주변 1칸 내의 모든 적군에게 30%의 [불속성] [범위 대미지]를 입히고 50%의 확률로 [화상]을 부여한다.",
+        "energy": 5,
+        "rangeImage": "images/skill/beryl/beryl_active12_range.png",
+        "minRange": 3,
+        "maxRange": 5,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "응급 처치": {
+        "image": "images/skill/beryl/beryl_active13.png",
+        "description": "(치료) 단일 유닛을 타깃의 HP의 80%만큼 치료한다.",
+        "energy": 2,
+        "rangeImage": "images/skill/beryl/beryl_active13_range.png",
+        "minRange": 0,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "전골 먹기!": {
+        "image": "images/skill/cocoa/cocoa_active1.png",
+        "rangeImage": "images/skill/cocoa/cocoa_active1_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 120%의 대미지를 입히고 3칸 넉백시킨다. 또한 [물리 방어 감소 Lv.2] 및 [속도 감소 Lv.2]를 부여한다. (2턴 지속)",
+        "energy": 3,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "산악 부족": {
+        "image": "images/skill/cocoa/cocoa_active2.png",
+        "rangeImage": "images/skill/cocoa/cocoa_active2_range.png",
+        "description": "(패시브) 자신이 [풀HP] 상태일 경우, 이동력이 1칸 증가한다. [고지대]에서 공격하거나, 이동 후 도착 지점의 높이가 출발 지점보다 2칸 이상 높을 경우, 대미지가 20% 증가한다."
+    },
+    "분쇄의 일격": {
+        "image": "images/skill/cocoa/cocoa_active3.png",
+        "rangeImage": "images/skill/cocoa/cocoa_active3_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 120%의 대미지를 입히고 [받는 대미지 증가 Lv.2]를 부여한다. (3턴 지속)",
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "냄비 대응": {
+        "image": "images/skill/cocoa/cocoa_active4.png",
+        "rangeImage": "images/skill/cocoa/cocoa_active4_range.png",
+        "description": "(패시브) [막기] 시 받는 대미지가 15% 감소한다. [빈사] 상태가 아닐 경우 자신 주변 2칸 범위 내 모든 아군에게 [지원 방어]를 시전한다."
+    },
+    "코코아의 보물상자": {
+        "image": "images/skill/cocoa/cocoa_active5.png",
+        "rangeImage": "images/skill/cocoa/cocoa_active5_range.png",
+        "description": "(선택) [탄력 붕대], [고대 약제], [산 위의 연꽃] 또는 [환각 버섯]을 선택하여 사용한다.<br><br>[탄력 붕대]: (치료) (즉시 발동) 단일 유닛을 시전자 HP의 25%만큼 치료한다. 전투마다 최대 5회까지 사용할 수 있다.<br><br>[고대 약제]: (치료) 단일 유닛을 시전자 HP의 45%만큼 치료하고, 에너지를 1포인트 회복한다. 전투마다 최대 3회까지 사용할 수 있다.<br><br>[산 위의 연꽃]: (지원) 타깃의 모든 [디버프]를 제거하고, 타깃에게 3턴 간 [대미지 증가 Lv.3], [받는 대미지 감소 Lv.3], [능력치 디버프 면역]을 부여한다. 전투마다 최대 3회까지 사용할 수 있다.<br><br>[환각 버섯]: (관통 대미지) 단일 유닛을 공격하여 [관통대미지]를 입힌다. 대미지는 타깃 HP의 30%에 해당하며 1턴간 [슬립] 상태를 시전한다. [감염] 2단계도 부여한다.",
+        "minRange": 0,
+        "maxRange": 0,
+        "lowRange": 0,
+        "highRange": 0
+    },
+    "화살 방어": {
+        "image": "images/skill/cocoa/cocoa_active6.png",
+        "rangeImage": "images/skill/cocoa/cocoa_active6_range.png",
+        "description": "(리액션) 원거리 공격을 받을 경우, 받는 대미지가 25% 감소한다."
+    },
+    "힘을 내!": {
+        "image": "images/skill/cocoa/cocoa_active7.png",
+        "rangeImage": "images/skill/cocoa/cocoa_active7_range.png",
+        "description": "(리액션) 단일 유닛 공격을 받은 후 자신 및 주변 2칸 범위 내에서 자신을 제외한 아군 중 HP 비율이 가장 낮은 1명을 시전자 HP의 12%만큼 치료한다. 턴당 최대 2회 발동한다."
+    },
+    "막기 강화": {
+        "image": "images/skill/cocoa/cocoa_active8.png",
+        "rangeImage": "images/skill/cocoa/cocoa_active8_range.png",
+        "description": "(패시브) [정 - 측면] 원거리 물리 공격을 받을 경우, 100%의 확률로 [막기]를 발동한다. [막기] 발동 시, 받는 대미지가 10% 감소한다."
+    },
+    "베르더의 전투 깃발": {
+        "image": "images/skill/cocoa/cocoa_active9.png",
+        "rangeImage": "images/skill/cocoa/cocoa_active9_range.png",
+        "description": "(리더 오라) 필드 내 진영이 〈베르더〉인 모든 아군의 공격력이 10%, 방어력이 20% 증가한다."
+    },
+    "돌아보지 마!": {
+        "image": "images/skill/cocoa/cocoa_active10.png",
+        "rangeImage": "images/skill/cocoa/cocoa_active10_range.png",
+        "description": "(일반 공격) 단일 유닛을 공격하여 100%의 물리 대미지를 입힌다. 백 어택 시 70% 확률로 타깃에게 [기절]을 부여한다. (1턴 지속) 매번 전투 중 동일한 타깃에게 단 1회 발동한다.",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "강철의지": {
+        "image": "images/skill/cocoa/cocoa_active12.png",
+        "rangeImage": "images/skill/cocoa/cocoa_active12_range.png",
+        "description": "(지원) 3턴 간 [받는 대미지 감소 Lv.4], [심안] 및 [교란 면역]을 획득한다.",
+        "energy": 1,
+        "cooltime": 5
+    },
+    "전골요리": {
+        "image": "images/skill/cocoa/cocoa_active13.png",
+        "rangeImage": "images/skill/cocoa/cocoa_active13_range.png",
+        "description": "(치료) 자신 주변 3칸 범위 내의 모든 아군을 시전자 HP의 30%만큼 치료한다. 타깃은 [크리티컬 증가 Lv.2], [크리티컬 대미지 증가 Lv.1]을 얻는다. (2턴 지속). 그리고 [도시락]을 얻는다.",
+        "energy": 3,
+        "cooltime": 3,
+        "minRange": 0,
+        "maxRange": 3,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "연속 찌르기": {
+        "image": "images/skill/col/col_active1.png",
+        "rangeImage": "images/skill/col/col_active1_range.png",
+        "description": "(물리 대미지) 3번 공격하여 매 공격마다 45%의 대미지를 입힌다. 공격 전, 크리티컬 확률이 20% 증가한다.",
+        "energy": 2,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "스닉 어택": {
+        "image": "images/skill/col/col_active2.png",
+        "rangeImage": "images/skill/col/col_active2_range.png",
+        "description": "(패시브) 액티브 공격 시 타깃이 [풀HP] 상태일 경우 20%의 물리 대미지를 입힌다. [풀HP]의 타깃을 [백 어택]할 경우, [패시브 스킬 금지]를 추가로 부여한다. (1턴 지속)"
+    },
+    "쉐도우": {
+        "image": "images/skill/col/col_active3.png",
+        "rangeImage": "images/skill/col/col_active3_range.png",
+        "description": "(지원) [즉시 발동]. 적군 뒤로 순간이동하여 임의로 타깃의 [능력치 버프] 1개를 훔친다.",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "급습": {
+        "image": "images/skill/col/col_active4.png",
+        "rangeImage": "images/skill/col/col_active4_range.png",
+        "description": "(지원) [즉시 발동]. [크리티컬 증가 Lv.1], [크리티컬 대미지 증가 Lv.1] 및 [이동 증가 Lv.2]를 획득한다. (1턴 지속)",
+        "energy": 1,
+        "cooltime": 3,
+        "minRange": 0,
+        "maxRange": 0,
+        "lowRange": 0,
+        "highRange": 0
+    },
+    "가면": {
+        "image": "images/skill/col/col_active5.png",
+        "rangeImage": "images/skill/col/col_active5_range.png",
+        "description": "(치료) 자신의 HP를 25% 회복하고 [디버프] 2개를 제거한다. 또한 [은신], [크리티컬 증가 Lv.5]를 획득한다. (1턴 지속)",
+        "energy": 1,
+        "cooltime": 3,
+        "minRange": 0,
+        "maxRange": 0,
+        "lowRange": 0,
+        "highRange": 0
+    },
+    "괴이한 발걸음": {
+        "image": "images/skill/col/col_active6.png",
+        "rangeImage": "images/skill/col/col_active6_range.png",
+        "description": "(리액션) [건강] 상태 시 단일 유닛 공격을 받은 후 상대의 뒤로 순간이동해 [반격]을 시전하여 70%의 대미지를 입히고 [회피]를 획득한다. (1턴 지속). [부상] 상태 시 [회피]를 발동한다. (쿨타임 3턴)",
+        "cooltime": 3
+    },
+    "완벽한 암살자": {
+        "image": "images/skill/col/col_active8.png",
+        "rangeImage": "images/skill/col/col_active8_range.png",
+        "description": "(리더 오라) 필드 내 진영이 〈찰나의 바람〉인 모든 아군의 공격력이 10%, 방어력이 20%, 크리티컬 확률 15%, 크리티컬 대미지 15% 증가한다."
+    },
+    "죽음의 향기": {
+        "image": "images/skill/col/col_active9.png",
+        "rangeImage": "images/skill/col/col_active9_range.png",
+        "description": "(패시브) 필드의 캐릭터가 처치될 때마다 [열광의 야수] 를 획득한다. (3턴 지속). 자신이 적군을 처치한 후 에너지를 2포인트 회복한다."
+    },
+    "검은 가시": {
+        "image": "images/skill/col/col_active10.png",
+        "rangeImage": "images/skill/col/col_active10_range.png",
+        "description": "(일반 공격) 100%의 대미지를 입히고 [백 어택] 시 자신이 [지원 무시]를 획득한다.",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "회심의 일격": {
+        "image": "images/skill/col/col_active11.png",
+        "rangeImage": "images/skill/col/col_active11_range.png",
+        "description": "(일반 공격) 2번 공격하여 매 공격마다 50%의 물리 대미지를 입히고 공격 전 크리티컬 확률이 15% 증가한다.",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "말살": {
+        "image": "images/skill/col/col_active12.png",
+        "rangeImage": "images/skill/col/col_active12_range.png",
+        "description": "(물리 대미지) 3번 공격하여 매 공격마다 60% 대미지를 입힌다. 공격 전, 자신 주변 2칸 내에 자신을 제외한 아군이 없을 경우, [지원 무시]를 획득한다. 타깃 처치 시, [회피]를 획득한다. (1턴 지속)",
+        "energy": 4,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "종적이 없는 그림자": {
+        "image": "images/skill/col/col_active13.png",
+        "rangeImage": "images/skill/col/col_active13_range.png",
+        "description": "(지원) 1회의 [회피]를 획득한다. (1턴 지속). [회피] 성공 시, 상대방 뒤로 순간이동하여 100%의 물리 대미지를 입히고 다시 [회피]를 획득한다. (1턴 지속)",
+        "energy": 2,
+        "cooltime": 5,
+        "minRange": 0,
+        "maxRange": 0,
+        "lowRange": 0,
+        "highRange": 0
+    },
+    "새벽 햇살": {
+        "image": "images/skill/dantalion/dantalion_active1.png",
+        "rangeImage": "images/skill/dantalion/dantalion_active1_range.png",
+        "description": "(마법 대미지) 단일 유닛을 공격하여 물리 공격력의 130%에 해당하는 마법 대미지를 입힌다. 공격 전, 타깃의 임의 [버프] 2개를 1턴 간 지속되는 [1레벨 능력치 디버프]로 변경한다.",
+        "energy": 3,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "전투 치료": {
+        "image": "images/skill/dantalion/dantalion_active2.png",
+        "rangeImage": "images/skill/dantalion/dantalion_active2_range.png",
+        "description": "(패시브) 액티브 공격 후, 필드 내 HP가 가장 낮은 아군을 물리 공격의 20% 만큼 치료한다."
+    },
+    "패도": {
+        "image": "images/skill/dantalion/dantalion_active3.png",
+        "rangeImage": "images/skill/dantalion/dantalion_active3_range.png",
+        "description": "(패시브) 근접 액티브 공격 전 물리 공격력의 40%에 해당하는 마법 대미지를 입힌다. 타깃이 [보호막]  보유 시, 2턴간 [받는 대미지 증가 Lv.2] 상태를 부여한다. (2턴 지속). 모든 효과는 턴당 최대 1회 발동한다."
+    },
+    "새벽녘": {
+        "image": "images/skill/dantalion/dantalion_active4.png",
+        "rangeImage": "images/skill/dantalion/dantalion_active4_range.png",
+        "description": "(혼합 대미지) 타깃 방향 3*2 구역 내 모든 적에게 40%의 물리 대미지를 입히고 [치료 불가]를 부여한다. (2턴 지속). 추가로 공격하여 물리 공격력의 40%에 해당하는 마법 대미지를 입히고 [버프] 2개를 제거한다.",
+        "energy": 2,
+        "cooltime": 2,
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "에너지 갈취의 강타": {
+        "image": "images/skill/dantalion/dantalion_active5.png",
+        "rangeImage": "images/skill/dantalion/dantalion_active5_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 130%의 대미지를 입히고 타깃의 모든 에너지를 제거한다.",
+        "energy": 1,
+        "cooltime": 4,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "왕의 기세": {
+        "image": "images/skill/dantalion/dantalion_active6.png",
+        "rangeImage": "images/skill/dantalion/dantalion_active6_range.png",
+        "description": "(리액션) 근접 공격을 받을 경우, 받는 대미지가 30% 감소한다."
+    },
+    "완강": {
+        "image": "images/skill/dantalion/dantalion_active7.png",
+        "rangeImage": "images/skill/dantalion/dantalion_active7_range.png",
+        "description": "(리액션) [자신이 상성상 유리한 역할] 캐릭터로부터 액티브 공격을 받을 경우, 받는 대미지가 25% 감소한다."
+    },
+    "파멸의 폭풍": {
+        "image": "images/skill/dantalion/dantalion_active8.png",
+        "rangeImage": "images/skill/dantalion/dantalion_active8_range.png",
+        "description": "(물리 대미지) 자신 주변 4칸 내의 모든 적군에게 50%의 [범위 대미지]를 입히고 임의의 [2레벨 능력치 디버프] 2개를 부여한다. (2턴 지속)",
+        "energy": 3,
+        "cooltime": 2,
+        "minRange": 0,
+        "maxRange": 4,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "일리아를 위하여!": {
+        "image": "images/skill/dantalion/dantalion_active9.png",
+        "rangeImage": "images/skill/dantalion/dantalion_active9_range.png",
+        "description": "(리더 오라) 필드 내 진영이 〈일리아〉인 모든 아군의 공격력 10%, 방어력 20% 증가한다. 아군이 [디버프] 상태 3개 이상 보유한 적군 공격 시, 입히는 대미지가 20% 증가한다."
+    },
+    "화이트 소드": {
+        "image": "images/skill/dantalion/dantalion_active10.png",
+        "rangeImage": "images/skill/dantalion/dantalion_active10_range.png",
+        "description": "(일반 공격) 단일 유닛을 공격하여 물리 공격력의 90%에 해당하는 마법 대미지를 입힌다.",
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "전우의 유산": {
+        "image": "images/skill/dantalion/dantalion_active12.png",
+        "rangeImage": "images/skill/dantalion/dantalion_active12_range.png",
+        "description": "(패시브) 필드 내의 아군이 처치당할 시, 자신의 HP 30%를 회복하고 [공격력 증가 Lv.2], [물리 방어 증가 Lv.2] 및 [마법 방어 증가 Lv.2]를 획득한다. (3턴 지속)"
+    },
+    "무한한 새벽빛": {
+        "image": "images/skill/dantalion/dantalion_active13.png",
+        "rangeImage": "images/skill/dantalion/dantalion_active13_range.png",
+        "description": "(혼합 대미지) 40%의 물리 대미지를 3회 입히고 타깃 방향 3*3 범위에서 각 열의 첫 번째 적에게 물리 공격값의 50%에 해당하는 마법 대미지를 입힌다. 2칸 넉백시키며 [버프]를 1개 제거한다.",
+        "energy": 4,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "보호막 파괴 사격": {
+        "image": "images/skill/edda/edda_active1.png",
+        "rangeImage": "images/skill/edda/edda_active1_range.png",
+        "description": "(물리 대미지) 자신 주변 십자형 범위 내의 적군 1명을 선택해 135%의 대미지를 입힌다. 공격 전에 [보호막 파괴 Lv.4]를 획득한다.",
+        "energy": 3,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "재건설": {
+        "image": "images/skill/edda/edda_active2.png",
+        "rangeImage": "images/skill/edda/edda_active2_range.png",
+        "description": "(지원) [즉시 발동]. 목표 지점에 상자를 1개 소환한다.",
+        "cooltime": 4,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 99,
+        "highRange": 99
+    },
+    "보호막 파괴 - 강": {
+        "image": "images/skill/edda/edda_active3.png",
+        "rangeImage": "images/skill/edda/edda_active3_range.png",
+        "description": "(패시브) [보호막]을 보유한 적군 공격 시, 공격력이 30% 증가하고 방어를 40% 무시한다."
+    },
+    "희미한 안내의 빛": {
+        "image": "images/skill/edda/edda_active4.png",
+        "rangeImage": "images/skill/edda/edda_active4_range.png",
+        "description": "(지원) 자신 주변 3칸 범위 내 모든 아군이 [대미지 증가 Lv.3], [마법 방어 증가 Lv.2], [이동 증가 Lv.1]을 얻는다.(3턴 지속). 타깃의 모든 [교란]을 제거한다.",
+        "energy": 1,
+        "cooltime": 4,
+        "minRange": 0,
+        "maxRange": 3,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "술통 던지기": {
+        "image": "images/skill/edda/edda_active5.png",
+        "rangeImage": "images/skill/edda/edda_active5_range.png",
+        "description": "(물리 대미지) [즉시 발동]. 타깃 주변 1바퀴 내의 모든 적군에게 20%의 대미지를 입히고 지면 타일을 [폭탄 술]로 변경시킨다.",
+        "cooltime": 4,
+        "minRange": 2,
+        "maxRange": 4,
+        "lowRange": 8,
+        "highRange": 6
+    },
+    "엄폐물 활용": {
+        "image": "images/skill/edda/edda_active6.png",
+        "rangeImage": "images/skill/edda/edda_active6_range.png",
+        "description": "(리액션) 자신 주변 1칸 내 [아이템]이 있다면 받는 대미지가 40% 감소한다."
+    },
+    "방어 파괴": {
+        "image": "images/skill/edda/edda_active8.png",
+        "rangeImage": "images/skill/edda/edda_active8_range.png",
+        "description": "(패시브) 단일 유닛을 공격할 때 50%의 확률로 타깃에게 [물리 방어 감소 Lv.2]를 부여한다.(2턴 지속)"
+    },
+    "바리케이드전": {
+        "image": "images/skill/edda/edda_active9.png",
+        "rangeImage": "images/skill/edda/edda_active9_range.png",
+        "description": "(패시브) 자신 주변 1바퀴 내에 [아이템]이 있다면 공격력이 15% 증가한다. 액티브 공격 후 2칸 재이동할 수 있다."
+    },
+
+    "무기를 들어라!": {
+        "image": "images/skill/edda/edda_active12.png",
+        "rangeImage": "images/skill/edda/edda_active12_range.png",
+        "description": "(지원) 자신 주변 4칸 범위 내 자신을 제외한 아군은 에너지를 1포인트 회복한다. 자신이 [지원 공격] 시 대미지가 130% 증가하고, 턴당 최대 발동 횟수가 2회 증가한다.(1턴 지속)",
+        "energy": 3,
+        "cooltime": 2,
+        "minRange": 0,
+        "maxRange": 4,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "폭풍 저격": {
+        "image": "images/skill/edda/edda_active13.png",
+        "rangeImage": "images/skill/edda/edda_active13_range.png",
+        "description": "(물리 대미지) 자신 주변 십자형 범위 내의 적군 1명을 선택해 120%의 대미지를 입힌다. 타깃과의 거리가 1칸(인접한 거리는 0칸으로 계산) 멀어질 때마다 대미지가 10% 증가한다.",
+        "energy": 2,
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 5,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "발 저격": {
+        "image": "images/skill/faycal/faycal_active1.png",
+        "rangeImage": "images/skill/faycal/faycal_active1_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 110%의 대미지를 입히고 2턴 간 [이동 감소 Lv.2]를 부여한다.",
+        "energy": 2,
+        "minRange": 1,
+        "maxRange": 4,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "암벽 등반": {
+        "image": "images/skill/faycal/faycal_active3.png",
+        "rangeImage": "images/skill/faycal/faycal_active3_range.png",
+        "description": "(지원) [즉시 발동]. 2턴 간 [이동 증가 Lv.1],[등반],[점프]를 획득한다.",
+        "cooltime": 4
+    },
+    "정확한 사격": {
+        "image": "images/skill/faycal/faycal_active4.png",
+        "rangeImage": "images/skill/faycal/faycal_active4_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 130%의 대미지를 입힌다. 공격 전 타깃에게 1턴 간 [회피 금지]를 부여한다.",
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "콘발라리아 수호의 화살": {
+        "image": "images/skill/faycal/faycal_active5.png",
+        "rangeImage": "images/skill/faycal/faycal_active5_range.png",
+        "description": "(물리 대미지) 타깃 방향 3*4 구역을 [경계]한다. 적이 해당 구역에 진입할 경우 120%의 대미지를 입히고 적의 행동을 중단시킨다.",
+        "energy": 1,
+        "cooltime": 4,
+        "minRange": 1,
+        "maxRange": 4,
+        "lowRange": 5,
+        "highRange": 5
+    },
+    "눈에는 눈": {
+        "image": "images/skill/faycal/faycal_active6.png",
+        "rangeImage": "images/skill/faycal/faycal_active6_range.png",
+        "description": "(리액션) [정 - 측면]에 인접하지 않은 적군에게 공격 받을 시 [반격]해 상대에게 100%의 대미지를 입힌다."
+    },
+    "경계 사격": {
+        "image": "images/skill/faycal/faycal_active9.png",
+        "rangeImage": "images/skill/faycal/faycal_active9_range.png",
+        "description": "(물리 대미지) 타깃 방향 3*3 구역을 [경계]한다. 적이 해당 구역에 진입할 경우 100% 대미지를 입히며, 턴당 최대 2회 발동한다.",
+        "energy": 2,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 5,
+        "highRange": 5
+    },
+    "연사": {
+        "image": "images/skill/faycal/faycal_active10.png",
+        "rangeImage": "images/skill/faycal/faycal_active10_range.png",
+        "description": "(일반 공격) 단일 유닛을 2회 공격하며 각각의 공격은 55%의 물리 대미지를 입힌다.",
+        "minRange": 2,
+        "maxRange": 3,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "질풍 난사": {
+        "image": "images/skill/faycal/faycal_active12.png",
+        "rangeImage": "images/skill/faycal/faycal_active12_range.png",
+        "description": "(물리 대미지) 타깃 주변 2칸 내의 임의의 적군을 5회 공격하여 회당 60%의 범위 대미지를 입힌다. 동일 타깃을 중복 공격 시, 대미지가 50% 감소한다.",
+        "energy": 4,
+        "minRange": 3,
+        "maxRange": 4,
+        "lowRange": 8,
+        "highRange": 6
+    },
+    "경계심": {
+        "image": "images/skill/faycal/faycal_active13.png",
+        "rangeImage": "images/skill/faycal/faycal_active13_range.png",
+        "description": "(패시브) 자신의 턴이 아닐 때 크리티컬 확률이 추가로 45% 증가하며 크리티컬 대미지가 30% 증가한다."
+    },
+    "처단의 순간": {
+        "image": "images/skill/garcia/garcia_active1.png",
+        "rangeImage": "images/skill/garcia/garcia_active1_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 120%의 대미지를 입힌다. 타깃 처치 시 [회오리 가속] 1스택을 획득한다. [회오리 가속] 6스택 보유 시 공격 전 대미지가 45% 증가한다.",
+        "energy": 2,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "락 온": {
+        "image": "images/skill/garcia/garcia_active2.png",
+        "rangeImage": "images/skill/garcia/garcia_active2_range.png",
+        "description": "(패시브) 행동 시작 시, 자신의 주변 6칸 내 물리 공격이 가장 높은 적군에게 1턴 간 [물리 방어 감소 Lv.2]를 부여한다."
+    },
+    "치열한 전투": {
+        "image": "images/skill/garcia/garcia_active3.png",
+        "rangeImage": "images/skill/garcia/garcia_active3_range.png",
+        "description": "(패시브) 액티브 공격 후, 받는 대미지가 15% 감소하는 효과를 획득하고 해당 공격이 크리티컬 발동 시, 받는 대미지가 추가로 25% 감소한다.(1턴 지속)"
+    },
+    "갈고리 사슬": {
+        "image": "images/skill/garcia/garcia_active4.png",
+        "rangeImage": "images/skill/garcia/garcia_active4_range.png",
+        "description": "(디버프) [즉시 발동]. 자신 주변 십자형 범위 내의 적군 1명을 선택한 후 곁으로 당겨와 1턴 간 [리액션 스킬 금지]를 부여한다.",
+        "cooltime": 4,
+        "minRange": 1,
+        "maxRange": 4,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "선혈의 향기": {
+        "image": "images/skill/garcia/garcia_active5.png",
+        "rangeImage": "images/skill/garcia/garcia_active5_range.png",
+        "description": "(지원) [즉시 발동]. 30%의 HP를 회복하고 자신의 [디버프] 3개를 제거하며 1턴 간 지속되는 [잠재력 자극]을 획득한다.",
+        "energy": 1,
+        "cooltime":4
+    },
+    "맞공격": {
+        "image": "images/skill/edda/edda_active7.png",
+        "rangeImage": "images/skill/edda/edda_active7_range.png",
+        "description": "(리액션) [정 - 측면]의 적군으로부터 액티브 공격을 받을 시 상대가 공격 범위 내에 있을 경우 [일반 공격]으로 [반격]해 일반 공격의 70% 대미지를 입힌다. 턴당 1회 발동한다."
+    },
+    "치명적인 마무리": {
+        "image": "images/skill/garcia/garcia_active7.png",
+        "rangeImage": "images/skill/garcia/garcia_active7_range.png",
+        "description": "(리액션) 자신 기준 십자형 범위 3칸 내 적군이 자신을 제외한 아군의 공격을 받은 후 [빈사] 상태가 될 경우, [지원 공격]을 진행하여 타깃의 잃은 HP의 50%에 해당하는 [관통 대미지]를 부여하며, 턴당 최대 1회 발동한다."
+    },
+    "회전 칼날": {
+        "image": "images/skill/garcia/garcia_active8.png",
+        "rangeImage": "images/skill/garcia/garcia_active8_range.png",
+        "description": "(물리 대미지) [즉시 발동]. 자신 주변 십자형 범위 내의 적군 1명을 선택한 후 곁으로 당겨와 70%의 대미지를 입히고 임의의 타깃 처치 시 에너지를 2포인트 회복한다.",
+        "energy": 3,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "탕아": {
+        "image": "images/skill/garcia/garcia_active9.png",
+        "rangeImage": "images/skill/garcia/garcia_active9_range.png",
+        "description": "(패시브) 자신 주변 2칸 내에 자신을 제외한 아군이 없을 경우, 공격/방어 능력치가 8% 증가하고, 크리티컬 확률이 10% 증가한다."
+    },
+    "고통의 절단": {
+        "image": "images/skill/garcia/garcia_active10.png",
+        "rangeImage": "images/skill/garcia/garcia_active10_range.png",
+        "description": "(일반 공격) 단일 유닛을 3번 공격하여 매 공격마다 33%의 물리 대미지를 입힌다. 타깃이 [부상] 상태일 경우, 크리티컬 확률이 25% 증가한다.",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "봉인의 일격": {
+        "image": "images/skill/garcia/garcia_active11.png",
+        "rangeImage": "images/skill/garcia/garcia_active11_range.png",
+        "description": "(일반 공격) 100%의 물리 대미지를 입히고 [부상] 상태의 적군에게는 공격 전 2턴 간 [패시브 스킬 금지]를 부여한다.",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "질풍난무": {
+        "image": "images/skill/garcia/garcia_active12.png",
+        "rangeImage": "images/skill/garcia/garcia_active12_range.png",
+        "description": "(물리 대미지) 자신 주변 2칸 내의 모든 적군에게 75%의 [범위 대미지]를 입힌다. 공격 전 2턴 간 지속되는 [크리티컬 증가 Lv.2]를 획득한다.",
+        "energy": 2,
+        "cooltime": 5,
+        "minRange": 2,
+        "maxRange": 2,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "은밀한 처결자": {
+        "image": "images/skill/garcia/garcia_active13.png",
+        "rangeImage": "images/skill/garcia/garcia_active13_range.png",
+        "description": "(패시브) 공격 전 타깃 주변 1바퀴 내에 자신을 제외한 아군이 없다면, 타깃에게 2턴 간 [고립]과 [회피 금지]를 부여한다. 턴당 최대 1회 발동한다."
+    },
+    "성창 스킬 - 돌격": {
+        "image": "images/skill/gloria/gloria_active1.png",
+        "rangeImage": "images/skill/gloria/gloria_active1_range.png",
+        "description": "(물리 대미지) 자신 주변 십자형 범위 내의 적군을 1명 선택한 후 곁으로 질주하여 120%의 대미지를 입히고 2칸 넉백시킨다. 자신이 [게양] 오라를 보유하지 않을 시, 스킬은 [소드 스킬 - 질풍]으로 변경된다.<br><br>[소드 스킬 - 질풍]: (물리 대미지) 주변 십자 범위 내의 적군 1명을 선택해 120%의 대미지를 입힌다. 공격하기 전에 1칸 이동할 때 마다 대미지 10% 증가, 최대 50% 증가한다. [게양] 오라 보유 시, 스킬이 [성창 스킬 - 돌격]으로 변경된다.",
+        "energy": 2,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 1,
+        "highRange": 1
+    },
+    "엄숙": {
+        "image": "images/skill/gloria/gloria_active3.png",
+        "rangeImage": "images/skill/gloria/gloria_active3_range.png",
+        "description": "(오라) 자신 주변 2칸 내 모든 적군의 공격력이 10% 감소한다."
+    },
+    "성창 스킬 - 빛": {
+        "image": "images/skill/gloria/gloria_active4.png",
+        "rangeImage": "images/skill/gloria/gloria_active4_range.png",
+        "description": "(지원) 자신 주변 3칸 범위 내 모든 아군은 [공격력 증가 Lv.1], [받는 대미지 감소 Lv.2]를 획득한다. (2턴 지속). 에너지를 1포인트 회복한다. 자신이 [게양] 오라를 보유하지 않을 시, 스킬은 [소드 스킬 - 풀문 슬래시]로 변경된다.<br><br>[소드 스킬 - 풀문 슬래시]: (물리 대미지) 주변 2칸 범위 내의 모든 적군에게 90%의 물리 범위 대미지를 입힌다. 타깃이 [부상] 상태일 경우, 대미지가 30% 추가 증가한다. 스킬 사용 후, 자신에게 2턴 간 [받는 대미지 감소 Lv.2] 효과를 부여한다. [게양] 오라 보유 시, 스킬이 [성창 스킬 - 빛]으로 변경된다.",
+        "cooltime":4,
+        "minRange": 0,
+        "maxRange": 3,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "성창 - 롱기누스": {
+        "image": "images/skill/gloria/gloria_active5.png",
+        "rangeImage": "images/skill/gloria/gloria_active5_range.png",
+        "description": "(물리 대미지) 타깃 [빈 곳] 주변 2칸 범위 내의 모든 적군에게 80%의 [범위 대미지]를 입히고 [깃발]을 소환한다. 하지만 자신은 [게양] 오라를 잃는다. 자신이 [게양] 오라를 보유하지 않을 시 스킬은 [성창 스킬 - 게양]으로 변경된다.<br><br>[성창 스킬 - 게양]: (지원) [즉시 발동] 주변 3칸 범위 내 모든 아군은 [이동 증가 Lv.1]을 얻는다. (2턴 지속) 자신은 [게양] 오라를 획득한다. 이후 스킬은 [성창 - 롱기누스]로 변경된다.",
+        "energy":1,
+        "cooltime":4,
+        "minRange": 2,
+        "maxRange": 3,
+        "lowRange": 4,
+        "highRange": 4
+    },
+    "반격 태세": {
+        "image": "images/skill/gloria/gloria_active8.png",
+        "rangeImage": "images/skill/gloria/gloria_active8_range.png",
+        "description": "(지원) 물리 공격값의 20%가 물리 방어값 및 마법 방어값에 부여되며, 반격 대미지가 50% 증가한다. [기선제압]을 획득하고, 반격 사거리가 2칸 증가한다. (2턴 지속)",
+        "cooltime":4
+    },
+    "정의의 서약": {
+        "image": "images/skill/gloria/gloria_active9.png",
+        "rangeImage": "images/skill/gloria/gloria_active9_range.png",
+        "description": "(리더 오라) 필드 내 진영이 〈기사 동맹〉인 모든 아군의 공격력 10%, 방어력 20% 증가한다.액티브 공격 시 대미지가 12% 증가하고, 반격을 받을 시 받는 대미지가 24% 감소한다."
+    },
+    "정의 관철의 창": {
+        "image": "images/skill/gloria/gloria_active10.png",
+        "rangeImage": "images/skill/gloria/gloria_active10_range.png",
+        "description": "(일반 공격) 타깃 주변 1바퀴 내의 모든 적군에게 70%의 물리 대미지를 입힌다. [게양] 오라가 없을 경우 스킬은 [정의 관철의 검]으로 변경된다.<br><br>[정의 관철의 검]: (물리 대미지) 단일 공격. 100%의 물리 대미지를 입히고, [정면] 공격 전 대미지가 130%까지 증가한다. [게양] 오라 보유 시, 스킬이 [정의 관철의 창]으로 변경된다.",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "기사의 명예": {
+        "image": "images/skill/gloria/gloria_active13.png",
+        "rangeImage": "images/skill/gloria/gloria_active13_range.png",
+        "description": "(지원) [즉시 발동], 타깃에게 [공격력 증가 Lv.2]를 부여한다. (2턴 지속). 타깃이 〈기사 동맹〉 진영일 경우, HP의 20%에 해당하는 [물리 보호막]을 추가로 부여한다.",
+        "cooltime":4,
+        "minRange": 0,
+        "maxRange": 2,
+        "lowRange": 8,
+        "highRange": 6
+    },
+    "격노 추가공격": {
+        "image": "images/skill/guzman/guzman_active1.png",
+        "rangeImage": "images/skill/guzman/guzman_active1_range.png",
+        "description": "(물리 대미지) 단일 유닛 공격, 120%의 대미지를 입힌다. 타깃이 처치되지 않은 경우, 현재 HP의 20%를 희생하여 [추격]으로 60%의 추가 대미지를 입힌다.",
+        "energy": 2,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "영혼의 수확": {
+        "image": "images/skill/guzman/guzman_active2.png",
+        "rangeImage": "images/skill/guzman/guzman_active2_range.png",
+        "description": "(패시브) 이번 행동에서 적군을 처치했을 경우, 행동 종료 시 20%의 HP와 1포인트의 에너지를 회복한다."
+    },
+    "위압": {
+        "image": "images/skill/guzman/guzman_active3.png",
+        "rangeImage": "images/skill/guzman/guzman_active3_range.png",
+        "description": "(패시브) 행동 종료 시, 자신 주변 2칸 내의 모든 적군에게 2턴 간 [대미지 감소 Lv.1], [받는 대미지 증가 Lv.1]을 부여한다."
+    },
+    "소울 스틸": {
+        "image": "images/skill/guzman/guzman_active4.png",
+        "rangeImage": "images/skill/guzman/guzman_active4_range.png",
+        "description": "(물리 대미지) 자신 주변 십자형 범위 내의 적군 1명을 선택한 후 곁으로 당겨와서 100%의 [범위 대미지]를 입히고 [이동 감소 Lv.2]를 부여한다. (2턴 지속)",
+        "energy": 2,
+        "minRange": 1,
+        "maxRange": 4,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "어스 스파이크": {
+        "image": "images/skill/guzman/guzman_active5.png",
+        "rangeImage": "images/skill/guzman/guzman_active5_range.png",
+        "description": "(물리 대미지) 타깃 방향 일직선 3칸 내의 모든 적군에게 50%의 [범위 대미지]를 입히고 [기절]을 부여한다. (1턴 지속)",
+        "energy": 3,
+        "cooltime": 3,
+        "minRange": 0,
+        "maxRange": 0,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "생존 본능": {
+        "image": "images/skill/guzman/guzman_active6.png",
+        "rangeImage": "images/skill/guzman/guzman_active6_range.png",
+        "description": "(리액션) 공격을 당하기 전에 받는 대미지가 8% 감소한다. [부상] 상태일 때 15% 추가로 감소하고, [빈사] 상태일 때 50% 추가로 감소한다."
+    },
+    "악의 결정 활성화": {
+        "image": "images/skill/guzman/guzman_active8.png",
+        "rangeImage": "images/skill/guzman/guzman_active8_range.png",
+        "description": "(지원) [즉시 발동] 현재 HP의 45%를 희생해 [공격력 증가 Lv.2], [이동 증가 Lv.1], [재생 Lv.3]을 획득한다. (3턴 지속)",
+        "cooltime": 4,
+        "minRange": 0,
+        "maxRange": 0,
+        "lowRange": 0,
+        "highRange": 0
+    },
+    "수호 반격": {
+        "image": "images/skill/guzman/guzman_active9.png",
+        "rangeImage": "images/skill/guzman/guzman_active9_range.png",
+        "description": "(지원) 3턴 동안 받는 마법 대미지가 30% 감소하며, 자신 주변 2칸 내의 모든 아군을 대신해 [마법 공격]을 감당한다. 자신 주변 3칸 내의 적군 공격을 받을 경우, [반격]을 가하여 70%의 물리 대미지를 입힌다. 턴당 최대 2회 발동한다.",
+        "energy": 2,
+        "cooltime": 3
+    },
+    "영혼 탐식": {
+        "image": "images/skill/guzman/guzman_active12.png",
+        "rangeImage": "images/skill/guzman/guzman_active12_range.png",
+        "description": "(물리 대미지) 1턴간 준비하는 사이 받는 대미지가 60% 감소한다. 스킬 시전 후 주변 4칸 내의 모든 적군에게 105%의 대미지를 입힌다. 공격하기 전에 20%의 [HP 흡수]를 진행한다. (1턴 지속)",
+        "energy": 2,
+        "cooltime": 5,
+        "minRange": 0,
+        "maxRange": 4,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "암흑의 칼날": {
+        "image": "images/skill/guzman/guzman_active13.png",
+        "rangeImage": "images/skill/guzman/guzman_active13_range.png",
+        "description": "(물리 대미지) 단일 유닛 공격, 130%의 대미지를 입힌다. 공격하기 전에 자신이 [마법 에너지 전환], [의지]를 획득한다. (2턴 지속)",
+        "energy": 3,
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "죽음의 기운": {
+        "image": "images/skill/hasna/hasna_active1.png",
+        "rangeImage": "images/skill/hasna/hasna_active1_range.png",
+        "description": "(디버프) 타깃 범위 2칸 내의 모든 적군에게 마법 공격값의 50%만큼의 [HP 상실]을 부여하고 [받는 치료 효과 감소]를 부여한다. (2턴 지속).",
+        "energy": 1,
+        "cooltime": 5,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "강렬한 향기": {
+        "image": "images/skill/hasna/hasna_active4.png",
+        "rangeImage": "images/skill/hasna/hasna_active4_range.png",
+        "description": "(마법 대미지) 단일 유닛을 공격하여 150%의 대미지를 입히고 타깃 주변 2칸 범위 내의 모든 적군에게 [어둠의 향기]를 부여한다. (2턴 지속)",
+        "energy": 2,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "그림자 암살자": {
+        "image": "images/skill/hasna/hasna_active5.png",
+        "rangeImage": "images/skill/hasna/hasna_active5_range.png",
+        "description": "(패시브) 공격 후 타깃에게 [어둠의 향기]를 부여한다. (2턴 지속) [어둠의 향기]를 보유한 적군 공격 시 자신은 에너지를 2포인트 회복한다. [어둠의 향기]를 보유한 적군 처치 시 추가로 40%의 HP를 회복한다."
+    },
+    "가녀린 그림자": {
+        "image": "images/skill/hasna/hasna_active6.png",
+        "rangeImage": "images/skill/hasna/hasna_active6_range.png",
+        "description": "(리액션) [어둠의 향기]를 보유한 적군으로부터 액티브 공격을 받을 경우, 받는 대미지가 30% 감소한다."
+    },
+    "향기의 주인": {
+        "image": "images/skill/hasna/hasna_active9.png",
+        "rangeImage": "images/skill/hasna/hasna_active9_range.png",
+        "description": "(패시브) 행동 시작 시, 자신 범위 4칸 내 [어둠의 향기] 를 보유한 적군이 있을 경우 [크리티컬 증가 Lv.2]를 획득하고 최대 사거리가 1칸 증가한다. 크리티컬 발동 후 2칸 재이동할 수 있다."
+    },
+    "매혹의 그림자": {
+        "image": "images/skill/hasna/hasna_active11.png",
+        "rangeImage": "images/skill/hasna/hasna_active10_range.png",
+        "description": "(일반 공격) 단일 유닛을 공격하여 90%의 마법 대미지를 입힌다. 만약 해당 타깃과 인접하고 있고 타깃이 [어둠의 향기]를 보유할 경우 추가 공격을 시전하여 마법 공격력의 50%에 해당하는 물리 대미지를 입히며 반드시 크리티컬을 발동한다.",
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "사무친 깨달음": {
+        "image": "images/skill/hasna/hasna_active12.png",
+        "rangeImage": "images/skill/hasna/hasna_active12_range.png",
+        "description": "(마법 대미지) 단일 유닛을 공격하여 140%의 대미지를 입힌다. [어둠의 향기]를 보유한 적군에게 입히는 대미지가 170%까지 증가한다. 공격 전, 크리티컬 확률과 크리티컬 대미지가 추가로 15% 증가한다.",
+        "energy": 4,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 3,
+        "highRange": 5
+    },
+    "넉백 사격": {
+        "image": "images/skill/homa/homa_active1.png",
+        "rangeImage": "images/skill/homa/homa_active1_range.png",
+        "description": "(물리 대미지) 자신 주변 십자형 범위 내의 적군 1명을 선택해 135%의 대미지를 입히고 2칸 넉백시킨다.",
+        "energy":2,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 3,
+        "highRange": 5
+    },
+    "원형 지원": {
+        "image": "images/skill/homa/homa_active2.png",
+        "rangeImage": "images/skill/homa/homa_active2_range.png",
+        "description": "(지원) [즉시 발동]. [발루어]를 타깃 몸에 머무르게 하고 타깃에게 [이동 증가 Lv.2], [점프]를 부여한다. 타깃과 [발루어]가 모두 [공격력 증가 Lv.2]를 획득하고 이 기간 동안 [발루어]를 불러 공격 혹은 치료 시 해당 스킬의 효과가 1.5배가 된다.(2턴 지속)",
+        "energy":1,
+        "cooltime":3,
+        "minRange": 1,
+        "maxRange": 4,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "일치한 선택": {
+        "image": "images/skill/homa/homa_active3.png",
+        "rangeImage": "images/skill/homa/homa_active3_range.png",
+        "description": "(선택) [습격의 날갯짓] 또는 [청량한 미풍] 중 선택하여 사용한다.<br><br>[습격의 날갯짓]: (물리 대미지) [샤힌]을 불러 단일 타깃에게 80%의 대미지를 입히고 2턴 간 [실명]과 [물리 방어 감소 Lv.3]을 부여한다. [발루어]를 불러 [발루어] 주변 2칸 내 모든 적에게 40%의 대미지를 입히고, 50%의 확률로 1턴 간 [실명]을 부여한다.<br><br>[청량한 미풍]: (치료) [골리]를 불러 타깃을 자신의 물리 공격력의 70%만큼 치료한다. 치료 전 [치료 불가]를 제거한다. [발루어]를 불러 [발루어] 주변 2칸 내 모든 아군을 물리 공격력의 40%만큼 치료하고, [디버프] 2개를 제거한다.",
+        "minRange": 0,
+        "maxRange": 0,
+        "lowRange": 0,
+        "highRange": 0
+    },
+    "화합": {
+        "image": "images/skill/homa/homa_active5.png",
+        "rangeImage": "images/skill/homa/homa_active5_range.png",
+        "description": "(패시브) 행동 종료 시 [일반 공격] 혹은 스킬을 사용했을 경우 자신 주변 2칸 내의 모든 아군을 물리 공격력의 20%만큼 치료한다. 또한 [디버프] 1개를 제거한다."
+    },
+    "그림자 놀이": {
+        "image": "images/skill/homa/homa_active6.png",
+        "rangeImage": "images/skill/homa/homa_active6_range.png",
+        "description": "(리액션) [후 - 측면] 적군의 근접 공격을 받기 전에 [샤힌]을 불러 먼저 타깃에게 1턴 간 [실명]을 부여한다. 턴당 최대 1회 발동한다. [회피] 후 [반격]을 시전해 70%의 물리 대미지를 입히고 자신은 2칸 후퇴한다."
+    },
+    "활발": {
+        "image": "images/skill/homa/homa_active7.png",
+        "rangeImage": "images/skill/homa/homa_active7_range.png",
+        "description": "(리액션) 액티브 공격을 받을 경우 받는 대미지가 8% 감소한다. 공격을 받은 후, 2턴 간 [이동 증가 Lv.2]를 획득한다."
+    },
+    "분산 사격": {
+        "image": "images/skill/homa/homa_active8.png",
+        "rangeImage": "images/skill/homa/homa_active8_range.png",
+        "description": "(물리 대미지) 타깃 방향 3*3 구역 내의 모든 적군에게 70%의 [범위 대미지]를 입히고 [이동 감소 Lv.1]을 부여한다. (2턴 지속)",
+        "energy":2,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "난투 아처": {
+        "image": "images/skill/homa/homa_active9.png",
+        "rangeImage": "images/skill/homa/homa_active9_range.png",
+        "description": "(패시브) [일반 공격] 시, 인접한 적군을 공격할 수 있다. 자신 주변 1칸 내 적군이 있으면 공격력이 15% 증가하고, 크리티컬 확률이 30% 증가한다."
+    },
+    "끈질긴 비수": {
+        "image": "images/skill/homa/homa_active10.png",
+        "rangeImage": "images/skill/homa/homa_active10_range.png",
+        "description": "(일반 공격) 단일 유닛 공격, 100%의 물리 대미지를 입힌다. 공격 후 최대로 남은 이동력+1 만큼 재이동할 수 있다.",
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "하트 피어스": {
+        "image": "images/skill/homa/homa_active12.png",
+        "rangeImage": "images/skill/homa/homa_active12_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 150%의 대미지를 입힌다. 타깃이 [부상] 상태일 경우, 20%의 추가 대미지를 입힌다. 타깃이 [빈사] 상태일 경우, 40%의 추가 대미지를 입힌다.",
+        "energy":3,
+        "cooltime":3,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "하살람 축제": {
+        "image": "images/skill/homa/homa_active13.png",
+        "rangeImage": "images/skill/homa/homa_active13_range.png",
+        "description": "(지원) 타깃 및 [발루어]가 머무른 아군에게 [소란]을 부여하며, 해당 타깃과 아군 주변 2칸 내의 모든 적군에게 60%의 [물리 범위 대미지]를 입힌다. 또한 해당 타깃 범위 내의 적군에게 추가로 [액티브 스킬 금지], [패시브 스킬 금지]를 부여한다. 모든 효과는 2턴 지속되고 스킬 시전 후 [발루어]는 타깃 몸에 머무른다. (2턴 지속)",
+        "energy": 3,
+        "cooltime": 4,
+        "minRange": 0,
+        "maxRange": 4,
+        "lowRange": 8,
+        "highRange": 8
+    },
+
+    "산지 경계": {
+        "image": "images/skill/iggy/iggy_active1.png",
+        "rangeImage": "images/skill/iggy/iggy_active1_range.png",
+        "description": "(지원) 타깃 방향 2*3 구역을 [경계]한다. 적이 해당 구역에 진입할 경우 150%의 원거리 물리 대미지를 입힐 수 있다.",
+        "energy": 2,
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "강력 투척": {
+        "image": "images/skill/iggy/iggy_active2.png",
+        "rangeImage": "images/skill/iggy/iggy_active2_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 150%의 대미지를 입힌다.",
+        "energy": 2,
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "회색 늑대의 도약": {
+        "image": "images/skill/iggy/iggy_active4.png",
+        "rangeImage": "images/skill/iggy/iggy_active4_range.png",
+        "description": "(지원) [즉시 발동]. 목표 지점까지 점프하고 [크리티컬 대미지 증가 Lv.1]을 얻는다. (1턴 지속)",
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "사냥 준비": {
+        "image": "images/skill/iggy/iggy_active5.png",
+        "rangeImage": "images/skill/iggy/iggy_active5_range.png",
+        "description": "(패시브) 행동 종료 시, HP 10%를 회복하고 [사냥 준비]를 획득한다. 효과: 공격 전 [고지대] 우세를 획득한다. 타깃을 처치한 후 에너지를 1포인트 회복한다. 효과는 다음 행동을 시작할 때까지 지속된다."
+    },
+    "기선제압": {
+        "image": "images/skill/iggy/iggy_active6.png",
+        "rangeImage": "images/skill/iggy/iggy_active6_range.png",
+        "description": "(리액션) [정 - 측면] 으로부터 액티브 공격을 당하기 전에 반격을 가하여 70%의 대미지를 입히며. 턴당 최대 1회 발동한다."
+    },
+    "늑대의 경계": {
+        "image": "images/skill/iggy/iggy_active7.png",
+        "rangeImage": "images/skill/iggy/iggy_active7_range.png",
+        "description": "(리액션) 행동 종료 시, 자신 주변 6칸 내에 적군이 있을 경우, 자신이 2턴간 [이동 증가 Lv.1] 및 [받는 대미지 감소 Lv.3]을 얻는다. (쿨타임 4턴)",
+        "cooltime": 4
+    },
+    "결정체 가루 연막탄": {
+        "image": "images/skill/iggy/iggy_active8.png",
+        "rangeImage": "images/skill/iggy/iggy_active8_range.png",
+        "description": "(마법 대미지) 자신 주변 2칸 내의 모든 적군에게 물리 공격의 50%에 해당하는 마법 대미지를 입히고 [감염] 3스택 및 1턴 간 [이동 감소 Lv.2]를 부여한다. 공격 후, 잔여 이동력만큼 재이동할 수 있다.",
+        "energy": 1,
+        "cooltime": 3,
+        "minRange": 0,
+        "maxRange": 2,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "먼 산의 호각": {
+        "image": "images/skill/iggy/iggy_active9.png",
+        "rangeImage": "images/skill/iggy/iggy_active9_range.png",
+        "description": "(지원) 필드 내 진영이 〈베르더〉인 모든 아군이 [이동 증가 Lv.1], [공격력 증가 Lv.1]을 얻는다. (2턴 지속) 적군의 [위협 범위] 내에 있으면 [속도 증가 Lv.2]를 추가로 획득한다.",
+        "energy": 1,
+        "cooltime": 5,
+        "minRange": 0,
+        "maxRange": 99,
+        "lowRange": 0,
+        "highRange": 0
+    },
+    "강력한 일격 (검)": {
+        "image": "images/skill/iggy/iggy_active10.png",
+        "rangeImage": "images/skill/iggy/iggy_active10_range.png",
+        "description": "(일반 공격) 110%의 물리 대미지를 입힌다.",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "괴수 사냥": {
+        "image": "images/skill/iggy/iggy_active12.png",
+        "rangeImage": "images/skill/iggy/iggy_active12_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 170%의 대미지를 입힌다. 타깃의 최대 HP가 자신의 최대 HP보다 높은 경우, 공격 전 크리티컬 확률이 60% 증가하고 [보호막 파괴 Lv.2]를 획득한다.",
+        "energy": 4,
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "드래곤 플래시": {
+        "image": "images/skill/iggy/iggy_active13.png",
+        "rangeImage": "images/skill/iggy/iggy_active13_range.png",
+        "description": "(물리 대미지) 자신 주변 십자형 범위 내의 1곳을 선택한 후 해당 지점으로 질주하여 경로상의 모든 적군에게 80%의 대미지를 입히며 질주는 가로막기를 무시한다. 공격 후, 자신은 [패링]을 얻는다.(2턴 지속)",
+        "energy": 1,
+        "cooltime": 4,
+        "minRange": 4,
+        "maxRange": 4,
+        "lowRange": 1,
+        "highRange": 1
+    },
+    "치료술": {
+        "image": "images/skill/inanna/inanna_active1.png",
+        "rangeImage": "images/skill/inanna/inanna_active1_range.png",
+        "description": "(치료) 타깃을 마법 공격력의 100%만큼 치료하고 타깃의 [디버프] 1개를 제거한다.",
+        "energy": 1,
+        "minRange": 0,
+        "maxRange": 2,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "왕녀의 기원": {
+        "image": "images/skill/inanna/inanna_active2.png",
+        "rangeImage": "images/skill/inanna/inanna_active2_range.png",
+        "description": "(지원) 이미 행동한 자신을 제외한 아군 1명을 [재행동]시키며, [공격력 증가 Lv.2], [마법 방어 증가 Lv.2]를 부여한다.(2턴 지속) 타깃이 [왕녀의 경호대]일 경우 추가로 마법 공격력의 60%만큼 치료한다.",
+        "energy": 2,
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "방어 증폭": {
+        "image": "images/skill/inanna/inanna_active3.png",
+        "rangeImage": "images/skill/inanna/inanna_active3_range.png",
+        "description": "(지원) 타깃 범위 내의 모든 아군이 [물리 방어 증가 Lv.2]를 획득하고, [방어 능력치 디버프]에 대한 면역을 얻는다.(2턴 지속)",
+        "energy": 1,
+        "cooltime": 3,
+        "minRange": 0,
+        "maxRange": 2,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "왕녀의 위문": {
+        "image": "images/skill/inanna/inanna_active4.png",
+        "rangeImage": "images/skill/inanna/inanna_active4_range.png",
+        "description": "(치료) 자신 주변 2칸 내의 모든 아군을 마법 공격력의 60% 만큼 치료하고 타깃의 [디버프] 2개를 제거한다.",
+        "energy": 2,
+        "minRange": 0,
+        "maxRange": 2,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "경비병!": {
+        "image": "images/skill/inanna/inanna_active5.png",
+        "rangeImage": "images/skill/inanna/inanna_active5_range.png",
+        "description": "(지원) [즉시 발동]. [왕녀의 경호대]를 앞으로 공간 이동 시킨 뒤 2턴 간 [잠재력 자극] 상태를 부여한다. [왕녀의 경호대]가 처치된 경우, 스킬은 왕녀의 경호대 소환으로 변경된다.",
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 7,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "전장 수련": {
+        "image": "images/skill/inanna/inanna_active6.png",
+        "rangeImage": "images/skill/inanna/inanna_active6_range.png",
+        "description": "(리액션) 받는 대미지가 8% 감소하고 자신 주변 5칸 내의 캐릭터 1명이 처치될 때마다 마법 공격력이 6%씩 증가해 최대 30%까지 증가한다."
+    },
+    "빛의 수호": {
+        "image": "images/skill/inanna/inanna_active7.png",
+        "rangeImage": "images/skill/inanna/inanna_active7_range.png",
+        "description": "(리액션) 액티브 단일 유닛 공격을 받을 경우, 받는 대미지가 30% 감소하며, 턴당 1회 발동한다."
+    },
+    "왕녀의 결속": {
+        "image": "images/skill/inanna/inanna_active8.png",
+        "rangeImage": "images/skill/inanna/inanna_active8_range.png",
+        "description": "(지원) 자신 주변 3칸 내의 모든 아군에게 [협공], [공동 방어]를 부여한다.(3턴 지속). 타깃이 (일리아) 진영일 경우, [협공], [공동 방어] 상태에서 집계하는 아군 수량 +1.",
+        "energy": 2,
+        "cooltime": 2,
+        "minRange": 0,
+        "maxRange": 3,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "징벌의 빛": {
+        "image": "images/skill/inanna/inanna_active9.png",
+        "rangeImage": "images/skill/inanna/inanna_active9_range.png",
+        "description": "(마법 대미지) 타깃 주변 2칸 내의 모든 적군에게 70%의 [범위 대미지]를 입히고 [버프] 2개를 제거한다.",
+        "energy": 2,
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "자비의 일격": {
+        "image": "images/skill/inanna/inanna_active11.png",
+        "rangeImage": "images/skill/inanna/inanna_active11_range.png",
+        "description": "(일반 공격) 80%의 마법 대미지를 입히고 다음 치료 효과가 15% 증가한다.(2턴 지속)",
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "마법 방어 지휘": {
+        "image": "images/skill/inanna/inanna_active12.png",
+        "rangeImage": "images/skill/inanna/inanna_active12_range.png",
+        "description": "(오라) 자신 주변 2칸 내 자신을 제외한 아군의 마법 방어력이 30% 증가한다."
+    },
+    "피란 중인 왕녀": {
+        "image": "images/skill/inanna/inanna_active13.png",
+        "rangeImage": "images/skill/inanna/inanna_active13_range.png",
+        "description": "(치료) 90%의 현재 HP를 소모하고 자신의 모든 [디버프]를 제거하며 [은신] 및 [치료 효과 증가 Lv.5]를 획득한다. [특성] 스킬 범위는 2배까지 확대되며 범위 내 모든 아군을 치료할 수 있고, 모든 효과는 2턴 간 지속된다.",
+        "cooltime": 5,
+        "minRange": 0,
+        "maxRange": 0,
+        "lowRange": 0,
+        "highRange": 0
+    },
+    "전체 기병 돌격": {
+        "image": "images/skill/leonide/leonide_active1.png",
+        "rangeImage": "images/skill/leonide/leonide_active1_range.png",
+        "description": "(물리 대미지) 자신 주변 십자형 범위 내의 적군 1명을 선택한 후 그 곁으로 질주하여 60%의 대미지를 입힌다. 공격 전 자신 HP의 30%를 공격력에 부여한다. (추가되는 공격력은 물리 공격력의 200%를 초과할 수 없다). 충돌 시 타깃을 2칸 넉백시키며, 1턴 간 [기절]을 부여한다.",
+        "energy": 3,
+        "cooltime": 2,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 1,
+        "highRange": 1
+    },
+    "제자리 경계": {
+        "image": "images/skill/leonide/leonide_active3.png",
+        "rangeImage": "images/skill/leonide/leonide_active3_range.png",
+        "description": "(지원) 타깃 방향 2칸을 [경계]한다. 적이 해당 구역에 진입할 경우 150%의 [물리 범위 대미지]를 입힌다.",
+        "energy": 2,
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "돌격 자세": {
+        "image": "images/skill/leonide/leonide_active4.png",
+        "rangeImage": "images/skill/leonide/leonide_active4_range.png",
+        "description": "(지원) [즉시 발동], 이동력이 2칸 증가하고 일직선으로만 이동이 가능하고 이동 후 공격력이 15% 증가하며 공격 후 남은 이동력을 계승하여 재이동할 수 있다. 스킬 시전 후 해당 스킬은 [돌격 해제]로 변경된다.<br><br>[돌격 해제]: (지원) [즉시 발동]. [돌격 자세]를 해제한다.",
+        "cooltime": 4,
+        "minRange": 0,
+        "maxRange": 0,
+        "lowRange": 0,
+        "highRange": 0
+    },
+    "빛의 병사": {
+        "image": "images/skill/leonide/leonide_active5.png",
+        "rangeImage": "images/skill/leonide/leonide_active5_range.png",
+        "description": "(패시브) 전투 시작 시, HP가 15% 증가하고 [부상] 상태의 영향을 받지 않는다. 공격 전 자신의 최대 HP가 타깃의 현재 HP보다 클 경우, 타깃을 1칸 넉백시킨다."
+    },
+    "인내": {
+        "image": "images/skill/leonide/leonide_active6.png",
+        "rangeImage": "images/skill/leonide/leonide_active6_range.png",
+        "description": "(리액션) 액티브 공격을 받을 경우, 받는 대미지가 8% 감소하며, [부상] 상태일 경우 받는 대미지가 20% 감소한다."
+    },
+    "보호의 맹세": {
+        "image": "images/skill/leonide/leonide_active7.png",
+        "rangeImage": "images/skill/leonide/leonide_active7_range.png",
+        "description": "(리액션) 자신 주변 2칸 내의 자신을 제외한 모든 아군을 대신해 [근접 대미지]를 감당하고 [기선제압]을 시전해 70%의 데미지를 입힌다. (쿨타임 3턴)",
+        "cooltime":3
+    },
+    "돌격 추격": {
+        "image": "images/skill/leonide/leonide_active8.png",
+        "rangeImage": "images/skill/leonide/leonide_active8_range.png",
+        "description": "(물리 대미지) [즉시 발동]. 자신 주변 십자형 범위 내의 적군 1명을 선택한 후 그 앞으로 질주하여 30%의 데미지를 입히고 [기선제압]에 대한 면역을 얻는다.",
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 1,
+        "highRange": 1
+    },
+    "고요의 숲": {
+        "image": "images/skill/leonide/leonide_active9.png",
+        "rangeImage": "images/skill/leonide/leonide_active9_range.png",
+        "description": "(리더 오라) 필드 내 진영이 〈고요의 숲〉인 모든 아군의 공격력이 10%, 방어력이 20% 증가한다. 쿨타임이 ≥ 4턴 이상인 스킬의 쿨타임이 1턴 감소한다."
+    },
+    "피할 수 없는 일격": {
+        "image": "images/skill/leonide/leonide_active10.png",
+        "rangeImage": "images/skill/leonide/leonide_active10_range.png",
+        "description": "(일반 공격) 100%의 물리 데미지를 입히고 타깃에게 [회피 금지]를 부여한다. (1턴 지속)",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "빛의 기병 돌격": {
+        "image": "images/skill/leonide/leonide_active12.png",
+        "rangeImage": "images/skill/leonide/leonide_active12_range.png",
+        "description": "(물리 대미지) 자신 주변 십자형 범위 내의 적군 1명을 선택한 후 그 앞으로 질주하여 100%의 데미지를 입힌다. 공격 전 자신의 디버프 2개를 제거하고 HP를 공격력의 100%만큼 회복한다. 자신 HP의 35%를 공격력에 추가한다 (최대 물리 공격력의 200%).",
+        "energy": 1,
+        "cooltime": 6,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 1,
+        "highRange": 1
+    },
+    "패링": {
+        "image": "images/skill/leonide/leonide_active13.png",
+        "rangeImage": "images/skill/leonide/leonide_active13_range.png",
+        "description": "(패시브) 근접 물리 공격을 당하기 전에 타깃을 향해 몸을 돌리고, 자신 물리 공격력의 20%를 물리 방어력에 부여한다."
+    },
+    "관통의 화살": {
+        "image": "images/skill/lilywill/lilywill_active1.png",
+        "rangeImage": "images/skill/lilywill/lilywill_active1_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 140%의 대미지를 입힌다. 공격 방식은 [곡선 사격]이다.",
+        "energy": 3,
+        "minRange": 1,
+        "maxRange": 4,
+        "lowRange": 8,
+        "highRange": 6
+    },
+    "유격": {
+        "image": "images/skill/lilywill/lilywill_active2.png",
+        "rangeImage": "images/skill/lilywill/lilywill_active2_range.png",
+        "description": "(패시브) 공격력이 5% 증가하고, 공격 후 2칸 재이동할 수 있으며, 쿨타임은 2턴이다.",
+        "cooltime":2
+    },
+    "조준": {
+        "image": "images/skill/lilywill/lilywill_active3.png",
+        "rangeImage": "images/skill/lilywill/lilywill_active3_range.png",
+        "description": "(지원) [즉시 발동], [크리티컬 증가 Lv.2], [회피 무시]를 획득한다.(1턴 지속)",
+        "cooltime": 2,
+        "minRange": 0,
+        "maxRange": 0,
+        "lowRange": 0,
+        "highRange": 0
+    },
+    "바람 신의 화살": {
+        "image": "images/skill/lilywill/lilywill_active4.png",
+        "rangeImage": "images/skill/lilywill/lilywill_active4_range.png",
+        "description": "(혼합 대미지) 단일 유닛 공격, 60%의 대미지를 입히고 타깃 주변 1바퀴 내의 모든 적군에게 물리 공격력의 40%에 해당하는 마법 대미지를 입힌다. 만약 대미지를 입힐 경우, [감염]을 3스택 부여한다. 공격 방식은 [곡선 사격]이다.",
+        "energy": 2,
+        "cooltime": 3,
+        "minRange": 2,
+        "maxRange": 3,
+        "lowRange": 8,
+        "highRange": 6
+    },
+    "윈드 라이드": {
+        "image": "images/skill/lilywill/lilywill_active5.png",
+        "rangeImage": "images/skill/lilywill/lilywill_active5_range.png",
+        "description": "(패시브) 크리티컬 대미지가 10% 증가한다. [원거리 스킬] 사용 시, 최대 사거리가 1칸 증가한다."
+    },
+    "질풍 스탭": {
+        "image": "images/skill/lilywill/lilywill_active6.png",
+        "rangeImage": "images/skill/lilywill/lilywill_active6_range.png",
+        "description": "(리액션) [정 - 측면] 근접 공격을 당한 경우 적군의 행동을 중단해 50%의 물리 대미지를 입히고, 자신 주변 3칸 내에 가장 가까운 아군 뒤로 공간 이동한다.(쿨타임 4턴)",
+        "cooltime": 4
+    },
+    "서바이벌 마스터": {
+        "image": "images/skill/lilywill/lilywill_active7.png",
+        "rangeImage": "images/skill/lilywill/lilywill_active7_range.png",
+        "description": "(리액션) 액티브 공격을 받을 경우, 받는 대미지가 8% 감소하고 입는 [환경 대미지]가 70% 감소한다."
+    },
+    "유성 화살비": {
+        "image": "images/skill/lilywill/lilywill_active8.png",
+        "rangeImage": "images/skill/lilywill/lilywill_active8_range.png",
+        "description": "(물리 대미지) 타깃 주변 2칸 내 모든 적군에게 75%의 [범위 대미지]를 입히고 [물리 방어 감소 Lv.2]를 부여한다.(2턴 지속)",
+        "energy": 2,
+        "cooltime": 4,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "혈족의 공명": {
+        "image": "images/skill/lilywill/lilywill_active9.png",
+        "rangeImage": "images/skill/lilywill/lilywill_active9_range.png",
+        "description": "(리더 오라) 필드 내 진영이 〈베르더〉인 모든 아군의 공격력이 10%, 방어력이 20% 증가하고, 이동력이 1칸 증가한다."
+    },
+    "질풍 사격": {
+        "image": "images/skill/lilywill/lilywill_active11.png",
+        "rangeImage": "images/skill/lilywill/lilywill_active11_range.png",
+        "description": "(일반 공격) 단일 유닛을 공격하여 120%의 물리 대미지를 입힌다.",
+        "minRange": 2,
+        "maxRange": 3,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "바람 신의 화살 - 파괴의 질풍": {
+        "image": "images/skill/lilywill/lilywill_active12.png",
+        "rangeImage": "images/skill/lilywill/lilywill_active12_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 150%의 대미지를 입히고 [감염] 2스택을 부여하며 [감염] 효과를 즉시 발동한다. 공격 전 [고지대] 우세를 얻는다.",
+        "energy": 3,
+        "cooltime": 4,
+        "minRange": 2,
+        "maxRange": 4,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "명궁": {
+        "image": "images/skill/lilywill/lilywill_active13.png",
+        "rangeImage": "images/skill/lilywill/lilywill_active13_range.png",
+        "description": "(패시브) 모든 스킬이 타깃의 [가로막기]를 무시하고 공격이 12% 증가한다. 공격 후 타깃에게 [지원 금지]를 부여한다."
+    },
+    "마운틴 다운": {
+        "image": "images/skill/magnus/magnus_active1.png",
+        "rangeImage": "images/skill/magnus/magnus_active1_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 150%의 대미지를 입힌다. 공격하기 전에 타깃이 [부상] 상태일 경우 타깃을 [고립]시킨다. 타깃 처치 시, 에너지를 2포인트 회복한다.",
+        "energy": 3,
+        "cooltime": 2,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 1,
+        "highRange": 1
+    },
+    "공격 태세": {
+        "image": "images/skill/magnus/magnus_active2.png",
+        "rangeImage": "images/skill/magnus/magnus_active2_range.png",
+        "description": "(지원) [즉시 발동]. 자신 물리 방어값의 40%가 물리 공격력에 부여되고, 받는 대미지가 8% 증가한다. (2턴 지속)",
+        "energy": 1,
+        "cooltime": 1,
+        "minRange": 0,
+        "maxRange": 0,
+        "lowRange": 0,
+        "highRange": 0
+    },
+    "불굴": {
+        "image": "images/skill/magnus/magnus_active3.png",
+        "rangeImage": "images/skill/magnus/magnus_active3_range.png",
+        "description": "(패시브) 처치 당할 시 HP가 즉시 5%까지 회복한다. 전투마다 최대 1회 발동한다."
+    },
+    "괴력의 투척": {
+        "image": "images/skill/magnus/magnus_active4.png",
+        "rangeImage": "images/skill/magnus/magnus_active4_range.png",
+        "description": "(물리 대미지) 적군을 자신으로부터 3칸 또는 4칸 떨어진 [빈 곳]에 던져 타깃 주변 1바퀴 내의 모든 적군에게 70%의 대미지를 입힌다. 또한 [이동 감소 Lv.1]을 부여한다. (2턴 지속)",
+        "energy": 1,
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "필승의 포효": {
+        "image": "images/skill/magnus/magnus_active5.png",
+        "rangeImage": "images/skill/magnus/magnus_active5_range.png",
+        "description": "(패시브) 자신 범위 2칸 내 모든 적군이 패배하면 자신 범위 5칸 내 모든 적군에게 [공격력 감소 Lv.2]를 부여하고 아군에게 [대미지 증가 Lv.2]를 부여한다. (2턴 지속). [마운틴 다운] 사용 전 효과가 즉시 발동하며 턴당 최대 1회 발동한다."
+    },
+    "혈투의 도끼": {
+        "image": "images/skill/magnus/magnus_active6.png",
+        "rangeImage": "images/skill/magnus/magnus_active6_range.png",
+        "description": "(리액션) [정 - 측면]의 적군으로부터 액티브 공격을 받을 때 [일반 공격]으로 [반격]을 가한다. 턴당 최대 1회 발동한다."
+    },
+    "경직": {
+        "image": "images/skill/magnus/magnus_active7.png",
+        "rangeImage": "images/skill/magnus/magnus_active7_range.png",
+        "description": "(리액션) 액티브 공격을 받을 경우, 받는 대미지가 8% 감소한다. 공격 받은 후, 자신은 [대미지 감소 Lv.2]를 획득한다. (2턴 지속)"
+    },
+    "철과 피의 의지": {
+        "image": "images/skill/magnus/magnus_active9.png",
+        "rangeImage": "images/skill/magnus/magnus_active9_range.png",
+        "description": "(리더 오라) 필드 내 진영이 〈철벽의 산〉인 모든 아군의 공격력 10%, 방어력 20% 증가한다. [건강] 상태일 경우, 받는 대미지가 10% 감소하고 [부상] 상태의 영향을 받지 않는다."
+    },
+    "괴력의 스윙": {
+        "image": "images/skill/magnus/magnus_active10.png",
+        "rangeImage": "images/skill/magnus/magnus_active10_range.png",
+        "description": "(일반 공격) 타깃 방향 3*2구역 내 모든 적군에게 70%의 [범위 대미지]를 입힌다.",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "광기의 일격": {
+        "image": "images/skill/magnus/magnus_active11.png",
+        "rangeImage": "images/skill/magnus/magnus_active11_range.png",
+        "description": "(일반 공격) 100%의 물리 대미지를 입히고 20%의 [HP 흡수]를 발생시킨다.",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "칼날": {
+        "image": "images/skill/magnus/magnus_active12.png",
+        "rangeImage": "images/skill/magnus/magnus_active12_range.png",
+        "description": "(패시브) 액티브 공격 전, 대미지가 10% 증가하고, 반격 시 대미지가 30% 증가한다."
+    },
+    "강철 전차": {
+        "image": "images/skill/magnus/magnus_active13.png",
+        "rangeImage": "images/skill/magnus/magnus_active13_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 자신 물리 방어력의 300%에 해당하는 대미지를 입히며, 물리 공격력의 200%를 초과하지 않는다. 공격 전 자신 물리 공격력의 20%가 물리 방어력에 부여된다. (2턴 지속)",
+        "energy": 4,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "걷어차기": {
+        "image": "images/skill/miguel/miguel_active1.png",
+        "rangeImage": "images/skill/miguel/miguel_active1_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 100%의 대미지를 입히고 2칸 넉백시키고 타깃에게 2턴간 [이동 감소 Lv.2]를 부여한다. [추격]을 통해 50%의 대미지를 입히고 1칸 넉백시킨다.",
+        "energy": 3,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "치료 금지": {
+        "image": "images/skill/miguel/miguel_active2.png",
+        "rangeImage": "images/skill/miguel/miguel_active2_range.png",
+        "description": "(패시브) 단일 유닛 공격하기 전에 50%의 확률로 타깃에게 [치료 불가]를 부여한다. (2턴 지속)"
+    },
+    "직관": {
+        "image": "images/skill/miguel/miguel_active3.png",
+        "rangeImage": "images/skill/miguel/miguel_active3_range.png",
+        "description": "(패시브) 입는 [원거리 대미지]가 20% 감소한다."
+    },
+    "폭발 사격": {
+        "image": "images/skill/miguel/miguel_active4.png",
+        "rangeImage": "images/skill/miguel/miguel_active4_range.png",
+        "description": "(물리 대미지) 자신 주변 십자형 범위 내의 적군 1명을 선택해 70%의 [범위 대미지]를 입히고 타깃 주변 1바퀴 내의 모든 적군에게 40%의 [불속성] [범위 대미지]를 입힌다.",
+        "energy": 2,
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 4,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "넉넉한 보상": {
+        "image": "images/skill/miguel/miguel_active5.png",
+        "rangeImage": "images/skill/miguel/miguel_active5_range.png",
+        "description": "(지원) 3턴간 적 1명을 타겟팅한다. 타깃 패배 시, 타깃을 처치한 캐릭터의 에너지가 2포인트 회복한다. 아군이 타겟팅 당한 적에게 액티브 공격을 가할 경우, 공격하기 전에 임의의 [2레벨 버프] 2개를 획득한다. (1턴 지속)",
+        "cooltime": 4,
+        "minRange": 1,
+        "maxRange": 6,
+        "lowRange": 8,
+        "highRange": 6
+    },
+    "호신용 면도날": {
+        "image": "images/skill/miguel/miguel_active6.png",
+        "rangeImage": "images/skill/miguel/miguel_active6_range.png",
+        "description": "(리액션) [정 - 측면] 근거리 공격을 받기 전에 [반격]을 가하여 상대에게 50%의 물리 대미지를 입히고 2턴간 임의의 [2레벨 능력치 디버프] 2개를 부여한다. 턴당 최대 1회 발동한다."
+    },
+    "고지대 우세": {
+        "image": "images/skill/miguel/miguel_active7.png",
+        "rangeImage": "images/skill/miguel/miguel_active7_range.png",
+        "description": "(리액션) 액티브 공격을 받을 경우, 입는 대미지가 8% 감소한다. [저지대] 공격을 받을 경우, 대미지가 추가로 30% 감소한다."
+    },
+    "실명의 가루": {
+        "image": "images/skill/miguel/miguel_active8.png",
+        "rangeImage": "images/skill/miguel/miguel_active8_range.png",
+        "description": "(지원) [즉시 발동], 타깃 방향 3*2 구역 내의 모든 적군에게 [실명] 및 [대미지 감소 Lv.2]를 부여한다. (1턴 지속)",
+        "energy": 1,
+        "cooltime": 4,
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "천하 유랑": {
+        "image": "images/skill/miguel/miguel_active9.png",
+        "rangeImage": "images/skill/miguel/miguel_active9_range.png",
+        "description": "(리더 오라) 필드 내 진영이 〈표류자〉인 모든 아군의 공격력 15%, 방어력 30%가 증가한다."
+    },
+    "불결한 칼날": {
+        "image": "images/skill/miguel/miguel_active10.png",
+        "rangeImage": "images/skill/miguel/miguel_active10_range.png",
+        "description": "(일반 공격) 단일 유닛을 공격하여 100%의 [근접 물리 대미지]를 입히고 [백 어택] 시 대미지가 추가로 20% 증가하며 [2레벨 능력치 디버프] 2개를 부여한다. (1턴 지속)",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "화염탄": {
+        "image": "images/skill/miguel/miguel_active11.png",
+        "rangeImage": "images/skill/miguel/miguel_active11_range.png",
+        "description": "(일반 공격) 지정된 목표 지면 타일을 공격해 80%의 [불속성] [범위 물리 대미지]를 입힌다. 공격 방식은 [곡선 사격]이다.",
+        "minRange": 2,
+        "maxRange": 3,
+        "lowRange": 8,
+        "highRange": 6
+    },
+    "유혹의 함정": {
+        "image": "images/skill/miguel/miguel_active12.png",
+        "rangeImage": "images/skill/miguel/miguel_active12_range.png",
+        "description": "(지원) [트랩] 1개를 설치한 후 2칸 재이동할 수 있으며, 잔여 이동력을 계승한다.",
+        "energy": 1,
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "장례": {
+        "image": "images/skill/miguel/miguel_active13.png",
+        "rangeImage": "images/skill/miguel/miguel_active13_range.png",
+        "description": "(물리 대미지) 타깃 방향 기준 2번째, 3번째, 4번째 [지면 타일]에 각각 3*3 범위의 대미지를 입힌다. 공격할 때마다 적에게 40%의 [불속성] [범위 대미지]를 입힐 수 있다.",
+        "energy": 4,
+        "minRange": 1,
+        "maxRange": 5,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "액운 침식": {
+        "image": "images/skill/momo/momo_active1.png",
+        "rangeImage": "images/skill/momo/momo_active1_range.png",
+        "description": "(마법 대미지) 타깃 방향 3*4 구역 내 모든 적군에게 65%의 [범위 대미지]를 입히고 [감염] 2스택을 부여한다. 자신이 [액운의 재발현]을 보유할 경우, 타깃이 공격을 받은 후 [감염] 대미지가 즉시 발동되며 [감염] 스택을 절반 제거한다.",
+        "energy": 3,
+        "minRange": 1,
+        "maxRange": 4,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "포스": {
+        "image": "images/skill/momo/momo_active3.png",
+        "rangeImage": "images/skill/momo/momo_active3_range.png",
+        "description": "(오라) 자신 주변 3칸 내의 모든 아군이 입는 [범위 대미지]가 25% 감소한다."
+    },
+    "침식 능력": {
+        "image": "images/skill/momo/momo_active4.png",
+        "rangeImage": "images/skill/momo/momo_active4_range.png",
+        "description": "(패시브) 대미지가 10% 증가한다. 대미지를 입힌 후 타깃에게 [감염]을 1스택 부여하고, 단일 액티브 스킬 공격 전 [감염]을 추가로 1스택 부여한다."
+    },
+    "척력 활용": {
+        "image": "images/skill/momo/momo_active5.png",
+        "rangeImage": "images/skill/momo/momo_active5_range.png",
+        "description": "(선택) [척력 방출] 또는 [역방향 척력]을 선택하여 사용한다.<br><br>[척력 방출]: (마법 대미지) 주변 십자형 범위 내 지점 1개를 선택하여, 가로줄 3칸 내 모든 적군에게 90%에 해당하는 [범위 대미지]를 입히고 2칸 넉백시킨다. 또한 타깃에게 1턴 간 [이동 감소 Lv.2]를 부여한다.<br><br>[역방향 척력]: (마법 대미지) 주변 십자형 범위 내 지점 1개를 선택하여, 가로줄 3칸 내 모든 적군에게 70%에 해당하는 [범위 대미지를] 입히고 2칸 당겨온다. 또한 타깃에게 1턴 간 [이동 감소 Lv.2]를 부여한다.",
+        "minRange": 0,
+        "maxRange": 0,
+        "lowRange": 0,
+        "highRange": 0
+    },
+    "역장 침식": {
+        "image": "images/skill/momo/momo_active6.png",
+        "rangeImage": "images/skill/momo/momo_active6_range.png",
+        "description": "(리액션) [척력 장벽]이 근접 공격을 막은 후 [반격]을 가하여 70%의 마법 대미지를 입히고, [감염] 1스택을 부여한다."
+    },
+    "강인": {
+        "image": "images/skill/momo/momo_active9.png",
+        "rangeImage": "images/skill/momo/momo_active9_range.png",
+        "description": "(패시브) [부상], [빈사] 상태의 영향을 받지 않는다."
+    },
+    "최면의 일격": {
+        "image": "images/skill/momo/momo_active11.png",
+        "rangeImage": "images/skill/momo/momo_active11_range.png",
+        "description": "(일반 공격) 80%의 마법 대미지를 입히고 30%의 확률로 타깃에게 [슬립]을 부여한다. (1턴 지속)",
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "액운의 재발현": {
+        "image": "images/skill/momo/momo_active12.png",
+        "rangeImage": "images/skill/momo/momo_active12_range.png",
+        "description": "(지원) [즉시 발동]. [척력 장벽]을 2스택 획득하고 [액운의 재발현]을 얻는다.(3턴 지속).제거 및 면역 불가.",
+        "energy": 1,
+        "cooltime": 5,
+        "minRange": 0,
+        "maxRange": 0,
+        "lowRange": 0,
+        "highRange": 0
+    },
+    "공동 방어": {
+        "image": "images/skill/mytha/mytha_active3.png",
+        "rangeImage": "images/skill/mytha/mytha_active3_range.png",
+        "description": "(패시브) 자신 주변 2칸 내의 자신을 제외한 아군이 1명씩 늘어날 때마다 방어력이 10% 증가하며, 최대 40% 증가한다."
+    },
+    "모두 파이팅!": {
+        "image": "images/skill/mytha/mytha_active4.png",
+        "rangeImage": "images/skill/mytha/mytha_active4_range.png",
+        "description": "(지원) 주변 3칸 내의 모든 아군의 HP 20%를 치료하고, 2턴 간 [공격력 증가 Lv.1]과 [물리 방어 증가 Lv.1]을 획득하고 자신 주변 2칸 내의 모든 아군을 대신해 [물리 공격]을 감당한다.",
+        "energy": 3,
+        "minRange": 0,
+        "maxRange": 3,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "마이타 돌격": {
+        "image": "images/skill/mytha/mytha_active5.png",
+        "rangeImage": "images/skill/mytha/mytha_active5_range.png",
+        "description": "(물리 대미지) 자신 주변 십자형 범위 내의 적군 1명을 선택한 후 그 곁으로 질주하여 130%의 대미지를 입히고 2칸 넉백시킨다.",
+        "energy": 1,
+        "cooltime": 5,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 1,
+        "highRange": 1
+    },
+    "지구력 활성화": {
+        "image": "images/skill/mytha/mytha_active6.png",
+        "rangeImage": "images/skill/mytha/mytha_active6_range.png",
+        "description": "(리액션) 치료를 받을 때 2턴 간 지속되는 [받는 대미지 감소 Lv.2]를 획득한다."
+    },
+    "블록 카운터": {
+        "image": "images/skill/mytha/mytha_active7.png",
+        "rangeImage": "images/skill/mytha/mytha_active7_range.png",
+        "description": "(리액션) [정 - 측면]의 적군으로부터 근접 공격을 받으면 100%의 확률로 [막기]를 발동한다. 발동 후 [일반 공격]으로 [반격]을 퍼부어 상대에게 70%의 물리 대미지를 입힌다. 턴당 최대 1회 발동한다."
+    },
+    "콘발라리아 전투 깃발": {
+        "image": "images/skill/mytha/mytha_active8.png",
+        "rangeImage": "images/skill/mytha/mytha_active8_range.png",
+        "description": "(리더 오라) 필드 내 진영이 〈콘발라리아의 검〉인 모든 아군의 공격력이 10%, 방어력이 20% 증가한다."
+    },
+    "붕대": {
+        "image": "images/skill/mytha/mytha_active9.png",
+        "rangeImage": "images/skill/mytha/mytha_active9_range.png",
+        "description": "(치료) [즉시 발동]. 단일 유닛을 타깃의 HP의 30%만큼 치료한다.",
+        "cooltime": 3,
+        "minRange": 0,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "마이타 연타": {
+        "image": "images/skill/mytha/mytha_active12.png",
+        "rangeImage": "images/skill/mytha/mytha_active12_range.png",
+        "description": "(물리 대미지) 1회의 20% 대미지와 3회의 50% 대미지를 입히고 2칸 넉백시킨다.",
+        "energy": 2,
+        "cooltime": 4,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "넉백 연타": {
+        "image": "images/skill/nergal/nergal_active1.png",
+        "rangeImage": "images/skill/nergal/nergal_active1_range.png",
+        "description": "(물리 대미지) 단일 유닛 공격, 30%의 대미지를 입힌다. 그 후, [추격]으로 자신 물리 방어값의 200%에 해당하나 물리 공격값의 200%를 초과하지 않는 대미지를 입히고 2칸 넉백시킨다.",
+        "energy": 3,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "빠른 엄호": {
+        "image": "images/skill/nergal/nergal_active2.png",
+        "rangeImage": "images/skill/nergal/nergal_active2_range.png",
+        "description": "(지원) [즉시 발동]. 선택한 자신을 제외한 아군과 자리를 바꾸고 자신과 타깃에게 물리 공격력의 50%에 해당하는 [물리 보호막]을 부여한다. 자신 주변 1바퀴 내 자신을 제외한 모든 아군을 대신해 [물리 공격]을 감당한다. 모든 효과는 2턴간 지속된다.",
+        "energy": 2,
+        "cooltime": 2,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "복부를 향한 일격": {
+        "image": "images/skill/nergal/nergal_active3.png",
+        "rangeImage": "images/skill/nergal/nergal_active3_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 130%의 대미지를 입히고 [속도 감소 Lv.2]를 부여한다. (2턴 지속)",
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "표식 조명": {
+        "image": "images/skill/nergal/nergal_active4.png",
+        "rangeImage": "images/skill/nergal/nergal_active4_range.png",
+        "description": "(디버프) [즉시 발동]. 타깃 방향 5칸 내의 모든 적군에게 [매달린 조직 표식], [공격력 감소 Lv.2] 및 [받는 대미지 증가 Lv.2]를 부여한다. (2턴 지속)",
+        "cooltime": 4,
+        "minRange": 1,
+        "maxRange": 5,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "에너지 차징 스틸레토": {
+        "image": "images/skill/nergal/nergal_active5.png",
+        "rangeImage": "images/skill/nergal/nergal_active5_range.png",
+        "description": "(패시브) 행동 시작 시, 자신이 적군의 [위협 범위] 밖에 있을 경우, [스틸레토 에너지 차징]을 얻는다. [스틸레토 에너지 차징]을 보유 시, [매달린 조직 표식]을 보유한 적군에 대한 단일 유닛 공격의 대미지가 30% 증가하고 30%의 [HP 흡수]를 진행한다."
+    },
+    "긴급 대피 모듈": {
+        "image": "images/skill/nergal/nergal_active6.png",
+        "rangeImage": "images/skill/nergal/nergal_active6_range.png",
+        "description": "(리액션) 자신이 [빈사] 상태일 경우, 모든 단일 유닛 공격을 [회피]한다. (1턴 지속) 행동 시작 시 HP 50%를 회복한다. (쿨타임 7턴)",
+        "cooltime": 7
+    },
+    "찰나의 바람": {
+        "image": "images/skill/nergal/nergal_active8.png",
+        "rangeImage": "images/skill/nergal/nergal_active8_range.png",
+        "description": "(리더 오라) 필드 내 진영이 〈찰나의 바람〉인 모든 아군의 공격력이 10%, 방어력이 20% 증가한다. 크리티컬 확률이 15% 증가한다."
+    },
+    "절대 영역": {
+        "image": "images/skill/nergal/nergal_active12.png",
+        "rangeImage": "images/skill/nergal/nergal_active12_range.png",
+        "description": "(지원) 자신 주변 1칸을 [경계]한다. 적이 해당 구역에 진입할 경우 70%의 대미지를 입히고 적군의 행동을 중단시키며, 턴당 최대 2회 발동한다.",
+        "energy": 2,
+        "cooltime": 5,
+        "minRange": 0,
+        "maxRange": 0,
+        "lowRange": 0,
+        "highRange": 0
+    },
+    "밀착 전력 사격": {
+        "image": "images/skill/nergal/nergal_active13.png",
+        "rangeImage": "images/skill/nergal/nergal_active13_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 110%의 대미지를 입히고 4칸 넉백시킨다. 타깃 방향 3*3 구역 내 모든 적군에게 50%의 [범위 대미지]를 입히고 [속도 감소 Lv.1]을 부여한다. (1턴 지속)",
+        "energy": 3,
+        "cooltime": 5,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "천개의 칼날": {
+        "image": "images/skill/nonowill/nonowill_active1.png",
+        "rangeImage": "images/skill/nonowill/nonowill_active1_range.png",
+        "description": "(물리 대미지) 자신 주변 2칸 내의 모든 적을 3번 공격하며 매 공격마다 30%의 대미지를 입힌다.",
+        "energy": 3,
+        "minRange": 0,
+        "maxRange": 2,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "불결한 비수": {
+        "image": "images/skill/nonowill/nonowill_active2.png",
+        "rangeImage": "images/skill/nonowill/nonowill_active2_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 70%의 대미지를 입히고 [감염]을 3스택 부여한다.",
+        "energy": 1,
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "기동": {
+        "image": "images/skill/nonowill/nonowill_active3.png",
+        "rangeImage": "images/skill/nonowill/nonowill_active3_range.png",
+        "description": "(패시브) 액티브 공격 후 재이동할 수 있으며, 이동 거리는 잔여 이동력에 따라 결정된다."
+    },
+    "도깨비불": {
+        "image": "images/skill/nonowill/nonowill_active4.png",
+        "rangeImage": "images/skill/nonowill/nonowill_active4_range.png",
+        "description": "(지원) [즉시 발동]. [회피] 상태를 획득해 자신 주변 2칸 내의 모든 적군에게 [받는 대미지 증가 Lv.3]을 부여한다. (2턴 지속)",
+        "energy": 1,
+        "cooltime": 3,
+        "minRange": 0,
+        "maxRange": 2,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "팬텀 스텝": {
+        "image": "images/skill/nonowill/nonowill_active5.png",
+        "rangeImage": "images/skill/nonowill/nonowill_active5_range.png",
+        "description": "(지원) [즉시 발동]. 이번 행동에서 [이동 증가 Lv.2]를 획득한다. 행동 종료 시, 자신이 적군의 [위협 범위] 내에 위치한 경우 행동 시작 위치로 되돌아간다.",
+        "cooltime": 3,
+        "minRange": 0,
+        "maxRange": 0,
+        "lowRange": 0,
+        "highRange": 0
+    },
+    "마법공격 방어": {
+        "image": "images/skill/nonowill/nonowill_active6.png",
+        "rangeImage": "images/skill/nonowill/nonowill_active6_range.png",
+        "description": "(리액션) 액티브 마법 공격을 받을 경우, 입는 대미지가 15% 감소한다."
+    },
+    "마취약 도포": {
+        "image": "images/skill/nonowill/nonowill_active8.png",
+        "rangeImage": "images/skill/nonowill/nonowill_active8_range.png",
+        "description": "(패시브) 공격 후, 타깃에게 [감염] 1스택을 부여한다. [클래스 스킬]을 사용해 5스택 이상의 [감염]을 보유한 타깃에게 액티브 공격을 가할 경우, 공격 후에 [슬립]을 부여한다. (1턴 지속)"
+    },
+    "침략의 불": {
+        "image": "images/skill/nonowill/nonowill_active9.png",
+        "rangeImage": "images/skill/nonowill/nonowill_active9_range.png",
+        "description": "(리더 오라) 필드 내 진영이 〈침략의 불〉인 모든 아군의 공격력 10%, 방어력 20% 증가한다. [스킬] 대미지가 10% 증가한다."
+    },
+    "트리플 슬래시": {
+        "image": "images/skill/nonowill/nonowill_active11.png",
+        "rangeImage": "images/skill/nonowill/nonowill_active11_range.png",
+        "description": "(일반 공격) 단일 유닛 공격, 3회 공격한다. 공격할 때마다 35%의 물리 대미지를 입힌다.",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "천상의 목소리": {
+        "image": "images/skill/nonowill/nonowill_active12.png",
+        "rangeImage": "images/skill/nonowill/nonowill_active12_range.png",
+        "description": "(지원) 2턴 간 [천상의 목소리] 오라를 획득한다. 5칸 내 모든 아군에게 [재생 Lv.2], [능력치 디버프 면역]을 부여하고, 주변 3칸 내의 모든 적군에게 [액티브 스킬 금지]를 부여한다. 제거 및 면역 불가",
+        "energy": 4,
+        "cooltime": 3,
+        "minRange": 0,
+        "maxRange": 0,
+        "lowRange": 0,
+        "highRange": 0
+    },
+    "무형의 칼날": {
+        "image": "images/skill/nonowill/nonowill_active13.png",
+        "rangeImage": "images/skill/nonowill/nonowill_active13_range.png",
+        "description": "(물리 대미지) 단일 유닛 공격, 150%의 대미지를 입히고 타깃이 [부상] 상태일 경우 크리티컬 확률, 크리티컬 대미지가 추가로 15% 증가하며, [지원 방어]를 무시한다.",
+        "energy": 3,
+        "cooltime": 4,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "강력 사격": {
+        "image": "images/skill/nungal/nungal_active1.png",
+        "rangeImage": "images/skill/nungal/nungal_active1_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 130%의 대미지를 입힌다. 타깃이 [건강] 상태일 경우, 공격력이 추가로 15% 증가한다.",
+        "energy": 2,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "집중": {
+        "image": "images/skill/nungal/nungal_active2.png",
+        "rangeImage": "images/skill/nungal/nungal_active2_range.png",
+        "description": "(패시브) 행동 시작 시, 자신 주변 2칸 내에 적군이 없을 경우, [크리티컬 증가 Lv.2]를 획득한다.(1턴 지속)"
+    },
+    "팽팽한 활": {
+        "image": "images/skill/nungal/nungal_active3.png",
+        "rangeImage": "images/skill/nungal/nungal_active3_range.png",
+        "description": "(지원) 스킬 시전 후, [일반 공격] 대미지가 30% 증가한다. 행동 종료 시 에너지를 회복하지 않는다."
+    },
+    "치명적인 조준": {
+        "image": "images/skill/nungal/nungal_active4.png",
+        "rangeImage": "images/skill/nungal/nungal_active4_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 1턴 간 준비한 후, 적군에게 160%의 대미지를 입힌다. [막기]를 무시하며, [매달린 조직 표식]을 보유한 적군 공격 시 크리티컬 확률이 60% 증가한다. 크리티컬 발동 후, [매달린 조직 표식]이 제거된다.",
+        "energy": 4,
+        "cooltime": 2,
+        "minRange": 3,
+        "maxRange": 5,
+        "lowRange": 7,
+        "highRange": 3
+    },
+    "저격 태세": {
+        "image": "images/skill/nungal/nungal_active5.png",
+        "rangeImage": "images/skill/nungal/nungal_active5_range.png",
+        "description": "(지원) [즉시 발동]. 자신은 [저격 태세]를 획득하며 스킬은 [이동 태세]로 변경된다.<br><br>[이동 태세]: (버프) 자신의 [저격 태세]를 제거하고 [속도 증가 Lv.2] 효과를 획득한다. 재이동 가능.",
+        "energy": 1,
+        "cooltime": 3,
+        "minRange": 0,
+        "maxRange": 0,
+        "lowRange": 0,
+        "highRange": 0
+    },
+    "저격수의 육감": {
+        "image": "images/skill/nungal/nungal_active6.png",
+        "rangeImage": "images/skill/nungal/nungal_active6_range.png",
+        "description": "(리액션) 받는 [원거리 대미지]가 20% 감소한다. 행동 시작 시 자신이 적군의 [위협 범위] 내에 있을 경우, 1턴 간 [이동 증가 Lv.2]를 획득한다.(쿨타임 3턴)",
+        "cooltime": 3
+    },
+    "관통 화살": {
+        "image": "images/skill/nungal/nungal_active8.png",
+        "rangeImage": "images/skill/nungal/nungal_active8_range.png",
+        "description": "(패시브) [일반 공격] 시, 타깃의 방어를 40% 무시한다."
+    },
+    "사명감": {
+        "image": "images/skill/nungal/nungal_active9.png",
+        "rangeImage": "images/skill/nungal/nungal_active9_range.png",
+        "description": "(패시브) [매달린 조직 표식]을 보유한 적군 공격 전, 크리티컬 확률 30%와 크리티컬 대미지 30%가 증가한다. 크리티컬 발동 시 에너지를 1포인트 추가로 회복한다."
+    },
+    "표식탄": {
+        "image": "images/skill/nungal/nungal_active11.png",
+        "rangeImage": "images/skill/nungal/nungal_active11_range.png",
+        "description": "(일반 공격) 단일 유닛을 공격하여 85%의 물리 대미지를 입히고 [이동 감소 Lv.1]과 [매달린 조직 표식]을 부여한다.(2턴 지속)",
+        "minRange": 2,
+        "maxRange": 3,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "빠른 장전": {
+        "image": "images/skill/nungal/nungal_active12.png",
+        "rangeImage": "images/skill/nungal/nungal_active12_range.png",
+        "description": "(지원) [즉시 발동]. 에너지 3포인트를 회복하고 스킬 쿨타임이 1턴 감소한다. 3턴 내에 [치명적인 조준]은 1턴 준비할 필요가 없다.",
+        "cooltime": 4,
+        "minRange": 0,
+        "maxRange": 0,
+        "lowRange": 0,
+        "highRange": 0
+    },
+    "독수리의 눈": {
+        "image": "images/skill/nungal/nungal_active13.png",
+        "rangeImage": "images/skill/nungal/nungal_active13_range.png",
+        "description": "(지원) [즉시 발동]. [일반 공격]의 사거리가 1칸 증가하고 물리 공격력이 10% 증가한다. 공격하기 전에 [고지대] 우세를 획득한다.(3턴 지속)",
+        "energy": 1,
+        "cooltime": 5,
+        "minRange": 0,
+        "maxRange": 0,
+        "lowRange": 0,
+        "highRange": 0
+    },
+    "맹연타": {
+        "image": "images/skill/pamina/pamina_active1.png",
+        "rangeImage": "images/skill/pamina/pamina_active1_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 20%의 대미지를 입히고 타깃의 [버프] 2개를 제거한다. 다음 [추격]하여 130%의 대미지를 입힌다.",
+        "energy": 2,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "파진의 창": {
+        "image": "images/skill/pamina/pamina_active2.png",
+        "rangeImage": "images/skill/pamina/pamina_active2_range.png",
+        "description": "(선택) [파진 - 막강한 힘] 혹은 [파진 - 천하무적]을 선택하여 사용한다.<br><br>[파진 - 막강한 힘]: (물리 대미지) 타깃 주변 1칸 내 모든 적에게 50%의 [범위 대미지]를 3번 입히고, 공격 전 [보호막 파괴 Lv.4]를 획득한다. 타깃이 [빈사] 상태일 경우 방어력의 80%를 무시하고, 공격 전 [불굴]을 시전한다.<br><br>[파진 - 천하무적]: (물리 대미지) 타깃 방향으로 1*5 구역 내 모든 적에게 110%의 [범위 대미지]를 입히고, 구역의 첫 번째 적을 2칸 넉백시킨다.",
+        "minRange": 0,
+        "maxRange": 0,
+        "lowRange": 0,
+        "highRange": 0
+    },
+    "범접불가": {
+        "image": "images/skill/pamina/pamina_active3.png",
+        "rangeImage": "images/skill/pamina/pamina_active3_range.png",
+        "description": "(지원) 타깃에게 [도발 당함]을 부여하고 자신의 HP 30%를 회복하며 [패링], [받는 대미지 감소 Lv.2]를 획득한다. (2턴 지속) 또한 자신 주변 4칸 내의 자신을 제외한 모든 아군에게 [방어 증가 Lv.2]를 부여한다. (2턴 지속) 타깃이 [도발 당함]에 면역될 시, 타깃에게 [파미나의 도전]을 시전한다. (2턴 지속)",
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "몰아치기": {
+        "image": "images/skill/pamina/pamina_active4.png",
+        "rangeImage": "images/skill/pamina/pamina_active4_range.png",
+        "description": "(패시브) 액티브 공격 후, 자신 주변 1바퀴 내의 모든 적군에게 20%의 물리 대미지를 입힌다."
+    },
+    "우뚝 선 자태": {
+        "image": "images/skill/pamina/pamina_active5.png",
+        "rangeImage": "images/skill/pamina/pamina_active5_range.png",
+        "description": "(패시브) 받는 대미지가 15% 감소한다. [범위 공격] 시, 자신의 물리 방어+마법 방어의 15%에 해당하는 값을 물리 공격력에 추가한다."
+    },
+    "굳센 기개": {
+        "image": "images/skill/pamina/pamina_active6.png",
+        "rangeImage": "images/skill/pamina/pamina_active6_range.png",
+        "description": "(리액션) 받는 치유량이 15% 증가한다. 행동 시작 시, 자신의 [디버프] 3개를 제거한다. 자신이 [디버프]가 없는 경우 20%의 HP를 회복한다."
+    },
+    "정면 방어": {
+        "image": "images/skill/pamina/pamina_active7.png",
+        "rangeImage": "images/skill/pamina/pamina_active7_range.png",
+        "description": "(리액션) [정면] 액티브 공격을 받을 경우, 입는 대미지가 30% 감소한다."
+    },
+    "보호막 파괴": {
+        "image": "images/skill/pamina/pamina_active8.png",
+        "rangeImage": "images/skill/pamina/pamina_active8_range.png",
+        "description": "(물리 대미지) 타깃 방향 3*2 구역 내의 각 열의 첫 적군에게 60%의 범위 대미지를 입히고 2턴간 [물리 방어 감소 Lv.2]를 부여하며, 2칸 넉백시킨다.",
+        "energy": 2,
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "함락 - 만부막적": {
+        "image": "images/skill/pamina/pamina_active9.png",
+        "rangeImage": "images/skill/pamina/pamina_active9_range.png",
+        "description": "(물리 대미지) 목표 지점까지 점프하고, 타깃 주변 2칸 내의 모든 적군에게 70%의 [범위 대미지]를 입히고 1턴간 [도발 당함], [받는 대미지 증가 Lv.2]를 부여한다. 공격 후 자신은 [함락]을 획득한다. (2턴 지속) 타깃이 [도발 당함]에 면역될 시, 타깃에게 [파미나의 도전]을 시전한다. (2턴 지속)",
+        "energy": 3,
+        "cooltime": 4,
+        "minRange": 2,
+        "maxRange": 4,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "반격 플레임 슬래시": {
+        "image": "images/skill/pamina/pamina_active12.png",
+        "rangeImage": "images/skill/pamina/pamina_active12_range.png",
+        "description": "(지원) 자신은 [맞공격], [반격 플레임 슬래시]를 획득한다. (2턴 지속)",
+        "energy": 3,
+        "cooltime": 4,
+        "minRange": 0,
+        "maxRange": 0,
+        "lowRange": 0,
+        "highRange": 0
+    },
+    "전장 행동": {
+        "image": "images/skill/pamina/pamina_active13.png",
+        "rangeImage": "images/skill/pamina/pamina_active13_range.png",
+        "description": "(패시브) 속도가 50포인트 증가한다. [건강] 상태일 시, 받는 대미지가 20% 감소한다."
+    },
+    "파워 슬래시": {
+        "image": "images/skill/rawiyah/rawiyah_active0.png",
+        "rangeImage": "images/skill/rawiyah/rawiyah_active0_range.png",
+        "description": "(일반 공격) 단일 유닛을 공격하여 85%의 물리 대미지를 입히고 타깃을 2칸 넉백시킨다.",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "강풍 돌격": {
+        "image": "images/skill/rawiyah/rawiyah_active1.png",
+        "rangeImage": "images/skill/rawiyah/rawiyah_active1_range.png",
+        "description": "(물리 대미지) [즉시 발동], 자신 주변 십자형 범위 내의 적군 1명을 선택한 후 그 곁으로 질주하여 30%의 대미지를 입힌다. 그 후, 해당 스킬은 [허리케인 슬래시]로 변경되어 2턴간 보류된다. 자신이 [취기]를 보유한 경우, 공격 후 타깃에게 [리액션 스킬 금지]을 부여한다. (2턴간 지속)<br><br>[허리케인 슬래시]: (물리 대미지) 단일 유닛을 공격하여 140%의 대미지를 입힌다. 타깃이 보유한 [디버프] 1개당 대미지가 10% 증가하며, 최대 50%까지 증가한다.",
+        "energy": 1,
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 1,
+        "highRange": 1
+    },
+    "협공": {
+        "image": "images/skill/rawiyah/rawiyah_active2.png",
+        "rangeImage": "images/skill/rawiyah/rawiyah_active2_range.png",
+        "description": "(패시브) 자신 주변 2칸 내의 기타 아군이 1명씩 늘어날 때마다 공격력이 5% 증가하며, 최대 15% 증가한다."
+    },
+    "관통 강타": {
+        "image": "images/skill/rawiyah/rawiyah_active4.png",
+        "rangeImage": "images/skill/rawiyah/rawiyah_active4_range.png",
+        "description": "(물리 대미지) 단일 유닛 공격, 130%의 대미지를 입힌다. 공격하기 전에 자신이 [갑옷 관통]을 획득한다.",
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "한잔 더!": {
+        "image": "images/skill/rawiyah/rawiyah_active5.png",
+        "rangeImage": "images/skill/rawiyah/rawiyah_active5_range.png",
+        "description": "(치료) [즉시 발동], 자신 이미 잃은 HP의 60%를 회복하며 [취기]를 획득한다. (2턴 지속)",
+        "energy": 1,
+        "cooltime": 3,
+        "minRange": 0,
+        "maxRange": 0,
+        "lowRange": 0,
+        "highRange": 0
+    },
+    "꺼져!": {
+        "image": "images/skill/rawiyah/rawiyah_active6.png",
+        "rangeImage": "images/skill/rawiyah/rawiyah_active6_range.png",
+        "description": "(리액션) 액티브 공격을 당할 시, [반격]을 진행하여 상대에게 70%의 물리 대미지를 입힌다. 자신이 [취기]를 보유 시, 2칸 넉백시키며 턴당 최대 1회 발동할 수 있다."
+    },
+    "보호의 마음": {
+        "image": "images/skill/rawiyah/rawiyah_active7.png",
+        "rangeImage": "images/skill/rawiyah/rawiyah_active7_range.png",
+        "description": "(리액션) 자신 주변 1칸 내의 모든 아군을 대신해 [물리 공격]을 감당하며 공격자에게 [반격]하여 70%의 [물리 대미지]를 입히고 1칸 넉백시킨다. 턴당 최대 1회 발동한다."
+    },
+    "광란의 일격": {
+        "image": "images/skill/rawiyah/rawiyah_active8.png",
+        "rangeImage": "images/skill/rawiyah/rawiyah_active8_range.png",
+        "description": "(물리 대미지) 단일 유닛 공격, 120%의 대미지를 입힌다. 공격 후, 40%의 [HP 흡수]를 진행한다.",
+        "energy": 3,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "콘발라리아의 검": {
+        "image": "images/skill/rawiyah/rawiyah_active9.png",
+        "rangeImage": "images/skill/rawiyah/rawiyah_active9_range.png",
+        "description": "(리더 오라) 필드 내 진영이 〈콘발라리아의 검〉인 모든 아군의 공격력 10%, 방어력 20% 증가한다. 입히는 대미지는 8% 증가하며 받는 대미지는 8% 감소한다."
+    },
+    "강풍 회전술": {
+        "image": "images/skill/rawiyah/rawiyah_active12.png",
+        "rangeImage": "images/skill/rawiyah/rawiyah_active12_range.png",
+        "description": "(물리 대미지) 자신 주변 2칸 내의 모든 적군에게 50%의 [범위 대미지]를 입힌다. 대미지를 입힌 후 타깃에게 [물리 방어 감소 Lv.2]를 부여한다. (2턴 지속) 계속 공격하여 추가로 50%의 [범위 대미지]를 입힌다.",
+        "energy": 4,
+        "minRange": 0,
+        "maxRange": 2,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "사냥의 충동": {
+        "image": "images/skill/saffiyah/saffiyah_active1.png",
+        "rangeImage": "images/skill/saffiyah/saffiyah_active1_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 130%의 대미지를 입힌다. 공격 전 크리티컬 확률이 15% 증가하고, 타깃 처치 후 에너지가 3포인트 회복된다.",
+        "energy": 3,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "매달린 조직의 방식": {
+        "image": "images/skill/saffiyah/saffiyah_active2.png",
+        "rangeImage": "images/skill/saffiyah/saffiyah_active2_range.png",
+        "description": "(패시브) 공격 후 타깃이 [빈사] 상태이며 [매달린 조직 표식]을 보유할 경우 추가로 타깃에게 HP의 30%에 해당하는 [관통 대미지]를 입힌다. 대미지를 입힌 후 표식을 제거한다."
+    },
+    "그림자의 기습": {
+        "image": "images/skill/saffiyah/saffiyah_active3.png",
+        "rangeImage": "images/skill/saffiyah/saffiyah_active3_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 130%의 대미지를 입힌다. 공격 후 자신은 [회피]를 획득한다. (1턴 지속)",
+        "energy": 2,
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "무영의 칼날": {
+        "image": "images/skill/saffiyah/saffiyah_active4.png",
+        "rangeImage": "images/skill/saffiyah/saffiyah_active4_range.png",
+        "description": "(지원) [무영의 칼날]을 얻는다. (1턴 지속) 효과: [회피] 성공 시, 타깃 방향 3*4 구역 내 모든 적군에게 85%의 [물리 범위 대미지]를 입히고 [받는 대미지 증가 Lv.2]를 부여한다. (2턴 지속) 자신은 에너지를 2포인트 회복한다.",
+        "energy": 1,
+        "cooltime": 3,
+        "minRange": 0,
+        "maxRange": 0,
+        "lowRange": 0,
+        "highRange": 0
+    },
+    "전술 조정": {
+        "image": "images/skill/saffiyah/saffiyah_active5.png",
+        "rangeImage": "images/skill/saffiyah/saffiyah_active5_range.png",
+        "description": "(지원) [즉시 발동]. 임의의 타깃을 선택하여 자신의 역할을 타깃의 역할로 변경하고 [분장술]을 얻는다. 효과는 다음 행동이 시작될 때까지 지속된다.",
+        "energy": 1,
+        "cooltime": 2,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "그림자 칼날 추격": {
+        "image": "images/skill/saffiyah/saffiyah_active6.png",
+        "rangeImage": "images/skill/saffiyah/saffiyah_active6_range.png",
+        "description": "(리액션) 자신 주변 3칸 범위 내 [매달린 조직 표식]을 보유한 적에게 [지원 공격]을 시전해 50%의 물리 대미지를 입힌다. 턴당 최대 1회 발동한다."
+    },
+    "긴급 대피": {
+        "image": "images/skill/saffiyah/saffiyah_active7.png",
+        "rangeImage": "images/skill/saffiyah/saffiyah_active7_range.png",
+        "description": "(리액션) 액티브 공격을 받을 경우, 받는 대미지가 8% 감소한다. 액티브 공격을 받은 후, 자신이 [빈사] 상태에 빠지면 [회피]를 획득하며, 턴당 최대 1회 발동한다. (1턴 지속)"
+    },
+    "첩자 수배령": {
+        "image": "images/skill/saffiyah/saffiyah_active8.png",
+        "rangeImage": "images/skill/saffiyah/saffiyah_active8_range.png",
+        "description": "(지원) 타깃의 뒤에 [매달린 조직 암살자] 1명 소환하며, 자신의 85% 능력치를 계승한다. 타깃에게 [매달린 조직 표식], [물리 방어 감소 Lv.2], [마법 방어 감소 Lv.2]를 부여한다. (2턴 지속)<br><br>[매달린 조직 암살자]<br><br>[사냥 의지]: (특성)행동 종료 시, 주변 3칸 내의 가장 가까운 적군을 강제로 선택해 30%의 물리 대미지를 입히고 [매달린 조직 표식]을 부여한다. [매달린 조직 표식]을 보유한 적군을 공격할 경우 대미지가 15% 증가한다.<br><br>[쌍칼 공격]: (일반 공격) 2번 공격하여 매 공격마다 50%의 물리 대미지를 입힌다.<br><br>[탈출]: (지원) [즉시 발동]. 선택한 자신을 제외한 아군과 위치를 교환한다.<br><br>[커튼콜]: (패시브) 2턴 후 자동 [소멸]된다. 소멸 시 자신 주변 1바퀴 범위 내 모든 적에게 40%의 [물리 범위 대미지]를 입히고 임의의 [2레벨 능력치 디버프]를 2개 부여한다. (2턴 지속)",
+        "energy": 4,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "매달린 조직 지휘관": {
+        "image": "images/skill/saffiyah/saffiyah_active9.png",
+        "rangeImage": "images/skill/saffiyah/saffiyah_active9_range.png",
+        "description": "(오라) 자신 주변 5칸 내의 자신을 제외한 모든 아군이 [매달린 조직 표식]을 보유한 적군 공격 시, 공격력이 15% 증가한다."
+    },
+    "연대 공격": {
+        "image": "images/skill/saffiyah/saffiyah_active11.png",
+        "rangeImage": "images/skill/saffiyah/saffiyah_active11_range.png",
+        "description": "(일반 공격) 단일 유닛을 공격하여 80%의 물리 대미지를 입히고 자신과 가장 가까운 자신을 제외한 아군은 [속도 증가 Lv.3], [공격력 증가 Lv.1]을 얻는다. (1턴 지속)",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "강습의 칼날": {
+        "image": "images/skill/saffiyah/saffiyah_active12.png",
+        "rangeImage": "images/skill/saffiyah/saffiyah_active12_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 170%의 대미지를 입힌다. 공격 전 타깃에게 [고립]을 부여한다. (1턴 지속) 공격 후 타깃에게 [지원 금지]를 부여한다. (2턴 지속)",
+        "energy": 4,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "녹슨 무기": {
+        "image": "images/skill/saffiyah/saffiyah_active13.png",
+        "rangeImage": "images/skill/saffiyah/saffiyah_active13_range.png",
+        "description": "(관통 피해) 단일 유닛을 공격하여 HP의 30%에 해당하는 [관통 대미지]를 입힌다. 공격 후 [공격력 감소 Lv.2]를 부여한다. (2턴 지속)",
+        "energy": 1,
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 8,
+        "highRange": 6
+    },
+    "마음의 위로": {
+        "image": "images/skill/samanda/samanda_active1.png",
+        "rangeImage": "images/skill/samanda/samanda_active1_range.png",
+        "description": "(치료) 타깃을 마법 공격력의 75%만큼 치료한다.",
+        "minRange": 0,
+        "maxRange": 3,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "심판의 빛": {
+        "image": "images/skill/samanda/samanda_active3.png",
+        "rangeImage": "images/skill/samanda/samanda_active3_range.png",
+        "description": "(마법 대미지) 단일 유닛을에게 140%의 대미지를 입힌다. 공격 후 필드 내 HP 비율이 가장 낮은 아군을 마법 공격력의 50%만큼 치료한다.",
+        "energy": 3,
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "성스러운 빛의 은혜": {
+        "image": "images/skill/samanda/samanda_active4.png",
+        "rangeImage": "images/skill/samanda/samanda_active4_range.png",
+        "description": "(치료) 타깃 주변 2칸 내의 모든 아군을 마법 공격력의 40%만큼 치료하고, 중심 타깃의 치료량이 40% 추가로 증가한다. 치료 후, 모든 타깃은 [대미지 증가 Lv.1], [물리 방어 증가 Lv.1]을 얻는다.(2턴 지속)",
+        "energy": 1,
+        "cooltime": 2,
+        "minRange": 0,
+        "maxRange": 2,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "천벌": {
+        "image": "images/skill/samanda/samanda_active5.png",
+        "rangeImage": "images/skill/samanda/samanda_active5_range.png",
+        "description": "(마법 대미지) 타깃 방향 5칸 내의 모든 적군에게 70%의 대미지를 입히고 [액티브 스킬 금지]를 부여한다.(2턴 지속). 적 1명을 명중할 때마다 에너지 2포인트를 획득한다.",
+        "cooltime": 4,
+        "minRange": 1,
+        "maxRange": 5,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "경건한 신앙": {
+        "image": "images/skill/samanda/samanda_active6.png",
+        "rangeImage": "images/skill/samanda/samanda_active6_range.png",
+        "description": "(리액션) 에너지 3포인트 보유 시 [불굴] 상태를 획득한다. [불굴] 발동 시, 에너지 3포인트를 소모해 HP가 70%까지 회복한다. 전투마다 최대 2회 발동한다.",
+        "energy": 3
+    },
+    "스퍼터링 방어": {
+        "image": "images/skill/samanda/samanda_active7.png",
+        "rangeImage": "images/skill/samanda/samanda_active7_range.png",
+        "description": "(리액션) 액티브 범위 공격을 받은 경우 입는 대미지가 40% 감소한다."
+    },
+    "교황령 전투 깃발": {
+        "image": "images/skill/samanda/samanda_active8.png",
+        "rangeImage": "images/skill/samanda/samanda_active8_range.png",
+        "description": "(리더 오라) 필드 내 진영이 〈교황령〉인 모든 아군의 공격력이 10%, 방어력이 20% 증가한다."
+    },
+    "속세의 빛 정화": {
+        "image": "images/skill/samanda/samanda_active9.png",
+        "rangeImage": "images/skill/samanda/samanda_active9_range.png",
+        "description": "(마법 대미지) 자신 주변 5칸 범위 내의 모든 적군에게 30%의 대미지를 입힌다. 적의 [버프] 3개 및 아군 [디버프] 3개를 추가로 제거한다.",
+        "energy": 3,
+        "minRange": 0,
+        "maxRange": 5,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "신성한 성역": {
+        "image": "images/skill/samanda/samanda_active12.png",
+        "rangeImage": "images/skill/samanda/samanda_active12_range.png",
+        "description": "(지원) 자신 주변 5칸 내의 모든 아군에게 2턴 간 [받는 대미지 감소 Lv.3], [받는 치료 효과 증가 Lv.3] 상태를 부여하고, 자신에게 [치유 - EX] 상태를 부여한다. 특성 영향 범위가 5칸까지 확대되고, 발동 시 더이상 에너지를 소모하지 않는다.(1턴 지속)",
+        "energy": 3,
+        "cooltime": 5,
+        "minRange": 0,
+        "maxRange": 5,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "나풀거리는 가시": {
+        "image": "images/skill/schacklulu/schacklulu_active0.png",
+        "rangeImage": "images/skill/schacklulu/schacklulu_active0_range.png",
+        "description": "(일반 공격) 2번 공격하여 매 공격마다 50%의 물리 대미지를 입힌다.",
+        "minRange": 2,
+        "maxRange": 2,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "유렵 본능": {
+        "image": "images/skill/schacklulu/schacklulu_active3.png",
+        "rangeImage": "images/skill/schacklulu/schacklulu_active3_range.png",
+        "description": "(패시브) [풀HP] 상태일 경우 이동력이 1칸 증가한다. (패시브) 이동과 질주 거리의 합이 3칸 이상이면 공격 전, 공격력이 15% 증가한다. 효과는 행동 종료될 때까지 지속된다. 중첩 가능."
+    },
+    "매혹": {
+        "image": "images/skill/schacklulu/schacklulu_active4.png",
+        "rangeImage": "images/skill/schacklulu/schacklulu_active4_range.png",
+        "description": "(디버프) [즉시 발동]. 명중 후 타깃이 받는 [지속 대미지]가 30% 증가한다. (2턴 지속) [건강] 상태인 적군에게 추가로 [매혹]을 부여한다. (1턴 지속)",
+        "cooltime": 4,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 3,
+        "highRange": 5
+    },
+    "가벼운 춤사위": {
+        "image": "images/skill/schacklulu/schacklulu_active5.png",
+        "rangeImage": "images/skill/schacklulu/schacklulu_active5_range.png",
+        "description": "(물리 대미지) [즉시 발동]. 자신 주변 십자형 범위 내의 지점 1곳을 선택해 해당 지점으로 질주하고 2칸 내 임의 적군을 2회 공격한다. 매번 10%의 [범위 대미지]를 입힌다. 만약 이번 라운드 행동 중 [특성] 스킬 대미지를 발동했을 경우 공격 후 소모없이 [가벼운 춤사위]를 다시 시전할 수 있다.",
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 1,
+        "highRange": 1
+    },
+    "애매모호": {
+        "image": "images/skill/schacklulu/schacklulu_active7.png",
+        "rangeImage": "images/skill/schacklulu/schacklulu_active7_range.png",
+        "description": "(리액션) [건강] 상태의 상대로부터 근접 액티브 공격을 받기 전에 [회피]를 2회 획득한다. (1턴 지속) 그리고 타깃과 위치를 교환한다.(쿨타임 3턴)"
+    },
+    "아쉬운 마음": {
+        "image": "images/skill/schacklulu/schacklulu_active8.png",
+        "rangeImage": "images/skill/schacklulu/schacklulu_active8_range.png",
+        "description": "(패시브) [매혹], [가벼운 춤사위]를 사용해 타깃 명중 후 자신의 에너지를 1포인트 회복한다. 턴당 최대 1회 발동한다. 그리고 상술한 스킬이 [건강] 상태인 적군을 명중했을 시 타깃에게 [공격력 감소 Lv.2], [아쉬운 마음]을 부여한다. (2턴 지속)"
+    },
+    "감사의 곡소리": {
+        "image": "images/skill/schacklulu/schacklulu_active9.png",
+        "rangeImage": "images/skill/schacklulu/schacklulu_active9_range.png",
+        "description": "(물리 대미지) 자신 주변 3칸 범위 내 임의 적군을 공격하여 대미지를 8회 입힌다. 매번 20%의 [범위 대미지]를 입힌다. ([특성] 효과 중복 발동 가능)",
+        "energy": 4,
+        "minRange": 0,
+        "maxRange": 3,
+        "lowRange": 1,
+        "highRange": 1
+    },
+    "깃털 가시": {
+        "image": "images/skill/schacklulu/schacklulu_active11.png",
+        "rangeImage": "images/skill/schacklulu/schacklulu_active11_range.png",
+        "description": "(일반 공격) 3번 공격하여 매 공격마다 33%의 물리 대미지를 입힌다.",
+        "minRange": 2,
+        "maxRange": 2,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "독 칼날 연속 투척": {
+        "image": "images/skill/schacklulu/schacklulu_active12.png",
+        "rangeImage": "images/skill/schacklulu/schacklulu_active12_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 2번 공격하여 매 공격마다 35%의 대미지를 입힌다. 매번 [감염]을 2스택 부여한다.",
+        "energy": 2,
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "회피의 걸음": {
+        "image": "images/skill/schacklulu/schacklulu_active13.png",
+        "rangeImage": "images/skill/schacklulu/schacklulu_active13_range.png",
+        "description": "(지원) 입는 [범위 대미지]가 50% 감소하고, 2회의 [회피]를 획득한다. (2턴 지속)",
+        "cooltime": 2,
+        "minRange": 0,
+        "maxRange": 0,
+        "lowRange": 0,
+        "highRange": 0
+    },
+    "얼음의 창": {
+        "image": "images/skill/simona/simona_active1.png",
+        "rangeImage": "images/skill/simona/simona_active1_range.png",
+        "description": "(마법 대미지) 단일 유닛을 공격하여 130%의 대미지를 입히고 [속도 감소 Lv.1], [이동 감소 Lv.1]을 부여한다. (2턴 지속)",
+        "energy": 1,
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "얼음 폭풍": {
+        "image": "images/skill/simona/simona_active2.png",
+        "rangeImage": "images/skill/simona/simona_active2_range.png",
+        "description": "(마법 대미지) 타깃 방향 2*3 구역 내 각 열의 첫번째 적에게 75%의 [범위 대미지]를 입히고 [속도 감소 Lv.1], [이동 감소 Lv.1]을 부여하여 2턴 동안 지속되며, 2칸 넉백시킨다.",
+        "energy": 2,
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "얼음의 기둥": {
+        "image": "images/skill/simona/simona_active3.png",
+        "rangeImage": "images/skill/simona/simona_active3_range.png",
+        "description": "(마법 대미지) 목표 지점 1칸 내의 모든 적군에게 80%의 [얼음 속성] [범위 대미지]를 입힌다.",
+        "energy": 2,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "얼음 서리 강습": {
+        "image": "images/skill/simona/simona_active4.png",
+        "rangeImage": "images/skill/simona/simona_active4_range.png",
+        "description": "(마법 대미지) [즉시 발동]. 자신 주변 십자형 범위 내의 지점 1곳을 선택해 해당 지점으로 질주하고 경로상의 모든 적군에게 100% [물리 보호막] 값의 [얼음 속성] 대미지를 입힌다. 자신은 [빙판 작전]을 얻는다. (2턴 지속)",
+        "energy": 1,
+        "cooltime": 4,
+        "minRange": 2,
+        "maxRange": 3,
+        "lowRange": 1,
+        "highRange": 1
+    },
+    "얼음 갑옷 주조": {
+        "image": "images/skill/simona/simona_active5.png",
+        "rangeImage": "images/skill/simona/simona_active5_range.png",
+        "description": "(지원) 타깃 방향 3*4 구역 내 및 원래 위치 가로 3칸의 모든 아군은 [얼음 찰갑], [재생 Lv.1]을 얻는다. (2턴 지속). 만약 자신이 [얼음 찰갑]을 보유했을 경우 에너지 소모가 1포인트 감소한다.",
+        "energy": 2,
+        "cooltime": 4,
+        "minRange": 0,
+        "maxRange": 4,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "얼음 파편": {
+        "image": "images/skill/simona/simona_active6.png",
+        "rangeImage": "images/skill/simona/simona_active6_range.png",
+        "description": "(리액션)[얼음 찰갑]이 파괴된 후, 자신 주변 2칸 내의 모든 적군에게 50%의 마법 대미지를 입히고, 타깃에게 [이동 감소 Lv.3]을 부여한다. (1턴 지속)"
+    },
+    "얼음의 수호": {
+        "image": "images/skill/simona/simona_active7.png",
+        "rangeImage": "images/skill/simona/simona_active7_range.png",
+        "description": "(리액션) [이동 감소]를 보유한 적군의 액티브 공격을 받을 경우, 대미지가 30% 감소한다."
+    },
+    "급속 냉동": {
+        "image": "images/skill/simona/simona_active8.png",
+        "rangeImage": "images/skill/simona/simona_active8_range.png",
+        "description": "(마법 대미지) 단일 유닛을 공격하여 80%의 대미지를 입히고 [이동 감소 Lv.3]을 부여한다. (2턴 지속) 타깃이 임의의 [이동 감소] 보유 시 추가로 [동결]을 부여한다. (2턴 지속)",
+        "energy": 2,
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "기사 동맹 전투 깃발": {
+        "image": "images/skill/simona/simona_active9.png",
+        "rangeImage": "images/skill/simona/simona_active9_range.png",
+        "description": "(리더 오라) 필드 내 진영이 〈기사 동맹〉인 모든 아군의 공격력이 10%, 방어력이 20% 증가한다."
+    },
+    "얼음검": {
+        "image": "images/skill/simona/simona_active10.png",
+        "rangeImage": "images/skill/simona/simona_active10_range.png",
+        "description": "(마법 대미지) 단일 유닛을 공격하여 110%의 대미지를 입힌다. [이동 감소]를 보유하거나 [얼음] 지면 타일에 있는 적군 공격 시, 입히는 대미지가 30% 증가한다.",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "겨울의 끝": {
+        "image": "images/skill/simona/simona_active12.png",
+        "rangeImage": "images/skill/simona/simona_active12_range.png",
+        "description": "(마법 대미지) 자신 주변 십자형 범위 내의 지점 1곳을 선택해 타깃 방향 5*3 범위 내 모든 적군에게 70%의 [얼음 속성] 대미지를 입힌다. 이어 중심을 기준으로 가로줄 3칸에 [얼음벽]을 소환한다. 지면 타일이 점거되었을 경우, 타깃에게 1턴간 [동결]을 부여한다. (전투 시작 후 1턴의 쿨타임을 기다려야만 사용 가능)",
+        "energy": 3,
+        "cooltime": 5,
+        "minRange": 1,
+        "maxRange": 4,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "생존 의지": {
+        "image": "images/skill/simona/simona_active13.png",
+        "rangeImage": "images/skill/simona/simona_active13_range.png",
+        "description": "(패시브) 행동 시작 시 자신이 [빈사] 상태일 경우, HP 50%, 에너지 2포인트를 회복한다. (효과 쿨타임 2턴)",
+        "cooltime": 2
+    },
+    "지식의 씨앗": {
+        "image": "images/skill/taair/taair_active2.png",
+        "rangeImage": "images/skill/taair/taair_active2_range.png",
+        "description": "(지원) 타깃 주변 2칸 내의 모든 아군에게 [디버프] 1개를 제거하고, [속도 증가 Lv.2], [명상]을 부여한다.",
+        "energy": 2,
+        "cooltime": 2,
+        "minRange": 0,
+        "maxRange": 3,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "반가운 소식": {
+        "image": "images/skill/taair/taair_active3.png",
+        "rangeImage": "images/skill/taair/taair_active3_range.png",
+        "description": "(지원) 자신을 제외한 아군을 선택하여 에너지 4포인트를 회복시키고 [공격력 증가 Lv.2], [이동 증가 Lv.2] 및 [속도 증가 Lv.2]을 부여한다.",
+        "energy": 2,
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "치유": {
+        "image": "images/skill/taair/taair_active4.png",
+        "rangeImage": "images/skill/taair/taair_active4_range.png",
+        "description": "(패시브) 행동 종료할 때마다 자신 주변 3칸 내에서 자신을 제외한 아군 중 HP가 가장 낮은 유닛을 마법 공격력의 20% 만큼 치료한다."
+    },
+    "마음의 빛": {
+        "image": "images/skill/taair/taair_active5.png",
+        "rangeImage": "images/skill/taair/taair_active5_range.png",
+        "description": "(지원) [즉시 발동]. 타깃 주변 3칸 내 모든 아군의 에너지 1포인트를 회복시킨다.",
+        "energy": 1,
+        "cooltime": 3,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "평화주의": {
+        "image": "images/skill/taair/taair_active6.png",
+        "rangeImage": "images/skill/taair/taair_active6_range.png",
+        "description": "(리액션) 공격을 받기 전에 상대의 [버프] 2개를 제거하고 대미지를 20% 감소시킨다."
+    },
+    "인내의 마음": {
+        "image": "images/skill/taair/taair_active7.png",
+        "rangeImage": "images/skill/taair/taair_active7_range.png",
+        "description": "(리액션) 받는 [지속 대미지]가 50% 감소한다. 행동 종료 시 자신이 제어 효과의 영향을 받고 있다면 모든 제어 효과가 제거되고, [고정 면역]을 획득한다. (2턴 지속)",
+        "cooltime": 3
+    },
+    "모닥불 대화": {
+        "image": "images/skill/taair/taair_active8.png",
+        "rangeImage": "images/skill/taair/taair_active8_range.png",
+        "description": "(치료) 자신 주변 2칸 내의 모든 캐릭터에게 [슬립], [취기]를 부여한다. (1턴 지속) 자신의 HP 60%를 회복하고 [디버프]를 3개 제거한다.",
+        "energy": 1,
+        "cooltime": 4,
+        "minRange": 0,
+        "maxRange": 2,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "고행자": {
+        "image": "images/skill/taair/taair_active9.png",
+        "rangeImage": "images/skill/taair/taair_active9_range.png",
+        "description": "(패시브) 대미지를 받은 후, 자신이 1스택의 [고행]을 얻고, 스택당 받는 대미지가 8% 감소하며, 제거할 수 없다. [고행] 보유 시, 턴 종료 후 에너지 1포인트를 추가로 회복한다."
+    },
+    "신성한 치유": {
+        "image": "images/skill/taair/taair_active12.png",
+        "rangeImage": "images/skill/taair/taair_active12_range.png",
+        "description": "(치료) 단일 유닛을 마법 공격력의 60%만큼 치료하고, 추가로 타깃 주변 3칸 내의 모든 아군을 마법 공격력의 30%만큼 치료한다.",
+        "energy": 3,
+        "minRange": 0,
+        "maxRange": 2,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "죄수의 꿈": {
+        "image": "images/skill/taair/taair_active13.png",
+        "rangeImage": "images/skill/taair/taair_active13_range.png",
+        "description": "(지원) 자신은 [죄수의 꿈]을 얻는다. (2턴 지속)",
+        "energy": 2,
+        "cooltime": 7,
+        "minRange": 0,
+        "maxRange": 0,
+        "lowRange": 0,
+        "highRange": 0
+    },
+    "방어 태세": {
+        "image": "images/skill/taidon/taidon_active1.png",
+        "rangeImage": "images/skill/taidon/taidon_active1_range.png",
+        "description": "(지원) [즉시 발동]. 2턴 간 HP의 25%에 해당하는 [물리 보호막] 및 [막기 강화]를 획득한다.",
+        "energy": 2,
+        "minRange": 0,
+        "maxRange": 0,
+        "lowRange": 0,
+        "highRange": 0
+    },
+    "위협": {
+        "image": "images/skill/taidon/taidon_active2.png",
+        "rangeImage": "images/skill/taidon/taidon_active2_range.png",
+        "description": "(패시브) 행동 종료 시, 자신 주변 4칸 내 물리 공격이 가장 높은 적군에게 2턴 간 [공격력 감소 Lv.2]를 부여한다."
+    },
+    "기절 강타": {
+        "image": "images/skill/taidon/taidon_active3.png",
+        "rangeImage": "images/skill/taidon/taidon_active3_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 85%의 대미지를 입히고 1턴 간 [기절]을 부여한다.",
+        "energy": 2,
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "사나운 타격": {
+        "image": "images/skill/taidon/taidon_active4.png",
+        "rangeImage": "images/skill/taidon/taidon_active4_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 100%의 대미지를 입힌다. 동시에 자신의 [물리 보호막] 수치에 해당하는 대미지를 추가한다. 단, 추가 대미지는 물리 공격력의 200%를 초과할 수 없다.",
+        "energy": 3,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "교란 전술": {
+        "image": "images/skill/taidon/taidon_active5.png",
+        "rangeImage": "images/skill/taidon/taidon_active5_range.png",
+        "description": "(물리 대미지) 타깃 방향 3*3 구역 내의 모든 적군에게 50%의 [범위 대미지]를 입히고 2턴 간 [이동 감소 Lv.1], [받는 대미지 증가 Lv.2]를 부여한다.",
+        "energy": 1,
+        "cooltime": 4,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "대형 방패": {
+        "image": "images/skill/taidon/taidon_active6.png",
+        "rangeImage": "images/skill/taidon/taidon_active6_range.png",
+        "description": "(리액션) 전투 시작 시, HP의 35%에 해당하는 [물리 보호막]을 얻으며 제거 및 면역이 불가능하다. [물리 보호막] 보유 시, [막기] 확률이 100%까지 상승한다."
+    },
+    "대열 지휘": {
+        "image": "images/skill/taidon/taidon_active8.png",
+        "rangeImage": "images/skill/taidon/taidon_active8_range.png",
+        "description": "(패시브) 행동 종료 시 이번 행동 턴에 공격하지 않았을 경우, 자신 주변 1칸 내의 모든 아군에게 [물리 방어 증가 Lv.2], [마법 방어 증가 Lv.2]를 부여한다. (2턴 지속)"
+    },
+    "엄벌의 방패": {
+        "image": "images/skill/taidon/taidon_active9.png",
+        "rangeImage": "images/skill/taidon/taidon_active9_range.png",
+        "description": "(지원) 자신 주변 3칸을 [경계]한다. 적이 해당 구역에 진입할 경우 100%의 대미지를 입힐 수 있으며, 1턴 간 [기절]을 부여한다.",
+        "energy": 3,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "견고한 방패": {
+        "image": "images/skill/taidon/taidon_active12.png",
+        "rangeImage": "images/skill/taidon/taidon_active12_range.png",
+        "description": "(지원) 자신이 물리 방어력의 150%에 해당하는 [물리 보호막]을 획득한다. 자신 주변 3칸 내의 자신을 제외한 모든 아군에게 타이던의 물리 방어력의 100%에 해당하는 [물리 보호막]을 부여한다. 모든 보호막은 제거할 수 없으며, 모든 효과는 2턴 간 지속된다. 해당 기간 동안 [특성] 효과는 중단되지 않는다.",
+        "energy": 3,
+        "cooltime": 4,
+        "minRange": 0,
+        "maxRange": 3,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "회전 강타": {
+        "image": "images/skill/xavier/xavier_active1.png",
+        "rangeImage": "images/skill/xavier/xavier_active1_range.png",
+        "description": "(물리 대미지) 타깃 방향 3*2 구역 내의 모든 적군에게 80%의 대미지를 입히고, 2턴 간 [물리 방어 감소 Lv.1]을 부여한다.",
+        "energy": 2,
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "전투의 광기": {
+        "image": "images/skill/xavier/xavier_active2.png",
+        "rangeImage": "images/skill/xavier/xavier_active2_range.png",
+        "description": "(패시브) 행동으로 대미지를 입힌 후, 20%의 [HP 흡수]를 발생시킨다."
+    },
+    "희생": {
+        "image": "images/skill/xavier/xavier_active3.png",
+        "rangeImage": "images/skill/xavier/xavier_active3_range.png",
+        "description": "(패시브) 물리 공격력이 20% 증가한다. 단, 물리 방어력과 마법 방어력은 15% 감소한다."
+    },
+    "대난투": {
+        "image": "images/skill/xavier/xavier_active5.png",
+        "rangeImage": "images/skill/xavier/xavier_active5_range.png",
+        "description": "(물리 대미지) 자신 주변 2칸 내의 모든 적군에게 70%의 대미지를 입히고 40%의 [HP 흡수]를 발생시키며 [받는 치료 효과 감소]를 부여한다. (2턴 지속)",
+        "energy": 2,
+        "cooltime": 2,
+        "minRange": 0,
+        "maxRange": 2,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "함락 의지": {
+        "image": "images/skill/xavier/xavier_active6.png",
+        "rangeImage": "images/skill/xavier/xavier_active6_range.png",
+        "description": "(리액션) 공격 당하기 전, 자신 주변 2칸 내에 존재하는 적군 1명당 받게 되는 대미지가 10% 감소하며 최대 40%까지 감소된다."
+    },
+    "선봉대": {
+        "image": "images/skill/xavier/xavier_active8.png",
+        "rangeImage": "images/skill/xavier/xavier_active8_range.png",
+        "description": "(패시브) 턴 시작 시 에너지가 가득 차고 [속도 증가 Lv.3]을 획득한다. 2턴간 지속, 모든 쿨타임 5턴.",
+        "cooltime": 5
+    },
+    "일리아의 전투 깃발": {
+        "image": "images/skill/xavier/xavier_active9.png",
+        "rangeImage": "images/skill/xavier/xavier_active9_range.png",
+        "description": "(리더 오라) 필드 내 진영이 〈일리아〉인 모든 아군의 공격력이 10%, 방어력이 20% 증가한다."
+    },
+    "축적의 일격": {
+        "image": "images/skill/xavier/xavier_active10.png",
+        "rangeImage": "images/skill/xavier/xavier_active10_range.png",
+        "description": "(일반 공격) 100%의 물리 대미지를 입히고 다음 스킬 대미지가 15% 증가한다.",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "운석 충돌": {
+        "image": "images/skill/xavier/xavier_active12.png",
+        "rangeImage": "images/skill/xavier/xavier_active12_range.png",
+        "description": "(물리 대미지) 자신 주변 십자형 범위 내의 1곳을 선택한 후 해당 지점으로 질주하여 타깃 방향 3*4 구역 내의 적군에게 90%의 대미지를 입히고 2턴 간 [속도 감소 Lv.2]를 부여한다.",
+        "energy": 5,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 1,
+        "highRange": 1
+    },
+    "무쌍": {
+        "image": "images/skill/xavier/xavier_active13.png",
+        "rangeImage": "images/skill/xavier/xavier_active13_range.png",
+        "description": "(물리 대미지) 타깃 방향 3*1 구역 내의 모든 적군에게 110%의 대미지를 입히고 2칸 넉백시킨다. 공격 후, 자신은 2턴간 [패링], [기선제압]을 얻는다.",
+        "energy": 1,
+        "cooltime": 4,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "질풍난무 - 진의": {
+        "image": "images/skill/rawiyah_alter/rawiyah_alter_active1.png",
+        "rangeImage": "images/skill/rawiyah_alter/rawiyah_alter_active1_range.png",
+        "description": "(물리 대미지) 자신 주변 3칸 내의 모든 적군에게 65%의 [범위 대미지]를 입힌다. 공격 후, 스킬은 [질풍난무 - 결의]로 변경된다. (1턴 지속)<br><br>[질풍난무 - 결의]: (물리 대미지) 자신 주변 2칸 내 모든 적에게 85%의 [범위 대미지]를 입힌다. 공격 후 스킬은 [질풍난무 - 진의]로 변경된다.",
+        "energy": 2,
+        "minRange": 0,
+        "maxRange": 3,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "질풍 - 구름 뚫기": {
+        "image": "images/skill/rawiyah_alter/rawiyah_alter_active2.png",
+        "rangeImage": "images/skill/rawiyah_alter/rawiyah_alter_active2_range.png",
+        "description": "(물리 대미지) [즉시 발동]. 자신 주변 십자형 범위 3칸 내의 1개 지점을 선택하고 [질주]하여 경로 위의 적군에게 15%의 대미지를 입히고 [버프]를 1개 훔친다. 적군 명중 시, 해당 스킬 쿨타임이 1턴 감소하고, 다음 액티브 스킬 시전 시, 대미지가 15% 증가한다.",
+        "cooltime": 3,
+        "minRange": 2,
+        "maxRange": 3,
+        "lowRange": 1,
+        "highRange": 1
+    },
+    "질풍 - 창공 절단": {
+        "image": "images/skill/rawiyah_alter/rawiyah_alter_active3.png",
+        "rangeImage": "images/skill/rawiyah_alter/rawiyah_alter_active3_range.png",
+        "description": "(패시브) 액티브 공격으로 물리 대미지를 입힌 후 자신 주변 2칸 내의 모든 적군에게 15%의 물리 대미지를 입히고 2턴간 임의의 [2레벨 능력치 디버프] 1개를 부여한다. 턴당 최대 3회 발동한다.",
+        "minRange": 0,
+        "maxRange": 0,
+        "lowRange": 0,
+        "highRange": 0
+    },
+    "기동대 대원": {
+        "image": "images/skill/rawiyah_alter/rawiyah_alter_active4.png",
+        "rangeImage": "images/skill/rawiyah_alter/rawiyah_alter_active4_range.png",
+        "description": "(패시브) 속도가 100포인트 증가한다. 공격 전, 타깃 속도가 자신보다 느릴 경우, 입히는 대미지가 10% 증가하고 타깃의 [리액션 스킬]을 무시한다."
+    },
+    "정찰용 올가미": {
+        "image": "images/skill/rawiyah_alter/rawiyah_alter_active5.png",
+        "rangeImage": "images/skill/rawiyah_alter/rawiyah_alter_active5_range.png",
+        "description": "(지원) [즉시 발동]. 타깃에게 [속박], [공격력 감소 Lv.2] 및 [지원 금지]를 부여한다. (2턴 지속) [속박]을 보유한 타깃에게 추가로 [기절]을 부여한다. (2턴 지속) 3회 사용할 수 있다.",
+        "cooltime": 2,
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 5,
+        "highRange": 3
+    },
+    "나! 화! 났! 어!": {
+        "image": "images/skill/rawiyah_alter/rawiyah_alter_active6.png",
+        "rangeImage": "images/skill/rawiyah_alter/rawiyah_alter_active6_range.png",
+        "description": "(리액션) [불굴]을 보유한다. 필드 내에 패배한 자신을 제외한 아군이 있을 시, 자신의 전체 HP를 회복하고 [대미지 증가 Lv.3] 및 [받는 대미지 감소 Lv.3]을 획득한다. (2턴 지속)"
+    },
+    "질풍검 - 혼란의 하소연": {
+        "image": "images/skill/rawiyah_alter/rawiyah_alter_active8.png",
+        "rangeImage": "images/skill/rawiyah_alter/rawiyah_alter_active8_range.png",
+        "description": "(물리 대미지) 타깃 방향 5*3 구역 내의 모든 적군을 3번 공격하여 매 공격마다 25%의 대미지를 입힌다. 임의의 액티브 스킬 1회 시전 후, 해당 스킬 대미지가 35%까지 증가하고 3회 시전한다. 임의의 액티브 스킬 2회 시전 후, 해당 스킬 대미지가 50%까지 증가하고 3회 시전하며 효과는 행동 종료될 때까지 지속된다.",
+        "energy": 4,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "질풍 - 날 세우기": {
+        "image": "images/skill/rawiyah_alter/rawiyah_alter_active9.png",
+        "rangeImage": "images/skill/rawiyah_alter/rawiyah_alter_active9_range.png",
+        "description": "(패시브) 이동 + [질주] 거리 ≥ 4칸일 경우, 공격 시 에너지 1포인트를 회복한다. 타깃을 처치할 경우, 에너지 1포인트를 추가 회복한다. 모든 효과는 턴당 최대 1회 발동한다."
+    },
+    "주먹맛 좀 봐라!": {
+        "image": "images/skill/rawiyah_alter/rawiyah_alter_active10.png",
+        "rangeImage": "images/skill/rawiyah_alter/rawiyah_alter_active10_range.png",
+        "description": "(일반 공격) 단일 유닛을 공격하여 85%의 물리 대미지를 1칸 넉백시킨다. 공격 후, 스킬은 [꺼져!!]로 변경된다. (2턴 지속)<br><br>[꺼져!!]: (물리 대미지) 자신 주변 십자형 범위 내 적 1명을 선택해 해당 적 근처로 질주하고, 110%의 물리 대미지를 입히며 2칸 넉백시킨다. 충돌 시 1턴간 스킬 타깃을 [기절]시킨다. 공격 후 스킬은 [주먹맛 좀 봐라!]로 변경된다.",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "폭열 결정체 가루": {
+        "image": "images/skill/tristan/tristan_active1.png",
+        "rangeImage": "images/skill/tristan/tristan_active1_range.png",
+        "description": "(물리 대미지) 타깃 주변 2칸 내의 모든 적군에게 85%의 대미지를 입히고 임의 [2레벨 능력치 디버프] 1개를 부여한다. (2턴 지속)",
+        "energy":2,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "열혈 스텝": {
+        "image": "images/skill/tristan/tristan_active4.png",
+        "rangeImage": "images/skill/tristan/tristan_active4_range.png",
+        "description": "(지원) [즉시 발동]. 1바퀴 내 지점으로 [질주]하고, [대미지 증가 Lv.2]를 획득한다. (1턴 지속) 사용 후, 스킬은 [열혈 박치기]로 변경된다. (2턴 지속)",
+        "cooltime":3,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 1,
+        "highRange": 1
+    },
+    "버닝 블러드": {
+        "image": "images/skill/tristan/tristan_active5.png",
+        "rangeImage": "images/skill/tristan/tristan_active5_range.png",
+        "description": "(패시브) [건강] 상태 시 자신의 마법 공격값의 15%를 물리 공격값에 추가한다. [부상] 상태 시 자신의 마법 공격값의 25%를 물리 공격값에 추가한다. [폭주 상태] 보유 시 효과가 2배가 된다.)"
+    },
+    "장터의 매너": {
+        "image": "images/skill/tristan/tristan_active6.png",
+        "rangeImage": "images/skill/tristan/tristan_active6_range.png",
+        "description": "(리액션) 받는 근접 대미지가 20% 감소한다. [기선제압], [반격]을 당했을 경우 [막기]를 진행하고 받는 대미지가 추가로 50% 감소한다. [반격]당한 후, 추가 공격으로 70%의 물리 대미지를 입힌다. 턴당 최대 1회 발동한다."
+    },
+    "녹아웃 펀치": {
+        "image": "images/skill/tristan/tristan_active8.png",
+        "rangeImage": "images/skill/tristan/tristan_active8_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 20%의 대미지를 입히고 1칸 넉백시킨다. 타깃 주변 2칸 범위 내 모든 적군에게 110% [불속성] [범위 대미지]를 입힌다. 만약 [폭주 상태]가 아닐 경우, 공격 후 자신이 4칸 범위 내 가장 가까운 자신을 제외한 아군 주변으로 공간 이동한다.",
+        "energy":3,
+        "cooltime":2,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "정밀 폭파": {
+        "image": "images/skill/tristan/tristan_active9.png",
+        "rangeImage": "images/skill/tristan/tristan_active9_range.png",
+        "description": "(디버프) [즉시 발동]. 타깃에게 [정밀 폭파]를 부여한다.",
+        "energy":2,
+        "cooltime":3,
+        "minRange": 2,
+        "maxRange": 4,
+        "lowRange": 3,
+        "highRange": 5
+    },
+    "가족": {
+        "image": "images/skill/tristan/tristan_active12.png",
+        "rangeImage": "images/skill/tristan/tristan_active12_range.png",
+        "description": "(패시브) [건강] 상태일 경우, 자신 주변 2칸 내의 자신을 제외한 아군에게 [지원 방어]를 진행한다. [빈사] 상태일 경우, 자신 주변 2칸 내의 자신을 제외한 아군이 자신을 [지원 방어]한다. 임의의 효과 발동 후, 자신 주변 3칸 내의 모든 아군이 [공격력 증가 Lv.2], [받는 대미지 감소 Lv.2]를 획득한다. (2턴 지속) 턴당 최대 1회 발동한다."
+    },
+    "난폭한 강타": {
+        "image": "images/skill/layla/layla_active1.png",
+        "rangeImage": "images/skill/layla/layla_active1_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 130%의 대미지를 입힌다. 공격 전 자신이 [물리 방어 증가 Lv.2], [마법 방어 증가 Lv.2]를 획득한다. (2턴 지속)",
+        "energy":2,
+        "cooltime":2,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "한 배를 탄 사이": {
+        "image": "images/skill/layla/layla_active4.png",
+        "rangeImage": "images/skill/layla/layla_active4_range.png",
+        "description": "(지원) [즉시 발동]. 자신 주변 4칸 내의 기타 자신을 제외한 아군을 자신의 곁으로 공간 이동시킨다. 자신은 [지원 방어], [막기 강화 Lv.2], [같은 처지]를 획득한다. (모든 효과 2턴 지속)",
+        "energy": 2,
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 4,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "피난처": {
+        "image": "images/skill/layla/layla_active5.png",
+        "rangeImage": "images/skill/layla/layla_active5_range.png",
+        "description": "(지원) 자신이 [받는 대미지 감소 Lv.4]를 획득하고 자신의 3칸 범위 내 모든 아군은 [물리 방어 증가 Lv.2], [마법 방어 증가 Lv.2], [받는 관통 대미지 감소 Lv.3]을 획득한다. (모든 효과 2턴 지속)",
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "파도 잠재우기": {
+        "image": "images/skill/layla/layla_active6.png",
+        "rangeImage": "images/skill/layla/layla_active6_range.png",
+        "description": "(리액션) [정 - 측면] 적군의 [원거리 공격]을 받을 시, 공격자의 속도가 자신보다 100포인트 이상 낮을 경우, 모든 공격을 회피하며, 해당 방향 3*4 구역 내 임의의 1개 타깃에게 60%의 물리 대미지를 입힌다. 턴당 최대 1회 발동한다."
+    },
+    "진홍의 밤": {
+        "image": "images/skill/layla/layla_active8.png",
+        "rangeImage": "images/skill/layla/layla_active8_range.png",
+        "description": "(리더 오라) 필드 내 진영이 <진홍의 밤>인 모든 아군의 공격이 10%, 방어가 20%, 대미지가 12% 증가한다."
+    },
+    "먹구름 퇴치": {
+        "image": "images/skill/layla/layla_active9.png",
+        "rangeImage": "images/skill/layla/layla_active9_range.png",
+        "description": "(물리 대미지) 자신 주변 2바퀴 내의 모든 적군을 3번 공격하여 매 공격마다 25%의 물리 대미지를 입힌다. 대미지를 입힌 후 [받는 대미지 증가 Lv.2]를 부여한다. (2턴 지속) 공격 시 [매의 태세], [퇴치]를 획득한다. (모든 효과 1턴 지속)",
+        "energy":3,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "지팡이 속 검": {
+        "image": "images/skill/layla/layla_active11.png",
+        "rangeImage": "images/skill/layla/layla_active11_range.png",
+        "description": "(일반 공격) 단일 유닛을 공격하여 75%의 물리 대미지를 입힌다. 공격 전, 타깃이 3개 이상의 [디버프]를 보유하면 공격 후 추격으로 2번 공격하여 매 공격마다 35%의 물리 대미지를 입힌다.",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "전장 가로지르기": {
+        "image": "images/skill/layla/layla_active12.png",
+        "rangeImage": "images/skill/layla/layla_active1_range.png",
+        "description": "(패시브) 받는 대미지가 15% 감소하고 [화상]과 스킬 중단 효과에 면역된다. 행동 종료 시, 자신 주변 2칸 내 적군의 [함정] 및 특수 지형 효과를 제거한다."
+    },
+    "요격 태세": {
+        "image": "images/skill/layla/layla_active13.png",
+        "rangeImage": "images/skill/layla/layla_active1_range.png",
+        "description": "(패시브) 자신의 마법 방어값의 40%가 물리 공격값에 추가한다. 전투 시작 시 HP가 10% 증가한다."
+    },
+    "그림자 칼날 추격 (이격)": {
+        "image": "images/skill/saffiyah_alter/saffiyah_alter_active0.png",
+        "rangeImage": "images/skill/saffiyah_alter/saffiyah_alter_active0_range.png",
+        "description": "(리액션) 자신 주변 3칸 내의 [기동대 표식]을 보유한 적군을 [지원 공격]하여 50%의 물리 대미지를 입히고, 범위 내 HP 비율이 가장 낮은 팀원을 물리 공격값 + 마법 공격값의 30%만큼 치료한다. 턴당 최대 1회 발동한다."
+    },
+    "강습 명령": {
+        "image": "images/skill/saffiyah_alter/saffiyah_alter_active1.png",
+        "rangeImage": "images/skill/saffiyah_alter/saffiyah_alter_active1_range.png",
+        "description": "(지원) 자신을 제외한 아군 타깃에게 1턴간 [강습 명령]을 부여하고, 물리 공격값+마법 공격값의 60%만큼 타깃의 HP를 회복한다.",
+        "energy":2,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "전선 배치": {
+        "image": "images/skill/saffiyah_alter/saffiyah_alter_active3.png",
+        "rangeImage": "images/skill/saffiyah_alter/saffiyah_alter_active3_range.png",
+        "description": "(지원) [즉시 발동], 자신을 제외한 아군 타깃을 그의 주변 5칸 내 임의의 [빈 곳]에 이동시킨다. (특수 지형 효과에 영향을 받는다)",
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 3,
+        "highRange": 5
+    },
+    "저격수! 엄호": {
+        "image": "images/skill/saffiyah_alter/saffiyah_alter_active4.png",
+        "rangeImage": "images/skill/saffiyah_alter/saffiyah_alter_active4_range.png",
+        "description": "(지원) 자신은 1턴간 [회피]를 1회 획득한다. 또한 전방 3*5 구역을 [경계]한다. 적이 해당 구역에 진입할 경우 물리 공격력의 150%에 해당하는 마법 대미지를 입히고 적군의 행동을 중단시킨다. 공격 후, 타깃에게 [약점 간파]를 부여한다. (1턴 지속)",
+        "cooltime":2,
+        "minRange": 1,
+        "maxRange": 5,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "완비의 걱정": {
+        "image": "images/skill/saffiyah_alter/saffiyah_alter_active5.png",
+        "rangeImage": "images/skill/saffiyah_alter/saffiyah_alter_active5_range.png",
+        "description": "(패시브) 행동 종료 시, 필드 내 HP가 가장 낮은 자신을 제외한 아군 2명을 물리 공격값+마법 공격값의 40%만큼 치료한다. [대기] 시 추가로 1회 더 발동해 물리 공격값+마법 공격값의 20%만큼 치료한다."
+    },
+    "급소 회피": {
+        "image": "images/skill/saffiyah_alter/saffiyah_alter_active6.png",
+        "rangeImage": "images/skill/saffiyah_alter/saffiyah_alter_active6_range.png",
+        "description": "(리액션) 액티브 공격을 받을 경우, 받는 대미지가 8% 감소하고, 입는 크리티컬 확률이 30% 감소한다."
+    },
+    "전장 치료": {
+        "image": "images/skill/saffiyah_alter/saffiyah_alter_active7.png",
+        "rangeImage": "images/skill/saffiyah_alter/saffiyah_alter_active7_range.png",
+        "description": "(리액션) 액티브 공격을 받을 경우, 받는 대미지가 8% 감소한다. 액티브 공격을 받은 후, 자신 주변 2칸 내에서 HP 비율이 가장 낮은 아군을 마법 방어력의 100%만큼 치료한다."
+    },
+    "진홍 기억": {
+        "image": "images/skill/saffiyah_alter/saffiyah_alter_active8.png",
+        "rangeImage": "images/skill/saffiyah_alter/saffiyah_alter_active8_range.png",
+        "description": "(리더 오라) 필드 내 진영이 <진홍의 밤>인 모든 아군의 공격력이 10%, 방어력이 20% 증가한다."
+    },
+    "너와 동행": {
+        "image": "images/skill/saffiyah_alter/saffiyah_alter_active9.png",
+        "rangeImage": "images/skill/saffiyah_alter/saffiyah_alter_active9_range.png",
+        "description": "(지원) 자신 주변 3칸 내의 모든 아군에게 [협공], [공동 방어]를 부여한다. (3턴 지속) 타깃이 <일리아> 또는 <진홍의 밤> 진영일 경우, [협공], [공동 방어] 상태에서 자신을 제외한 아군 인원수 계산 시 1명이 추가된다.",
+        "energy":2,
+        "minRange": 0,
+        "maxRange": 3,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "연합 타격": {
+        "image": "images/skill/saffiyah_alter/saffiyah_alter_active10.png",
+        "rangeImage": "images/skill/saffiyah_alter/saffiyah_alter_active10_range.png",
+        "description": "(일반 공격) 단일 유닛을 공격하여 80%의 물리 대미지를 입히고 2턴간 [기동대 표식]을 부여한다. 3칸 내 타깃과 가장 가까운 자신을 제외한 아군 1명이 일반 공격으로 [지원 공격]하여 50%의 대미지를 입힌다.",
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 3,
+        "highRange": 5
+    },
+    "기동대! 에이스의 전술": {
+        "image": "images/skill/saffiyah_alter/saffiyah_alter_active12.png",
+        "rangeImage": "images/skill/saffiyah_alter/saffiyah_alter_active12_range.png",
+        "description": "(지원) 타깃에게 2턴간 [약점 간파]를 부여한다. 타깃 주변 3칸 내에 가장 가까운 자신을 제외한 아군 4명이 일반 공격을 사용해 [지원 공격]하여 50%의 대미지를 입힌다.",
+        "energy":3,
+        "minRange": 1,
+        "maxRange": 5,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "환생": {
+        "image": "images/skill/saffiyah_alter/saffiyah_alter_active13.png",
+        "rangeImage": "images/skill/saffiyah_alter/saffiyah_alter_active13_range.png",
+        "description": "(치료) 필드 내 모든 아군에게 HP 30%를 회복시키고, [공격력 증가 Lv.1], [마법 방어 증가 Lv.1]을 부여한다. (2턴 지속)",
+        "energy":2,
+        "cooltime":5,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "척추 찌르기": {
+        "image": "images/skill/kiya/kiya_active1.png",
+        "rangeImage": "images/skill/kiya/kiya_active1_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 150%의 대미지를 입힌다. 공격 전에 [백 어택]이 가능할 경우 타깃에게 [리액션 스킬 금지]를 부여한다. (1턴 지속)",
+        "energy":2,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "마비의 손길": {
+        "image": "images/skill/kiya/kiya_active3.png",
+        "rangeImage": "images/skill/kiya/kiya_active3_range.png",
+        "description": "(패시브) 대미지를 입힌 후 타깃에게 추가로 [감염] 1스택을 부여한다. 5스택 이상의 [감염]을 보유한 타깃에게 액티브 [클래스 스킬]을 사용하면, 대미지를 입힌 후 [슬립]을 시전한다. (1턴 지속).",
+        "energy":2,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "사무치는 마음": {
+        "image": "images/skill/kiya/kiya_active4.png",
+        "rangeImage": "images/skill/kiya/kiya_active4_range.png",
+        "description": "(선택) [염려] 혹은 [원념]을 선택하여 사용한다.<br><br>[염려]: (치료) [즉시 발동]. 자신을 제외한 아군 1명을 선택해 [권념의 시선]을 부여한다. (2턴 지속) 스킬 시전 후 양측은 HP를 30% 회복하고 [디버프] 2개를 제거한 후 [받는 대미지 감소 Lv.2]를 획득한다. (2턴 지속) 자신은 [강화 불굴]을 획득한다.<br><br>[원념]: (지원) [즉시 발동]. 적군 1명을 선택해 [원념의 상흔]을 부여한다. 스킬 시전 후, 자신은 HP를 35% 소모해 [강화 불굴]을 획득한다."
+    },
+    "메이드 본능": {
+        "image": "images/skill/kiya/kiya_active5.png",
+        "rangeImage": "images/skill/kiya/kiya_active5_range.png",
+        "description": "(패시브) HP가 15% 증가한다. 행동 시작 시와 [대기] 실행 후, 자신 주변 2칸 내의 모든 특수 지형 효과를 제거한다. [대기] 실행 후 에너지 1포인트를 추가로 회복한다."
+    },
+    "증오": {
+        "image": "images/skill/kiya/kiya_active6.png",
+        "rangeImage": "images/skill/kiya/kiya_active6_range.png",
+        "description": "(리액션) [부상] 상태에서 받는 대미지가 35% 감소한다. 자신이 공격을 받은 후 공격자에게 [원념의 상흔]을 부여한다."
+    },
+    "진혼탕": {
+        "image": "images/skill/kiya/kiya_active8.png",
+        "rangeImage": "images/skill/kiya/kiya_active8_range.png",
+        "description": "(지원) [즉시 발동], 적군 1명을 선택해 타깃의 마법 공격값의 20%만큼 HP를 회복하고 [감염] 3스택 및 [리버스 치료]를 부여한다. (2턴 지속) 타깃이 이미 [감염]을 보유할 경우, 추가로 [공격력 감소 Lv.2], [슬립]을 부여한다. (2턴 지속)",
+        "energy":1,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "혈야의 약속": {
+        "image": "images/skill/kiya/kiya_active9.png",
+        "rangeImage": "images/skill/kiya/kiya_active9_range.png",
+        "description": "(디버프) 현재 HP를 35% 소모해 에너지 1포인트를 회복하고 [특성] 발동 횟수를 초기화한다. [잠시 전장을 이탈]하고 타깃에게 [원념의 상흔], [혈야의 약속]을 부여한다. (1턴 지속). [혈야의 약속] 종료 시 타깃에게 HP+물리 공격값의 합의 35%만큼의 물리 대미지를 입힌다. 방어를 100% 무시하고, 80%의 [HP 흡수]를 생성하며, 즉시 [감염] 효과를 발동하고 [기선제압], [회피]를 무시한다.",
+        "energy":2,
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "파멸의 춤": {
+        "image": "images/skill/kiya/kiya_active12.png",
+        "rangeImage": "images/skill/kiya/kiya_active12_range.png",
+        "description": "(물리 대미지) 자신 주변 3칸 내의 모든 적군에게 75%의 [범위 대미지]를 입히고 임의의 [2레벨 능력치 디버프] 2개를 부여한다. (2턴 지속)",
+        "energy":2,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "식사용 나이프": {
+        "image": "images/skill/kiya/kiya_active13.png",
+        "rangeImage": "images/skill/kiya/kiya_active13_range.png",
+        "description": "(물리 대미지) [즉시 발동] 단일 유닛을 공격하여 40%의 대미지를 입힌다. 공격 전, [백 어택]이 가능할 경우 타깃에게 [패시브 스킬 금지]를 부여한다. (1턴 지속). 이 스킬은 전투마다 최대 3회 사용할 수 있다.",
+        "cooltime":1,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "단죄": {
+        "image": "images/skill/kvare/kvare_active1.png",
+        "rangeImage": "images/skill/kvare/kvare_active1_range.png",
+        "description": "(관통 대미지) 타깃에게 마법 공격값의 100%만큼의 [HP 상실], [이동 감소 Lv.1], [속도 감소 Lv.2]를 부여한다. (2턴 지속). 타깃이 [리스트]를 보유하면 공격 전에 타깃의 모든 [버프]를 제거한다. 동시에 자신의 마법 공격값의 100%만큼의 대미지를 입히고, 이번 스킬 [HP 상실] 지속 턴이 1 감소한다.",
+        "energy":2,
+        "minRange": 1,
+        "maxRange": 4,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "결승의 의지": {
+        "image": "images/skill/kvare/kvare_active2.png",
+        "rangeImage": "images/skill/kvare/kvare_active2_range.png",
+        "description": "(지원) [즉시 발동], 타깃에게 [잠재력 자극]을 부여한다. (2턴 지속). 시전 후 스킬은 [바람의 불꽃]으로 변경된다. [크바레의 소장품]에 소속된다.<br><br>[크바레의 소장품]<br>[결승의 의지]: [즉시 발동], 타깃에게 [잠재력 자극]을 부여한다.<br><br>[바람의 불꽃]: 범위 내의 적군에게 60%의 [불속성] [범위 대미지]를 입히며 [점화]를 2회 부여한다.<br><br>[만능의 재력]: [즉시 발동], 타깃의 모든 에너지를 회복한다.<br><br>[얼음 바다의 한기]: 범위 내의 적군에게 100%의 [얼음 속성] [범위 대미지]를 입히며 [동상]을 부여한다.<br><br>[천금의 힘]: [즉시 발동], 타깃의 모든 HP를 회복한다.<br><br>[천둥의 분노]: 단일 유닛을 공격하여 180%의 대미지를 입히고, 공격 전 타깃의 모든 [버프]를 제거한다. 공격 후 즉시 타깃이 보유한 [리스트]와 모든 [지속 대미지] 유형 효과를 발동한다.",
+        "minRange": 1,
+        "maxRange": 4,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "사무치는 침식": {
+        "image": "images/skill/kvare/kvare_active3.png",
+        "rangeImage": "images/skill/kvare/kvare_active3_range.png",
+        "description": "(패시브) 행동 종료 시, 자신 주변 3칸 내 임의의 적군 1명에게 임의의 [1레벨 능력치 디버프] 2개와 마법 공격값의 40%만큼의 [HP 상실]을 부여한다. (2턴 지속)."
+    },
+    "선승후전": {
+        "image": "images/skill/kvare/kvare_active4.png",
+        "rangeImage": "images/skill/kvare/kvare_active4_range.png",
+        "description": "(패시브) 필드에 [리스트]를 보유한 적군 1명이 패배할 때마다 HP 20%, 에너지 1포인트를 회복하고 임의의 [2레벨 버프] 2개를 획득한다. (2턴 지속)."
+    },
+    "크바레의 선물": {
+        "image": "images/skill/kvare/kvare_active5.png",
+        "rangeImage": "images/skill/kvare/kvare_active5_range.png",
+        "description": "(치료) 타깃을 마법 공격값의 40%만큼 치료하고 타깃이 자신이 감당하는 대미지의 50%를 분담한다.(단일 분담 대미지는 크바레의 최대 HP의 70%를 초과하지 않음). (2턴 지속). 제거 및 면역 불가. 타깃이 적군이면 해당 적군에게 1턴간 [기절]을 부여한다. 타깃이 자신을 제외한 아군이면 해당 아군에게 [공격력 증가 Lv.2]、[대미지 증가 Lv.2], [받는 대미지 감소 Lv.2]를 부여한다. (2턴 지속). 이 스킬은 전투마다 최대 1회 사용할 수 있다.",
+        "energy":2,
+        "minRange": 1,
+        "maxRange": 5,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "다크 핸드": {
+        "image": "images/skill/kvare/kvare_active6.png",
+        "rangeImage": "images/skill/kvare/kvare_active6_range.png",
+        "description": "(리액션) 액티브 공격을 받을 경우, 받는 대미지가 8% 감소하며, 임의로 타깃의 [능력치 버프] 2개를 훔친다."
+    },
+    "수호 엠블럼": {
+        "image": "images/skill/kvare/kvare_active7.png",
+        "rangeImage": "images/skill/kvare/kvare_active7_range.png",
+        "description": "(리액션) 범위 공격을 받은 후 자신 주변 2칸 내의 모든 아군에게 HP 30%의 해당 대미지 유형의 [보호막]을 부여한다. (2턴 지속). 전투마다 각 유형 보호막은 최대 1회 발동한다. 자신이 [보호막] 보유 시 받는 대미지가 10% 감소한다."
+    },
+    "비 감상의 순간": {
+        "image": "images/skill/kvare/kvare_active12.png",
+        "rangeImage": "images/skill/kvare/kvare_active12_range.png",
+        "description": "(관통 대미지) 자신 주변 6칸 내 모든 적군에게 마법 공격값의 40%만큼의 [관통 대미지]를 입히고 타깃의 모든 [지속 대미지] 유형 효과를 발동 및 제거한다. 타깃이 [리스트]를 보유하면 공격 전 추가로 [받는 관통 대미지 증가 Lv.2], [리액션 스킬 금지], [패시브 스킬 금지], [고립]을 부여한다. (모든 효과는 2턴 지속). 공격 후 타깃이 보유한 [리스트]를 발동 및 제거한다.",
+        "cooltime":3,
+        "minRange": 1,
+        "maxRange": 5,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "종말": {
+        "image": "images/skill/kvare/kvare_active13.png",
+        "rangeImage": "images/skill/kvare/kvare_active13_range.png",
+        "description": "(패시브) 스킬 [비 감상의 순간]을 발동하지 않고 [지속 대미지] 효과를 제거하지만, 대미지가 100% 증가한다. [즉시 발동]이 아닌 스킬로 액티브 대미지를 입히면 타깃에게 추가로 마법 공격값의 60%만큼의 [HP 상실]을 부여한다. (1턴 지속)."
+    },
+    "정의의 한마음 망치": {
+        "image": "images/skill/teammeteor/teammeteor_active1.png",
+        "rangeImage": "images/skill/teammeteor/teammeteor_active1_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 130%의 대미지를 입히고 1칸 넉백시킨다. 공격 후, 자신은 [숨겨진 예비 지방]을 2스택 획득한다. (2턴 지속)",
+        "energy":2,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "사기 진작 전장 간식": {
+        "image": "images/skill/teammeteor/teammeteor_active2.png",
+        "rangeImage": "images/skill/teammeteor/teammeteor_active2_range.png",
+        "description": "(지원) [즉시 발동]. 단일 유닛 타깃의 HP를 25% 치료한다. 자신에게 시전할 경우 [받는 대미지 감소 Lv.3]을 획득한다. (3턴 지속) 자신을 제외한 아군에게 시전할 경우 자신의 모든 [숨겨진 예비 지방]을 제거하고 타깃에게 이전한다.",
+        "cooltime":3,
+        "lowRange": 6,
+        "highRange": 8
+    },
+    "당당한 번개 스닉 어택": {
+        "image": "images/skill/teammeteor/teammeteor_active3.png",
+        "rangeImage": "images/skill/teammeteor/teammeteor_active3_range.png",
+        "description": "(물리 대미지) [즉시 발동]. 자신 주변 십자형 범위 내의 적군 1명을 선택하여 [질주]하고 30%의 대미지를 입히며 1칸 넉백시킨다.",
+        "cooltime":3,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 1,
+        "highRange": 1
+    },
+    "다 같이 협업": {
+        "image": "images/skill/teammeteor/teammeteor_active4.png",
+        "rangeImage": "images/skill/teammeteor/teammeteor_active4_range.png",
+        "description": "(패시브) [숨겨진 예비 지방]을 보유할 경우 공격/방어 능력치가 10% 증가하고, 원거리 스킬의 최대 사거리와 이동력이 1칸 증가한다. [숨겨진 예비 지방]이 5스택에 도달할 경우 모든 효과가 2배로 증가한다."
+    },
+    "번뜩이는 자랑스러운 지혜": {
+        "image": "images/skill/teammeteor/teammeteor_active5.png",
+        "rangeImage": "images/skill/teammeteor/teammeteor_active5_range.png",
+        "description": "(지원) [즉시 발동]. [숨겨진 예비 지방] 4스택, [크리티컬 증가 Lv.2] 및 [크리티컬 대미지 증가 Lv.2]를 획득한다. (모든 효과 2턴 지속)"
+    },
+    "잘 먹고 자서 지방 비축": {
+        "image": "images/skill/teammeteor/teammeteor_active7.png",
+        "rangeImage": "images/skill/teammeteor/teammeteor_active7_range.png",
+        "description": "(리액션) [풀HP] 상태 시 [고정 저항]을 보유한다. 행동 종료 시, 자신이 [풀HP] 상태면 [숨겨진 예비 지방]을 1스택 획득한다. (2턴 지속)"
+    },
+    "멋스럽고 자신만만한 일격": {
+        "image": "images/skill/teammeteor/teammeteor_active8.png",
+        "rangeImage": "images/skill/teammeteor/teammeteor_active8_range.png",
+        "description": "(마법 대미지) 자신 주변 십자형 범위 내의 적군 1명을 선택하여 물리 공격력의 150%에 해당하는 마법 대미지를 입힌다. [숨겨진 예비 지방]을 2스택 보유할 경우 해당 스킬은 크리티컬 확률이 40% 증가한다. 4스택 보유할 경우 해당 스킬은 추가로 최대 사거리가 2칸 증가한다. 6스택 보유할 경우 해당 스킬은 추가로 [갑옷 관통]을 획득한다. 공격 후, 활성화된 효과 단계에 따라 [숨겨진 예비 지방]이 해당하는 스택만큼 제거된다.",
+        "energy":3,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "하늘을 관통하는 필승의 유성": {
+        "image": "images/skill/teammeteor/teammeteor_active9.png",
+        "rangeImage": "images/skill/teammeteor/teammeteor_active9_range.png",
+        "description": "(물리 대미지) 자신 주변 십자형 범위 내의 적군 1명을 선택하여 [질주]하고 160%의 대미지를 입힌다. 2칸 넉백시키며 자신의 모든 [숨겨진 예비 지방]을 제거한다. 넉백 후, 충돌하면 충돌한 양측이 [기절]한다. (1턴 지속) 보유한 [숨겨진 예비 지방] 1스택당 해당 스킬의 대미지가 5% 증가하고 최대 사거리와 넉백 거리가 1칸 증가한다.",
+        "energy":4,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 1,
+        "highRange": 1
+    },
+    "뜨거운 바비큐 충격": {
+        "image": "images/skill/teammeteor/teammeteor_active11.png",
+        "rangeImage": "images/skill/teammeteor/teammeteor_active11_range.png",
+        "description": "(일반 공격) 자신 주변 십자형 범위 내의 적군 1명을 선택하여 [질주]하고 100%의 물리 대미지를 입히며 1칸 넉백시킨다.",
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 1,
+        "highRange": 1
+    },
+    "다수로 밀어붙이는 공정 결투": {
+        "image": "images/skill/teammeteor/teammeteor_active12.png",
+        "rangeImage": "images/skill/teammeteor/teammeteor_active12_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하여 180%의 대미지를 입힌다. 공격 전, 자신의 모든 [디버프]를 제거하고 타깃의 모든 [버프]를 제거한다. 공격 시, 자신의 [숨겨진 예비 지방]이 10스택이면 모든 스택을 제거하고 [받는 대미지 감소 Lv.9]를 획득한다. (1턴 지속) [숨겨진 예비 지방]이 10스택 미만이면 해당 스킬 쿨타임이 초기화된다.",
+        "energy":4,
+        "cooltime":6,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "자랑스러운 엄청난 적재량": {
+        "image": "images/skill/teammeteor/teammeteor_active13.png",
+        "rangeImage": "images/skill/teammeteor/teammeteor_active13_range.png",
+        "description": "(패시브) [넉백 면역] 상태인 타깃에게 [즉시 발동]이 아닌 액티브 공격 후, 추가로 70%의 물리 대미지를 입힌다. 타깃 액티브 넉백 시 넉백 거리가 1칸 증가하고 충돌하면 추가로 충돌한 양측에게 70%의 물리 대미지를 입힌다."
+    },
+    "타오르는 시선": {
+        "image": "images/skill/luvata/luvata_active1.png",
+        "rangeImage": "images/skill/luvata/luvata_active1_range.png",
+        "description": "(마법 대미지) 타깃 지면을 선택하여 타깃 주변 1칸 내의 모든 적군에게 80%의 [불속성] [범위 대미지]를 입히고 [점화]를 1회 부여한다. 지면이 강제로 [점화] 상태로 변경되고 자신은 [공격력 증가 Lv.1], [명상]을 획득한다. (모든 효과 2턴 지속)",
+        "energy":1,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 3,
+        "highRange": 5
+    },
+    "화염": {
+        "image": "images/skill/luvata/luvata_active2.png",
+        "rangeImage": "images/skill/luvata/luvata_active2_range.png",
+        "description": "(패시브) 행동 종료 시, 자신 주변 3칸 내 임의의 [부상] 상태인 적군 1명에게 [화상]을 부여한다. (2턴 지속)"
+    },
+    "개굴개굴": {
+        "image": "images/skill/luvata/luvata_active3.png",
+        "rangeImage": "images/skill/luvata/luvata_active3_range.png",
+        "description": "(디버프) [즉시 발동]. 타깃을 [저주 개구리]로 변신시킨다. (타깃이 다음 2회 행동 시작 전까지 지속)",
+        "cooltime":4,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "불꽃의 추적": {
+        "image": "images/skill/luvata/luvata_active4.png",
+        "rangeImage": "images/skill/luvata/luvata_active4_range.png",
+        "description": "(패시브) [화상]을 보유한 적군 공격 시 크리티컬 확률이 20% 증가한다. [점화]를 보유한 적군 공격 시 크리티컬 대미지가 20% 증가한다. [화상]을 보유한 적군 처치 시 타깃 주변 2칸 내의 모든 적군에게 60%의 [불속성] [범위 대미지]를 입히고 타깃에게 [점화]를 부여한다. (2턴 지속)"
+    },
+    "강렬한 버닝 하트": {
+        "image": "images/skill/luvata/luvata_active5.png",
+        "rangeImage": "images/skill/luvata/luvata_active5_range.png",
+        "description": "(패시브) [점화] 지형에 있으면 공격력이 20% 증가한다. 행동 종료 시, 자신이 있는 지면을 강제로 [점화] 상태로 변경한다. (2턴 지속)"
+    },
+    "잿불의 벽": {
+        "image": "images/skill/luvata/luvata_active6.png",
+        "rangeImage": "images/skill/luvata/luvata_active6_range.png",
+        "description": "(리액션) 단일 유닛 물리 혹은 단일 유닛 마법 공격을 받기 전에 자신이 [점화] 지형에 있으면 [기선제압]하여 [점화] 지형을 흡수하고 자신은 마법 공격력의 100%에 해당하는 대미지 유형의 [보호막]을 획득한다. (2턴 지속)"
+    },
+    "자유의 불타는 날개": {
+        "image": "images/skill/luvata/luvata_active8.png",
+        "rangeImage": "images/skill/luvata/luvata_active8_range.png",
+        "description": "(지원) [즉시 발동]. 자신을 필드 임의의 [점화] 지면으로 공간 이동시키고 자신 주변 1바퀴 내의 모든 적군에게 50%의 [불속성] 마법 대미지를 입히며 범위 내 지면을 강제로 [점화] 상태로 변경한다.",
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 99,
+        "lowRange": 99,
+        "highRange": 99
+    },
+    "불타는 날개": {
+        "image": "images/skill/luvata/luvata_active11.png",
+        "rangeImage": "images/skill/luvata/luvata_active11_range.png",
+        "description": "(일반 공격) 단일 유닛을 공격하여 90%의 [불속성] 마법 대미지를 입히고 지면을 강제로 [점화] 상태로 변경한다.",
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "불타는 날개 - 타오르는 열반": {
+        "image": "images/skill/luvata/luvata_active12.png",
+        "rangeImage": "images/skill/luvata/luvata_active12_range.png",
+        "description": "(마법 대미지) 타깃 지면 주변 2칸 내의 임의의 적군을 6회 공격하여 매번 타깃 주변 1칸 내의 모든 적군에게 20%의 범위 대미지를 입히고 최초 3회 공격은 대미지를 입힌 후, [화상]을 부여한다. (2턴 지속) 초기에 선택한 타깃 지면 주변 2칸 내에 [점화] 지형이 있으면 흡수하고 최초 3회 공격은 대미지를 입힌 후, 추가로 [점화]를 1회 부여한다. (2턴 지속)",
+        "energy":5,
+        "minRange": 1,
+        "maxRange": 4,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "별똥별의 화염": {
+        "image": "images/skill/luvata/luvata_active13.png",
+        "rangeImage": "images/skill/luvata/luvata_active13_range.png",
+        "description": "(마법 대미지) 타깃 지면을 선택한다. 타깃 주변 3칸 내에 [점화] 지형이 없으면 범위 내의 모든 적군에게 70%의 [불속성] [범위 대미지]를 입히고 중심 및 타깃 주변 1바퀴 지면을 강제로 [점화] 상태로 변경한다. [점화] 지형이 있으면 범위 내의 모든 적군에게 입히는 대미지가 140%까지 증가하고 추가로 [점화] 지형을 흡수한다.",
+        "energy":4,
+        "minRange": 1,
+        "maxRange": 4,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "템플릿": {
+        "image": "images/skill/luvata/luvata_active13.png",
+        "rangeImage": "images/skill/luvata/luvata_active13_range.png",
+        "description": "",
+        "energy": 2,
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "섬광 일격": {
+        "image": "images/skill/estra/estra_active1.png",
+        "rangeImage": "images/skill/estra/estra_active1_range.png",
+        "description": "(물리 대미지) 타깃 뒤로 순간이동 후, 4칸 재이동할 수 있다. 재이동 전에 [일반 공격]을 1회 하고 공격 전에 대미지가 40% 증가하는 동시에 [지원 무시]를 획득한다. 적군을 처치하면 [재공격]할 수 있으며 턴당 최대 1회 발동한다.",
+        "energy": 2,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "마녀 사냥 트랩": {
+        "image": "images/skill/estra/estra_active2.png",
+        "rangeImage": "images/skill/estra/estra_active2_range.png",
+        "description": "(지원) [즉시 발동]. [트랩]을 1개 설치한다.",
+        "cooltime": 4,
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "천둥의 화살": {
+        "image": "images/skill/estra/estra_active3.png",
+        "rangeImage": "images/skill/estra/estra_active3_range.png",
+        "description": "(패시브) [즉시 발동]이 아닌 단일 유닛이 액티브 공격 시 타깃에게 석궁을 발사하여 30%의 물리 대미지를 입히고 타깃의 에너지를 1포인트 제거하는 동시에 [액티브 스킬 금지], [에너지 회복 금지]를 부여한다. (2턴 지속)"
+    },
+    "쉐도우 스텝": {
+        "image": "images/skill/estra/estra_active4.png",
+        "rangeImage": "images/skill/estra/estra_active4_range.png",
+        "description": "(지원) [즉시 발동]. 적군 뒤로 순간이동 후, 타깃의 에너지를 2포인트 훔치고 타깃의 에너지를 2포인트 제거한다.",
+        "cooltime": 4,
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "갈고리 사슬 (이스트라)": {
+        "image": "images/skill/estra/estra_active5.png",
+        "rangeImage": "images/skill/estra/estra_active5_range.png",
+        "description": "(디버프) [즉시 발동], 자신 주변 십자형 범위 내의 적군 1명을 선택해 곁으로 당겨와 [패시브 스킬 금지]를 부여한다. (1턴 지속)",
+        "cooltime": 3,
+        "minRange": 1,
+        "maxRange": 4,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "그림자 실종": {
+        "image": "images/skill/estra/estra_active7.png",
+        "rangeImage": "images/skill/estra/estra_active7_range.png",
+        "description": "(리액션) 자신 주변 3칸 내[후 - 측면]의 적군에게 액티브 단일 유닛 공격을 받기 전에 [기선제압]하여 타깃의 뒤로 순간이동 후, 일반 공격을 하여 50%의 대미지를 입히고 타깃의 행동을 중단시킨다."
+    },
+    "마법방어 태세": {
+        "image": "images/skill/estra/estra_active8.png",
+        "rangeImage": "images/skill/estra/estra_active8_range.png",
+        "description": "(지원) [즉시 발동]. 물리 공격력의 80%에 해당하는 [마법 보호막]을 획득하고 [마법 방어 증가 Lv.2]를 획득한다. (2턴 지속)"
+    },
+    "마법약": {
+        "image": "images/skill/estra/estra_active9.png",
+        "rangeImage": "images/skill/estra/estra_active9_range.png",
+        "description": "(선택) [암식의 피] 혹은 [마법 방어수]를 선택하여 사용한다.<br><br>[암식의 피]: (스킬) [즉시 발동]. 에너지를 1포인트 회복하고 [암식]을 획득한다.<br><br>[암식]: (버프) 크리티컬 확률이 45% 증가하고 30%의 [HP 흡수]가 발동한다. [특성] 중 타깃에게 부족한 에너지 1포인트당 입히는 대미지 증가 효과가 2배로 증가한다. (4턴 지속) 효과 종료 시 공격/방어 능력치가 8% 감소한다. (3턴 지속)<br><br>[마법 방어수]: (스킬) [즉시 발동]. 자신의 모든 [디버프]를 제거하고 에너지를 1포인트 회복하며 [마법 제어]를 획득한다.<br><br> [마법 제어]: (보호막) 방어가 30% 증가하고 물리 공격력의 150%에 해당하는 [마법 보호막]을 획득한다. 마법 공격을 받기 전에 [제어 면역]을 획득한다. (4턴 지속) 효과 종료 시 공격/방어 능력치가 8% 감소한다. (3턴 지속)"
+    },
+    "갈라진 등뼈 가시": {
+        "image": "images/skill/estra/estra_active11.png",
+        "rangeImage": "images/skill/estra/estra_active11_range.png",
+        "description": "(일반 공격) 단일 유닛을 공격하여 110%의 물리 대미지를 입힌다. [백 어택] 시 타깃의 [물리 보호막]을 무시한다.",
+        "minRange": 1,
+        "maxRange": 1,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "액운받이": {
+        "image": "images/skill/estra/estra_active12.png",
+        "rangeImage": "images/skill/estra/estra_active12_range.png",
+        "description": "(패시브) [즉시 발동]이 아닌 단일 유닛의 액티브 공격 전에 타깃의 [버프]를 3개 훔치고 해당 회차의 공격 후, 자신의 [디버프] 3개를 타깃에게 이전한다. 타깃에게 [버프]가 없으면서 자신에게 [디버프]가 없으면 자신은 임의의 [2레벨 버프]를 4개 획득한다. (2턴 지속)"
+    },
+    "무사태평": {
+        "image": "images/skill/estra/estra_active13.png",
+        "rangeImage": "images/skill/estra/estra_active13_range.png",
+        "description": "(물리 대미지) 단일 유닛을 공격하고 [리액션 스킬]을 무시한다. 먼저 타깃에게 40%의 대미지를 입힌 후, 타깃에게 100%의 대미지를 추가로 입힌다. 공격 전에 타깃의 부족한 에너지 1포인트당 입히는 대미지가 130%까지 증가한다. 최대 190%까지 증가한다. 적군을 처치하면 자신은 에너지를 3포인트 회복한다.",
+        "energy": 3,
+        "cooltime": 2,
+        "minRange": 1,
+        "maxRange": 3,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "생명의 힘": {
+        "image": "images/skill/flavia/flavia_active1.png",
+        "rangeImage": "images/skill/flavia/flavia_active1_range.png",
+        "description": "(선택) [생명의 힘 - 개화], [생명의 힘 - 공급] 혹은 [생명의 힘 - 그늘]을 선택하여 시전한다. [식물 친구]가 처치당할 경우 스킬은 [생명의 씨앗]으로 변경된다.<br><br>[생명의 힘 - 개화]: (스킬) 타깃에게 [공격력 증가 Lv.2], [크리티컬 증가 Lv.2]를 부여한다. (3턴 지속) 타깃이 소환물 [식물 친구]면 [가시돋힌 꽃]으로 돌아가게 하고 [개화] 상태를 [만개] 상태로 변경한다.<br>[개화]: -<br>[만개]: -<br><br>[생명의 힘 - 공급]: (스킬) 단일 유닛을 시전자의 마법 공격력의 80%만큼 치료하고 타깃에게 [마법 방어 증가 Lv.2]를 부여한다. (3턴 지속) 타깃이 소환물 [식물 친구]면 [여름 방울꽃]으로 변경한다.<br><br>[생명의 힘 - 그늘]: (스킬) 타깃에게 [플라비아]의 마법 공격력의 100%에 해당하는 [물리 보호막]을 부여하고 [물리 방어 증가 Lv.2]를 부여한다. (3턴 지속) 타깃이 소환물 [식물 친구]면 [연한 달빛 꽃]으로 변경한다."
+    },
+    "대지의 축복": {
+        "image": "images/skill/flavia/flavia_active2.png",
+        "rangeImage": "images/skill/flavia/flavia_active2_range.png",
+        "description": "(지원) 타깃 주변 3칸 내의 모든 아군에게 [이동 증가 Lv.1], [대지의 축복]을 부여하고 [이동 감소] 계열에 면역되게 한다. (모든 효과 2턴 지속)",
+        "cooltime": 2,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "자양의 이슬": {
+        "image": "images/skill/flavia/flavia_active3.png",
+        "rangeImage": "images/skill/flavia/flavia_active3_range.png",
+        "description": "(치료) 단일 유닛을 마법 공격력의 100%만큼 치료하고 해당 지면을 [꽃밭]으로 변경한다. (2턴 지속) 타깃이 [식물 친구]면 치료량이 마법 공격력의 150%까지 증가하고 치료 전에 [디버프] 3개를 [2레벨 버프]로 전환한다. (2턴 지속)",
+        "energy": 1,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "대지의 사랑": {
+        "image": "images/skill/flavia/flavia_active4.png",
+        "rangeImage": "images/skill/flavia/flavia_active4_range.png",
+        "description": "(오라) [꽃밭]에 있는 자신을 제외한 모든 아군의 공격/방어 능력치가 10% 증가한다. [꽃밭]에 있는 모든 적군의 공격/방어 능력치가 10% 감소한다."
+    },
+    "자연의 인도": {
+        "image": "images/skill/flavia/flavia_active5.png",
+        "rangeImage": "images/skill/flavia/flavia_active5_range.png",
+        "description": "(패시브) [플라비아] 존재 시: [식물 친구]의 입히는 대미지가 15% 증가한다. [식물 친구]가 [꽃밭]에 있는 타깃에게 입히는 대미지가 추가로 15% 증가한다."
+    },
+    "강한 생명력": {
+        "image": "images/skill/flavia/flavia_active6.png",
+        "rangeImage": "images/skill/flavia/flavia_active6_range.png",
+        "description": "(리액션) 자신 주변 3칸 내의 자신을 제외한 임의의 아군이 단일 유닛 공격을 받은 후, [플라비아]의 마법 공격력의 20%만큼 치료하고 해당 지면을 [꽃밭]으로 변경한다. (2턴 지속) 턴당 최대 2회 발동한다."
+    },
+    "풍요로 뒤덮힌 땅": {
+        "image": "images/skill/flavia/flavia_active8.png",
+        "rangeImage": "images/skill/flavia/flavia_active8_range.png",
+        "description": "(마법 대미지) [빈 곳]을 선택하여 타깃 주변 2칸 내의 모든 적군에게 60%의 마법 대미지를 입히고 범위 내의 지면을 [꽃밭]으로 변경한다. (2턴 지속) 그 후 [식물 친구]를 해당 지면으로 공간 이동한다.",
+        "energy": 2,
+        "minRange": 1,
+        "maxRange": 4,
+        "lowRange": 8,
+        "highRange": 8
+    },
+    "대자연의 수호": {
+        "image": "images/skill/flavia/flavia_active9.png",
+        "rangeImage": "images/skill/flavia/flavia_active9_range.png",
+        "description": "(마법 대미지) 자신 주변 3칸 내의 모든 적군에게 70%의 [범위 대미지]를 입히고 [대미지 감소 Lv.2]를 부여하며 범위 내의 지면을 [꽃밭]으로 변경한다. 공격 전에 타깃이 [꽃밭]에 있으면 추가로 [이동 감소 Lv.2]를 부여한다. (모든 효과 2턴 지속) 그 후 필드 내 [식물 친구]가 같은 효과를 1회 발동하게 한다.",
+        "energy": 4,
+        "lowRange": 2,
+        "highRange": 2
+    },
+    "청록 화살": {
+        "image": "images/skill/flavia/flavia_active10.png",
+        "rangeImage": "images/skill/flavia/flavia_active10_range.png",
+        "description": "(일반 공격) 단일 유닛을 공격하여 90%의 마법 대미지를 입히고 해당 지면을 [꽃밭]으로 변경한다. (2턴 지속)",
+        "minRange": 1,
+        "maxRange": 2,
+        "lowRange": 3,
+        "highRange": 5
+    },
+    "풍요의 숨결": {
+        "image": "images/skill/flavia/flavia_active12.png",
+        "rangeImage": "images/skill/flavia/flavia_active12_range.png",
+        "description": "(패시브) 행동 종료 시, [꽃밭] 지면에 있을 경우 자신과 소환물 [식물 친구]의 HP를 20%, 에너지를 2포인트 회복하고 임의의 [2레벨 버프]를 2개 획득한다. (2턴 지속) 행동 종료 시, [꽃밭] 지면에 없을 경우 자신과 [식물 친구]가 있는 곳을 [꽃밭]으로 변경한다. (2턴 지속)"
+    },
+    "식물애호가": {
+        "image": "images/skill/flavia/flavia_active13.png",
+        "rangeImage": "images/skill/flavia/flavia_active13_range.png",
+        "description": "(패시브) [플라비아] 존재 시: [식물 친구]의 공격/방어 능력치가 8% 증가하고 받는 대미지가 40% 감소한다. 행동 종료 시, 자신 주변 2칸 내의 모든 지면을 [꽃밭]으로 변경한다. (2턴 지속) 그리고 [식물 친구]를 곁으로 공간 이동한다."
+    }
+}
